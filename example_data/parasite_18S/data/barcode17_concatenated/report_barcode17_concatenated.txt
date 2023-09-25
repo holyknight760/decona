@@ -4,7 +4,7 @@ Command: cd-hit-est -i barcode17_concatenated.fasta -o
          cluster_representatives -c 0.80 -n 5 -d 0 -M 0 -T 4 -g
          1
 
-Started: Mon Sep 25 10:55:45 2023
+Started: Mon Sep 25 13:18:30 2023
 ================================================================
                             Output                              
 ----------------------------------------------------------------
