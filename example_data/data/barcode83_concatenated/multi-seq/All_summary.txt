@@ -1,0 +1,15 @@
+n_sequences, cluster_id, query_id, %_identity, alignment_length, mismatches, gap_opens, evalue, bit_score, subject_titles
+BLAST_out_clusters
+108	27  99.301 2002 7 7 0.0 3613 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+130	1  99.401 2002 7 4 0.0 3626 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+136	21  99.750 1997 1 4 0.0 3657 Kuhlia mugil isolate Ke_001 collection	date 01-May-2011 cytochrome b (CYTB) gene, partial cds; tRNA-Thr and tRNA-Pro genes, D-loop, tRNA-Phe, 12S ribosomal RNA, and tRNA-Val genes, complete sequence; and 16S ribosomal RNA gene, partial sequence; mitochondrial gb|KC136385|
+190	18  99.302 2007 8 6 0.0 3624 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+244	12  99.449 1998 1 8 0.0 3620 Kuhlia mugil isolate Ke_001 collection	date 01-May-2011 cytochrome b (CYTB) gene, partial cds; tRNA-Thr and tRNA-Pro genes, D-loop, tRNA-Phe, 12S ribosomal RNA, and tRNA-Val genes, complete sequence; and 16S ribosomal RNA gene, partial sequence; mitochondrial gb|KC136385|
+29	9  98.705 2007 20 6 0.0 3557 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+38	17  99.790 1906 0 4 0.0 3494 Pomacanthus imperator mitochondrion, complete genome gb|KP218259|
+42	15  95.219 2008 78 13 0.0 3160 Naso lopezi mitochondrial DNA, complete genome dbj|AP009163|
+43	38  99.403 2009 6 5 0.0 3639 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+45	24  99.694 1960 2 4 0.0 3583 Platax orbicularis mitochondrion, complete genome NC_013136_extraction
+63	8  99.103 2006 8 8 0.0 3596 Caesio cuning voucher 94 mitochondrion, complete genome gb|KP874185|
+74	19  99.499 1997 1 9 0.0 3624 Kuhlia mugil isolate Ke_001 collection	date 01-May-2011 cytochrome b (CYTB) gene, partial cds; tRNA-Thr and tRNA-Pro genes, D-loop, tRNA-Phe, 12S ribosomal RNA, and tRNA-Val genes, complete sequence; and 16S ribosomal RNA gene, partial sequence; mitochondrial gb|KC136385|
+ 

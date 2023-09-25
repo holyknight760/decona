@@ -1,0 +1,316 @@
+n_sequences,	cluster_id,	query_id,	%_identity,	alignment_length,	mismatches,	gap_opens,	evalue,	bit_score,	subject_titles
+#	BLASTN	2.12.0+
+#	Query:	polished-108-27.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-108-27.fasta	99.301	2002	7	7	0.0	3613	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-108-27.fasta	95.055	2002	87	11	0.0	3138	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-108-27.fasta	93.110	2003	119	17	0.0	2916	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-108-27.fasta	91.140	2009	152	21	0.0	2700	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-108-27.fasta	87.488	2014	214	29	0.0	2289	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-108-27.fasta	86.226	2011	216	55	0.0	2122	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-108-27.fasta	85.799	2014	245	34	0.0	2097	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-108-27.fasta	84.623	2016	252	40	0.0	1953	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-108-27.fasta	81.977	2003	285	67	0.0	1629	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-108-27.fasta	95.960	495	17	3	0.0	800	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-108-27.fasta	88.960	471	39	12	8.25e-164	569	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-108-27.fasta	86.910	466	52	9	3.92e-147	514	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-108-27.fasta	85.060	502	71	4	1.82e-145	508	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-108-27.fasta	86.724	467	49	12	6.56e-145	507	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-108-27.fasta	85.805	472	56	8	6.60e-140	490	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-108-27.fasta	84.388	474	59	12	3.12e-128	451	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-108-27.fasta	94.444	234	11	2	1.94e-100	359	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-108-27.fasta	83.680	337	43	7	7.14e-85	307	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-108-27.fasta	88.235	51	6	0	6.14e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-108-27.fasta	84.444	315	34	9	1.55e-81	296	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-108-27.fasta	86.667	60	8	0	1.32e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-108-27.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-130-1.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-130-1.fasta	99.401	2002	7	4	0.0	3626	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-130-1.fasta	95.010	2004	86	13	0.0	3134	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-130-1.fasta	93.014	2004	121	17	0.0	2907	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-130-1.fasta	91.095	2010	153	20	0.0	2697	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-130-1.fasta	87.506	2017	210	32	0.0	2290	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-130-1.fasta	86.110	2023	224	49	0.0	2126	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-130-1.fasta	85.665	2016	246	35	0.0	2082	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-130-1.fasta	84.415	2034	256	44	0.0	1943	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-130-1.fasta	81.787	2026	295	66	0.0	1629	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-130-1.fasta	95.943	493	17	3	0.0	797	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-130-1.fasta	89.103	468	40	10	2.30e-164	571	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-130-1.fasta	86.071	481	57	10	1.83e-145	508	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-130-1.fasta	86.667	465	49	12	8.49e-144	503	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-130-1.fasta	84.800	500	72	4	1.10e-142	499	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-130-1.fasta	85.745	470	56	8	8.55e-139	486	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-130-1.fasta	84.110	472	60	12	1.88e-125	442	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-130-1.fasta	94.492	236	11	2	1.50e-101	363	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-130-1.fasta	83.383	337	45	6	3.32e-83	302	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-130-1.fasta	88.235	51	6	0	6.14e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-130-1.fasta	84.127	315	36	8	2.00e-80	292	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-130-1.fasta	86.441	59	8	0	4.75e-12	65.8	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-130-1.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-136-21.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	21	hits	found
+polished-136-21.fasta	99.750	1997	1	4	0.0	3657	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-136-21.fasta	85.969	2017	242	39	0.0	2119	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-136-21.fasta	85.651	2021	246	37	0.0	2085	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-136-21.fasta	85.672	2024	235	44	0.0	2080	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-136-21.fasta	85.586	2012	254	32	0.0	2076	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-136-21.fasta	84.429	2023	262	48	0.0	1941	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-136-21.fasta	84.279	1991	257	46	0.0	1892	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-136-21.fasta	83.719	2033	267	54	0.0	1862	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-136-21.fasta	81.278	2019	319	45	0.0	1580	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-136-21.fasta	89.537	497	49	3	0.0	627	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-136-21.fasta	88.161	473	47	6	2.31e-159	555	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-136-21.fasta	86.538	468	60	3	1.41e-146	512	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-136-21.fasta	86.081	467	56	8	5.10e-141	494	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-136-21.fasta	83.564	505	77	6	3.09e-133	468	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-136-21.fasta	85.366	451	55	11	6.69e-130	457	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-136-21.fasta	83.579	475	65	10	1.13e-122	433	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-136-21.fasta	84.699	366	42	11	9.03e-99	353	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-136-21.fasta	92.157	51	4	0	2.83e-14	73.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-136-21.fasta	87.552	241	24	6	7.23e-75	274	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-136-21.fasta	90.000	60	6	0	6.09e-16	78.7	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-136-21.fasta	90.909	55	5	0	7.87e-15	75.0	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-190-18.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-190-18.fasta	99.302	2007	8	6	0.0	3624	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-190-18.fasta	94.920	2008	89	12	0.0	3131	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-190-18.fasta	92.978	2008	123	16	0.0	2911	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-190-18.fasta	91.112	2014	154	20	0.0	2704	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-190-18.fasta	87.382	2021	214	31	0.0	2281	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-190-18.fasta	86.032	2026	229	47	0.0	2124	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-190-18.fasta	85.644	2020	248	34	0.0	2085	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-190-18.fasta	84.396	2038	258	43	0.0	1947	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-190-18.fasta	81.635	2031	298	68	0.0	1615	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-190-18.fasta	95.740	493	19	2	0.0	793	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-190-18.fasta	89.079	467	43	8	6.39e-165	573	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-190-18.fasta	85.773	485	59	10	2.37e-144	505	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-190-18.fasta	84.830	501	71	5	1.10e-142	499	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-190-18.fasta	86.510	467	47	14	1.10e-142	499	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-190-18.fasta	85.775	471	55	9	2.38e-139	488	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-190-18.fasta	83.721	473	61	13	1.13e-122	433	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-190-18.fasta	94.167	240	11	3	1.51e-101	363	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-190-18.fasta	83.383	337	45	6	3.33e-83	302	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-190-18.fasta	88.235	51	6	0	6.16e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-190-18.fasta	84.127	315	36	8	2.01e-80	292	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-190-18.fasta	86.667	60	8	0	1.32e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-190-18.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-244-12.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	21	hits	found
+polished-244-12.fasta	99.449	1998	1	8	0.0	3620	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-244-12.fasta	85.835	2019	239	41	0.0	2100	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-244-12.fasta	85.714	2023	232	47	0.0	2082	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-244-12.fasta	85.623	2024	239	43	0.0	2078	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-244-12.fasta	85.558	2015	247	38	0.0	2069	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-244-12.fasta	84.429	2023	260	50	0.0	1940	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-244-12.fasta	84.256	1988	255	48	0.0	1884	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-244-12.fasta	83.677	2034	266	56	0.0	1857	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-244-12.fasta	81.259	2017	319	45	0.0	1576	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-244-12.fasta	89.336	497	42	9	3.74e-177	614	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-244-12.fasta	87.473	471	46	8	3.88e-152	531	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-244-12.fasta	86.237	465	59	5	1.09e-142	499	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-244-12.fasta	86.481	466	48	15	3.93e-142	497	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-244-12.fasta	85.366	451	55	11	6.67e-130	457	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-244-12.fasta	83.366	505	70	12	2.40e-129	455	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-244-12.fasta	83.439	471	65	10	1.88e-120	425	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-244-12.fasta	84.699	366	42	11	9.01e-99	353	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-244-12.fasta	92.157	51	4	0	2.82e-14	73.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-244-12.fasta	87.295	244	25	6	7.21e-75	274	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-244-12.fasta	90.000	60	6	0	6.07e-16	78.7	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-244-12.fasta	90.909	55	5	0	7.85e-15	75.0	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-29-9.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-29-9.fasta	98.705	2007	20	6	0.0	3557	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-29-9.fasta	94.671	2008	94	12	0.0	3103	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-29-9.fasta	93.380	2009	113	18	0.0	2955	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-29-9.fasta	91.464	2015	145	22	0.0	2743	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-29-9.fasta	87.945	2024	197	33	0.0	2342	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-29-9.fasta	86.476	2026	220	47	0.0	2174	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-29-9.fasta	86.195	2021	235	36	0.0	2146	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-29-9.fasta	84.710	2034	257	38	0.0	1984	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-29-9.fasta	82.243	2033	282	67	0.0	1681	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-29-9.fasta	96.976	496	11	4	0.0	830	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-29-9.fasta	90.000	470	37	10	1.06e-172	599	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-29-9.fasta	87.633	469	42	14	3.91e-152	531	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-29-9.fasta	86.864	472	52	8	8.46e-149	520	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-29-9.fasta	86.100	482	58	9	5.09e-146	510	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-29-9.fasta	85.089	503	70	5	1.83e-145	508	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-29-9.fasta	84.211	475	59	13	4.05e-127	448	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-29-9.fasta	94.515	237	11	2	4.19e-102	364	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-29-9.fasta	84.762	315	34	9	9.27e-84	303	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-29-9.fasta	86.667	60	8	0	1.32e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-29-9.fasta	83.432	338	43	8	3.33e-83	302	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-29-9.fasta	88.235	51	6	0	6.16e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-29-9.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-38-17.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	19	hits	found
+polished-38-17.fasta	99.790	1906	0	4	0.0	3494	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-38-17.fasta	84.503	1923	247	40	0.0	1853	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-38-17.fasta	84.648	1889	244	34	0.0	1840	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-38-17.fasta	84.145	1930	246	44	0.0	1814	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-38-17.fasta	84.205	1874	240	44	0.0	1770	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-38-17.fasta	83.463	1929	256	52	0.0	1736	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-38-17.fasta	83.554	1891	251	46	0.0	1714	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-38-17.fasta	83.203	1923	267	49	0.0	1711	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-38-17.fasta	80.242	1898	300	63	0.0	1358	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-38-17.fasta	85.746	449	57	7	2.95e-133	468	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-38-17.fasta	88.860	386	36	7	2.95e-133	468	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-38-17.fasta	86.885	366	44	4	6.52e-115	407	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-38-17.fasta	86.798	356	42	5	1.83e-110	392	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-38-17.fasta	85.475	358	43	9	3.98e-102	364	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-38-17.fasta	86.527	334	36	7	1.85e-100	359	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-38-17.fasta	85.588	340	35	12	5.19e-96	344	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-38-17.fasta	86.378	323	34	9	5.19e-96	344	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-38-17.fasta	83.240	358	50	10	8.74e-89	320	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-38-17.fasta	90.476	210	20	0	5.34e-76	278	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+#	BLASTN	2.12.0+
+#	Query:	polished-42-15.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	21	hits	found
+polished-42-15.fasta	95.219	2008	78	13	0.0	3160	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-42-15.fasta	87.853	2017	206	31	0.0	2331	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-42-15.fasta	87.729	2021	206	38	0.0	2320	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-42-15.fasta	87.649	2016	222	26	0.0	2318	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-42-15.fasta	86.677	2019	231	31	0.0	2204	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-42-15.fasta	85.714	2023	238	39	0.0	2087	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-42-15.fasta	85.005	1994	244	45	0.0	1975	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-42-15.fasta	84.780	2004	256	46	0.0	1965	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-42-15.fasta	81.900	2000	296	49	0.0	1628	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-42-15.fasta	91.331	496	38	5	0.0	673	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-42-15.fasta	88.437	467	49	5	1.79e-160	558	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-42-15.fasta	86.441	472	53	8	6.57e-145	507	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-42-15.fasta	86.538	468	48	13	3.06e-143	501	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-42-15.fasta	84.813	507	63	13	3.96e-142	497	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-42-15.fasta	85.746	449	58	6	8.63e-134	470	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-42-15.fasta	83.898	472	65	10	6.76e-125	440	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-42-15.fasta	92.405	237	15	3	3.28e-93	335	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-42-15.fasta	84.024	338	40	9	1.54e-86	313	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-42-15.fasta	88.235	51	6	0	6.15e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-42-15.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+polished-42-15.fasta	86.667	60	8	0	1.32e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+#	BLASTN	2.12.0+
+#	Query:	polished-43-38.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-43-38.fasta	99.403	2009	6	5	0.0	3639	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-43-38.fasta	95.075	2010	86	11	0.0	3151	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-43-38.fasta	93.088	2011	119	17	0.0	2926	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-43-38.fasta	91.175	2017	151	22	0.0	2713	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-43-38.fasta	87.494	2023	212	31	0.0	2296	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-43-38.fasta	86.115	2031	222	54	0.0	2134	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-43-38.fasta	85.665	2023	246	36	0.0	2089	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-43-38.fasta	84.396	2038	262	40	0.0	1951	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-43-38.fasta	81.809	2034	293	69	0.0	1635	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-43-38.fasta	95.766	496	16	4	0.0	795	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-43-38.fasta	88.960	471	39	12	8.29e-164	569	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-43-38.fasta	85.979	485	58	10	5.10e-146	510	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-43-38.fasta	86.510	467	50	12	3.07e-143	501	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-43-38.fasta	84.692	503	71	6	3.97e-142	497	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-43-38.fasta	85.835	473	54	10	6.64e-140	490	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-43-38.fasta	84.177	474	60	12	1.46e-126	446	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-43-38.fasta	94.583	240	11	2	9.02e-104	370	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-43-38.fasta	83.481	339	43	8	9.28e-84	303	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-43-38.fasta	88.235	51	6	0	6.17e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-43-38.fasta	84.177	316	36	8	5.59e-81	294	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-43-38.fasta	86.667	60	8	0	1.33e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-43-38.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-45-24.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-45-24.fasta	99.694	1960	2	4	0.0	3583	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-45-24.fasta	86.794	1984	210	47	0.0	2165	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-45-24.fasta	86.700	1985	207	53	0.0	2150	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-45-24.fasta	86.202	1993	215	52	0.0	2102	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-45-24.fasta	85.707	1980	236	45	0.0	2045	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-45-24.fasta	85.455	1980	239	40	0.0	2015	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-45-24.fasta	84.266	1983	254	49	0.0	1881	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-45-24.fasta	83.575	1997	266	48	0.0	1814	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-45-24.fasta	81.713	1996	278	76	0.0	1583	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-45-24.fasta	99.355	465	1	2	0.0	841	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-45-24.fasta	99.097	443	2	2	0.0	795	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-45-24.fasta	88.956	498	45	10	6.16e-175	606	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-45-24.fasta	87.049	471	51	9	6.39e-150	523	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-45-24.fasta	83.300	503	77	7	6.57e-130	457	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-45-24.fasta	84.582	467	58	12	3.06e-128	451	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-45-24.fasta	83.966	474	60	13	6.62e-125	440	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-45-24.fasta	83.183	333	49	6	4.21e-82	298	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-45-24.fasta	88.462	52	4	2	6.02e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-45-24.fasta	84.516	310	39	6	4.21e-82	298	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-45-24.fasta	86.885	61	6	2	1.29e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-45-24.fasta	91.000	200	17	1	3.30e-73	268	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-45-24.fasta	89.831	59	6	0	2.15e-15	76.8	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-63-8.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	22	hits	found
+polished-63-8.fasta	99.103	2006	8	8	0.0	3596	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-63-8.fasta	94.718	2007	89	15	0.0	3103	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-63-8.fasta	92.829	2008	120	21	0.0	2889	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-63-8.fasta	90.814	2014	154	24	0.0	2665	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-63-8.fasta	87.320	2019	211	34	0.0	2268	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-63-8.fasta	85.834	2026	225	54	0.0	2095	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-63-8.fasta	85.438	2019	246	39	0.0	2056	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-63-8.fasta	84.185	2036	256	48	0.0	1916	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-63-8.fasta	81.675	2030	291	71	0.0	1613	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-63-8.fasta	95.758	495	18	3	0.0	795	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-63-8.fasta	88.936	470	41	10	8.25e-164	569	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-63-8.fasta	86.100	482	57	10	5.07e-146	510	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-63-8.fasta	86.510	467	50	12	3.05e-143	501	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-63-8.fasta	84.661	502	73	4	3.95e-142	497	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-63-8.fasta	85.593	472	57	8	3.07e-138	484	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-63-8.fasta	83.966	474	61	12	6.75e-125	440	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-63-8.fasta	94.538	238	11	2	1.16e-102	366	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+polished-63-8.fasta	83.383	337	43	7	1.20e-82	300	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-63-8.fasta	88.235	51	6	0	6.14e-11	62.1	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-63-8.fasta	84.127	315	34	9	7.19e-80	291	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-63-8.fasta	86.667	60	8	0	1.32e-12	67.6	Rhinobatos	cemiculus	tRNA-Phe	gene,	partial	sequence;	12S	ribosomal	RNA	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|EF100174|
+polished-63-8.fasta	88.136	59	7	0	1.02e-13	71.3	Homo	sapiens	mitochondrial	DNA,	complete	genome,	isolate:	mdmd12	dbj|AP009430|
+#	BLASTN	2.12.0+
+#	Query:	polished-74-19.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	18	hits	found
+polished-74-19.fasta	99.499	1997	1	9	0.0	3624	Kuhlia	mugil	isolate	Ke_001	collection-date	01-May-2011	cytochrome	b	(CYTB)	gene,	partial	cds;	tRNA-Thr	and	tRNA-Pro	genes,	D-loop,	tRNA-Phe,	12S	ribosomal	RNA,	and	tRNA-Val	genes,	complete	sequence;	and	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|KC136385|
+polished-74-19.fasta	85.785	2019	239	42	0.0	2095	Pterocaesio	tile	mitochondrion,	complete	genome	ref|NC_004408|
+polished-74-19.fasta	85.474	2024	234	49	0.0	2054	Naso	lopezi	mitochondrial	DNA,	complete	genome	dbj|AP009163|
+polished-74-19.fasta	85.403	2021	248	41	0.0	2054	Caesio	cuning	voucher	94	mitochondrion,	complete	genome	gb|KP874185|
+polished-74-19.fasta	85.296	2013	255	37	0.0	2039	Lutjanus	erythropterus	mitochondrion,	complete	genome	gb|KP939271|
+polished-74-19.fasta	84.182	2023	264	51	0.0	1912	Lutjanus	sebae	mitochondrion,	complete	genome	NC_012737_extraction
+polished-74-19.fasta	84.113	1989	255	51	0.0	1866	Platax	orbicularis	mitochondrion,	complete	genome	NC_013136_extraction
+polished-74-19.fasta	83.546	2036	266	59	0.0	1840	Pomacanthus	imperator	mitochondrion,	complete	genome	gb|KP218259|
+polished-74-19.fasta	81.030	2019	319	50	0.0	1548	Bedotia	geayi	mitochondrial	DNA,	complete	sequence	dbj|AP017440|
+polished-74-19.fasta	89.091	495	49	5	4.84e-176	610	Lutjanus	gibbus	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|DQ784733|
+polished-74-19.fasta	87.686	471	47	8	2.32e-154	538	Abudefduf	saxatilis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279673|
+polished-74-19.fasta	86.266	466	59	5	3.04e-143	501	Platax	orbicularis	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279665|
+polished-74-19.fasta	85.806	465	55	10	1.10e-137	483	Chaetodon	ulietensis	voucher	MBIO1286	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|JF457331|
+polished-74-19.fasta	85.144	451	55	12	3.11e-128	451	Platax	orbicularis	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY279562|
+polished-74-19.fasta	83.101	503	77	8	3.11e-128	451	Coris	gaimard	isolate	M796	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|AY850889|
+polished-74-19.fasta	83.087	473	65	12	1.13e-117	416	Acanthochromis	polyacanthus	voucher	FMNH	Liz04-1	T-004	16S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|FJ616407|
+polished-74-19.fasta	84.699	366	42	11	9.01e-99	353	Rhinobatos	schlegelii	mitochondrion,	complete	genome	ref|NC_023951|
+polished-74-19.fasta	87.295	244	25	6	7.21e-75	274	Lutjanus	gibbus	isolate	DFQAM11	12S	ribosomal	RNA	gene,	partial	sequence;	mitochondrial	gb|MG255109|
+#	BLAST	processed	12	queries
