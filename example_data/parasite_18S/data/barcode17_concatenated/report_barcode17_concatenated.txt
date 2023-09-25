@@ -4,34 +4,26 @@ Command: cd-hit-est -i barcode17_concatenated.fasta -o
          cluster_representatives -c 0.80 -n 5 -d 0 -M 0 -T 4 -g
          1
 
-Started: Mon Sep 25 13:18:30 2023
+Started: Mon Sep 25 13:34:09 2023
 ================================================================
                             Output                              
 ----------------------------------------------------------------
-total seq: 217
-longest and shortest : 372 and 135
-Total letters: 39667
+total seq: 110048
+longest and shortest : 2087 and 102
+Total letters: 20120086
 Sequences have been sorted
 
 Approximated minimal memory consumption:
-Sequence        : 0M
-Buffer          : 4 X 12M = 48M
-Table           : 2 X 0M = 0M
-Miscellaneous   : 0M
-Total           : 48M
+Sequence        : 36M
+Buffer          : 4 X 13M = 55M
+Table           : 2 X 1M = 3M
+Miscellaneous   : 1M
+Total           : 96M
 
 Table limit with the given memory limit:
 Max number of representatives: 1500000
-Max number of word counting entries: 52569750
+Max number of word counting entries: 52703812
 
-# comparing sequences from          0  to        217
----------- new table with        7 representatives
-
-      217  finished          7  clusters
-
-Approximated maximum memory consumption: 48M
-writing new database
-writing clustering information
-program completed !
-
-Total CPU time 0.07
+# comparing sequences from          0  to      18341
+....................    10000  finished        201  clusters
+.......
