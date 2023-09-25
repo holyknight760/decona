@@ -1,0 +1,35 @@
+================================================================
+Program: CD-HIT, V4.8.1 (+OpenMP), Aug 17 2023, 08:38:42
+Command: cd-hit-est -i example_data_concatenated.fasta -o
+         cluster_representatives -c 0.80 -n 5 -d 0 -M 0 -T 4 -g
+         1
+
+Started: Mon Sep 25 09:00:45 2023
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 0
+longest and shortest : 0 and 18446744073709551615
+Total letters: 0
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 4 X 12M = 48M
+Table           : 2 X 0M = 0M
+Miscellaneous   : 0M
+Total           : 48M
+
+Table limit with the given memory limit:
+Max number of representatives: 1500000
+Max number of word counting entries: 18750000
+
+
+        0  finished          0  clusters
+
+Approximated maximum memory consumption: 48M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.01
