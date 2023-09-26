@@ -19,3 +19,13 @@ sac <- specaccum(data)
 
 # 그래프를 그립니다.
 plot(sac)
+# data analysis process in R ----------------------------------------------
+# Load your data
+data <- read.csv("your_data.csv")
+# Obtain taxonomic lineage
+data$lineage <- classification(data$taxon, db = "ncbi")
+# Correct for tag leakage
+total_reads <- sum(data$read_number)
+data$corrected_reads <- data$read_number - (0.001 * total_reads)
+
+
