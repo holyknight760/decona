@@ -149,9 +149,9 @@ time qiime diversity alpha-rarefaction \
 
 Alpha and Beta Diversity
 qiime diversity core-metrics-phylogenetic \
---i-table table.qza \
+--i-table primer_trimed_filtered_demulti_table.qza \
 --i-phylogeny tree/rooted_tree.qza \
---p-sampling-depth 1000 \
+--p-sampling-depth 100 \
 --m-metadata-file metadata_18s.tsv \
 --output-dir diversity
 
