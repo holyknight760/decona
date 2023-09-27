@@ -1,0 +1,151 @@
+find /home/qiime2/Documents/dog_230215/18s/Downloads -name *.fastq.gz -print > list.txt
+
+qiime tools import \
+  --type 'SampleData[AlignedSequence]' \
+  --input-path "manifest_2_from geneious".txt \
+  --output-path single-end-demux.qza
+
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path manifest_2_18s.txt \
+  --output-path paired-end-demux.qza \
+  --input-format PairedEndFastqManifestPhred33V2 
+
+Demultiplexing
+qiime demux summarize \
+ --i-data paired-end-demux.qza \
+ --o-visualization demux 
+
+Cutadpt 
+qiime cutadapt trim-paired \
+--i-demultiplexed-sequences paired-end-demux.qza \
+--p-front-f GTACACACCGCCCGTC \
+--p-front-r TGATCCTTCTGCAGGTTCACCTAC \
+--p-no-match-read-wildcards \
+--p-discard-untrimmed \
+--p-match-adapter-wildcards \
+--o-trimmed-sequences primer_trimed.qza \
+--p-cores 30 
+
+qiime demux summarize \
+--i-data primer_trimed.qza \
+--o-visualization primer_trimed.qzv 
+
+DADA2 
+qiime dada2 denoise-paired \
+--i-demultiplexed-seqs primer_trimed.qza \
+--p-trim-left-f 0 \
+--p-trunc-len-f 134 \
+--p-trim-left-r 0 \
+--p-trunc-len-r 126 \
+--p-max-ee-f 4.0 \
+--p-max-ee-r 4.0 \
+--p-min-overlap 4 \
+--p-pooling-method independent \
+--p-chimera-method consensus \
+--p-n-threads 0 \
+--o-table table.qza \
+--o-representative-sequences representative_sequences.qza \
+--o-denoising-stats denoising_stats.qza
+
+qiime feature-table summarize \
+--i-table table.qza \
+--o-visualization denoise-table.qzv 
+
+qiime metadata tabulate \
+--m-input-file denoising_stats.qza \
+--o-visualization denoise-stats.qzv 
+
+qiime feature-table tabulate-seqs \
+--i-data representative_sequences.qza \
+--o-visualization denoise-rep-seq.qzv 
+
+Taxonomy
+qiime feature-classifier classify-consensus-blast \
+ --i-query representative_sequences.qza \
+ --i-reference-reads ~/Documents/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
+ --i-reference-taxonomy ~/Documents/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --output-dir taxonomy
+
+qiime feature-classifier classify-consensus-blast \
+ --i-query representative_sequences.qza \
+ --i-reference-reads ~/Documents/Database/ncbi-refseqs_18S_v220513-seqs-derep-uniq.qza \
+ --i-reference-taxonomy ~/Documents/Database/ncbi-refseqs_18S_v220513-tax-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --o-classification taxonomy_consensus_blast-asv.qza 
+
+qiime metadata tabulate \
+--m-input-file ~/taxonomy/classification.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+
+qiime metadata tabulate \
+--m-input-file taxonomy_consensus_blast-asv.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+
+Barplot
+qiime taxa barplot \
+--i-table table.qza \
+--i-taxonomy taxonomy_consensus_blast-asv.qza \
+--m-metadata-file metadata_18s.tsv \
+--o-visualization bar_plots_blast95_18S-asv.qzv 
+
+qiime taxa collapse \
+--i-table table.qza \
+--i-taxonomy taxonomy_consensus_blast-asv.qza \
+--p-level 7 \
+--o-collapsed-table collapsed-table-specific.qza 
+
+qiime tools extract \
+--input-path collapsed-table-specific.qza
+
+biom convert \
+-i fdc48e61-bd8e-4c3c-ad1b-61af68e55b38/data/feature-table.biom \
+-o ASV-species-table-asv-18S.tsv \
+--to-tsv 
+
+Building a tree
+qiime phylogeny align-to-tree-mafft-fasttree \
+--i-sequences representative_sequences.qza \
+--output-dir tree
+
+time qiime diversity alpha-rarefaction \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-max-depth 91304 \
+--m-metadata-file metadata_18s.tsv \
+--o-visualization alpha_rarefaction-max-depth421595.qzv \
+--verbose
+
+Alpha and Beta Diversity
+qiime diversity core-metrics-phylogenetic \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-sampling-depth 1000 \
+--m-metadata-file metadata_18s.tsv \
+--output-dir diversity
+
+qiime diversity beta-group-significance \
+--i-distance-matrix diversity/unweighted_unifrac_distance_matrix.qza \
+--m-metadata-file metadata_18s.tsv \
+--m-metadata-column "location" \
+--o-visualization unweighted-unifrac-depth-significance_location_anosim.qzv \
+--p-pairwise \
+--p-method anosim
+
+qiime diversity alpha-group-significance \
+--i-alpha-diversity diversity/observed_features_vector.qza \
+--m-metadata-file metadata_18s.tsv \
+--o-visualization observed_features-group-significance.qzv
+
+
