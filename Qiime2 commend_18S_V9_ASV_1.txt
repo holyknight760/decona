@@ -132,7 +132,7 @@ biom convert \
 
 Building a tree
 qiime phylogeny align-to-tree-mafft-fasttree \
---i-sequences All_barcodes_combined.qza \
+--i-sequences primer_trimed_filtered_demulti_seq.qza \
 --output-dir tree
 
 qiime phylogeny align-to-tree-mafft-fasttree \
