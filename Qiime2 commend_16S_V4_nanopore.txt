@@ -1,0 +1,282 @@
+find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
+find /data/nanopore/lovebug/basecalling/pass -name *.fastq.gz -print > list.txt
+
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-path manifest_2_16s.txt \
+  --output-path single-end-demux.qza \
+  --input-format SingleEndFastqManifestPhred33V2 
+
+qiime demux summarize \
+ --i-data single-end-demux.qza \
+ --o-visualization demux 
+
+Cutadpt 
+qiime cutadapt trim-single \
+--i-demultiplexed-sequences single-end-demux.qza \
+--p-front AGAGTTTGATCMTGGCTCAG \
+--p-adapter CGGTTACCTTGTTACGACTT \
+--p-no-match-read-wildcards \
+--p-discard-untrimmed \
+--p-match-adapter-wildcards \
+--o-trimmed-sequences primer_trimed.qza \
+--p-cores 30
+
+qiime demux summarize \
+--i-data primer_trimed.qza \
+--o-visualization primer_trimed.qzv 
+
+time qiime quality-filter q-score \
+--i-demux primer_trimed.qza \
+--p-min-quality 2 \
+--o-filtered-sequences primer_trimed_filtered.qza \
+--o-filter-stats primer_trimed_filtered_stats \
+--verbose
+
+qiime demux summarize \
+--i-data primer_trimed_filtered.qza \
+--o-visualization primer_trimed_filtered.qzv
+
+qiime metadata tabulate \
+--m-input-file primer_trimed_filtered_stats.qza \
+--o-visualization primer_trimed_filtered_stats.qzv 
+
+Demultiplexing
+qiime vsearch dereplicate-sequences \
+--i-sequences primer_trimed_filtered.qza \
+--o-dereplicated-table primer_trimed_filtered_demulti_table \
+--o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
+--verbose
+
+qiime feature-table summarize \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--o-visualization primer_trimed_filtered_demulti_table.qzv \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data primer_trimed_filtered_demulti_seq.qza \
+--o-visualization primer_trimed_filtered_demulti_seq.qzv 
+
+Clustering
+qiime vsearch cluster-features-de-novo \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-sequences primer_trimed_filtered_demulti_seq.qza \
+--p-perc-identity 0.98 \
+--p-threads 32 \
+--o-clustered-table table-dncluster98.qza \
+--o-clustered-sequences rep-seqs-dncluster98.qza \
+--verbose
+
+qiime feature-table summarize \
+--i-table table-dncluster98.qza \
+--o-visualization table-dncluster98.qzv \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data rep-seqs-dncluster98.qza \
+--o-visualization rep-seqs-dncluster98.qzv
+
+Chimera filtering
+qiime vsearch uchime-denovo \
+--i-table table-dncluster98.qza \
+--i-sequences rep-seqs-dncluster98.qza \
+--output-dir uchime-denovo-out \
+--verbose
+
+qiime metadata tabulate \
+--m-input-file uchime-denovo-out/stats.qza \
+--o-visualization uchime-denovo-out/stats.qvz \
+--verbose
+
+#Exclude chimeras but retain “borderline chimeras”
+#https://docs.qiime2.org/2020.11/tutorials/chimera/
+0m6.214s
+time qiime feature-table filter-features \
+  --i-table table-dncluster98.qza \
+  --m-metadata-file uchime-denovo-out/chimeras.qza \
+  --p-exclude-ids \
+  --o-filtered-table uchime-denovo-out/table-nonchimer.qza \
+  --verbose
+Saved FeatureTable[Frequency] to: uchime-denovo-out/table-nonchimer.qza
+
+0m6.693s
+time qiime feature-table filter-seqs \
+  --i-data rep-seqs-dncluster98.qza \
+  --m-metadata-file uchime-denovo-out/chimeras.qza \
+  --p-exclude-ids \
+  --o-filtered-data uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+  --verbose
+Saved FeatureData[Sequence] to: uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza
+
+0m5.554s
+time qiime feature-table summarize \
+  --i-table uchime-denovo-out/table-nonchimer.qza \
+  --o-visualization table-nonchimer.qzv \
+  --verbose
+Saved Visualization to: table-nonchimer_and_borderlinechimera.qzv
+
+qiime feature-table tabulate-seqs \
+--i-data uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+--output-dir chimera-denovo_clustering
+
+#DADA2는 필터 수준이 높아서 나노포어에서 얻어지는 20이하의 품질을 가진 서열들은 모두 제거해버린다. 
+DADA2 
+qiime dada2 denoise-single \
+--i-demultiplexed-seqs primer_trimed_filtered.qza \
+--p-trunc-len 1530 \ or 1000 정확하게 1000에 맞는 리드 14개만 살아남. 
+--p-trim-left 0 \
+--p-max-ee 60.0 \ or 40.0
+--p-trunc-q 0 \ -> 숫자가 0에 가까울수록 많은 리드가 살아남. 
+--p-pooling-method independent \
+--p-chimera-method consensus \
+--p-n-threads 0 \
+--o-table table.qza \
+--o-representative-sequences representative_sequences.qza \
+--o-denoising-stats denoising_stats.qza
+
+qiime feature-table summarize \
+--i-table table.qza \
+--o-visualization denoise-table.qzv 
+
+qiime metadata tabulate \
+--m-input-file denoising_stats.qza \
+--o-visualization denoise-stats.qzv 
+
+qiime feature-table tabulate-seqs \
+--i-data representative_sequences.qza \
+--o-visualization denoise-rep-seq.qzv 
+
+Taxonomy
+#18S_16S 프라이머를 사용한 결과에 18S 데이터베이스를 적용하면, 엉뚱한 결과가 도출된다. 
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/nonchimeras.qza \
+ --i-reference-reads /data/Database/ncbi-refseqs_1719ea-seqs-derep-uniq.qza \
+ --i-reference-taxonomy /data/Database/ncbi-refseqs_1719ea-tax-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --output-dir taxonomy_18S
+#16S
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax.qza \
+ --output-dir taxonomy_full
+
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/nonchimeras.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax.qza \
+ --output-dir taxonomy_full
+
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax-515-806.qza \
+ --output-dir taxonomy
+
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/nonchimeras.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax-515-806.qza \
+ --output-dir taxonomy
+#--p-perc-identity 0.95를 vsearch에 사용 시, 1.0 수준으로 동정되며, 모두 unassigned 된다. 따라서 기본 옵션인 0.8로 가자!!
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query uchime-denovo-out/nonchimeras.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax-515-806.qza \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --output-dir taxonomy
+#서열의 길이가 다양할 때는 blast 방식은 사용 불가하며, vsearch가 작동 가능!!
+qiime feature-classifier classify-consensus-blast \
+ --i-query uchime-denovo-out/nonchimeras.qza \
+ --i-reference-reads /data/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /data/Database/silva-138-99-tax-515-806.qza \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --output-dir taxonomy
+
+qiime metadata tabulate \
+--m-input-file /data/nanopore/taxonomy_18S/classification.qza \
+--m-input-file uchime-denovo-out/nonchimeras.qza \
+--o-visualization taxonomy_consensus_blast-asv_18S.qzv
+qiime metadata tabulate \
+--m-input-file /data/nanopore/taxonomy/classification.qza \
+--m-input-file uchime-denovo-out/nonchimeras.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+qiime metadata tabulate \
+--m-input-file /data/nanopore/taxonomy_0.8/classification.qza \
+--m-input-file uchime-denovo-out/nonchimeras.qza \
+--o-visualization taxonomy_consensus_blast-asv_0.8.qzv
+
+Barplot
+#18S_16S 프라이머를 사용한 결과에 18S 데이터베이스를 적용하면, 엉뚱한 결과가 도출된다.
+qiime taxa barplot \
+--i-table table-dncluster98.qza \
+--i-taxonomy /data/nanopore/taxonomy_18S/classification.qza \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization bar_plots_blast95_18S-asv.qzv 
+#16S
+#--p-perc-identity 0.95를 vsearch에 사용 시, 1.0 수준으로 동정되며, 모두 unassigned 된다. 
+qiime taxa barplot \
+--i-table table-dncluster98.qza \
+--i-taxonomy /data/nanopore/taxonomy/classification.qza \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization bar_plots_blast95_16S-asv.qzv 
+qiime taxa barplot \
+--i-table table-dncluster98.qza \
+--i-taxonomy /data/nanopore/taxonomy_0.8/classification.qza \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization bar_plots_blast95_16S-asv.qzv 
+
+qiime taxa collapse \
+--i-table table.qza \
+--i-taxonomy taxonomy_consensus_blast-asv.qza \
+--p-level 7 \
+--o-collapsed-table collapsed-table-specific.qza 
+
+qiime tools extract \
+--input-path collapsed-table-specific.qza \
+
+biom convert \
+-i 6ca5ef72-08e4-42f8-a963-b105e22328c9/data/feature-table.biom \
+-o ASV-species-table-asv-16S.tsv \
+--to-tsv 
+
+Building a tree
+qiime phylogeny align-to-tree-mafft-fasttree \
+--i-sequences representative_sequences.qza \
+--output-dir tree
+
+time qiime diversity alpha-rarefaction \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-max-depth 23126 \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization alpha_rarefaction-max-depth23126.qzv \
+--verbose
+
+Alpha and Beta Diversity
+qiime diversity core-metrics-phylogenetic \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-sampling-depth 2000 \
+--m-metadata-file metadata_16s.tsv \
+--output-dir diversity
+
+qiime diversity core-metrics-phylogenetic \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-sampling-depth 7000 \
+--m-metadata-file metadata_16s.tsv \
+--output-dir diversity
+
+qiime diversity beta-group-significance \
+--i-distance-matrix unweighted_unifrac_distance_matrix.qza \
+--m-metadata-file metadata_16s.tsv \
+--m-metadata-column location \
+--o-visualization unweighted-unifrac-depth-significance.qzv \
+--p-pairwise 
+
