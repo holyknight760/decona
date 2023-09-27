@@ -84,8 +84,8 @@ qiime feature-classifier classify-consensus-blast \
  --o-classification taxonomy_consensus_blast-asv.qza 
 
 qiime metadata tabulate \
---m-input-file ~/taxonomy/classification.qza \
---m-input-file representative_sequences.qza \
+--m-input-file /mnt/c/Wild_INU/decona/example_data/parasite_18S/result/Racon/taxonomy/classification.qza \
+--m-input-file All_barcodes_combined.qza \
 --o-visualization taxonomy_consensus_blast-asv.qzv
 
 qiime metadata tabulate \
