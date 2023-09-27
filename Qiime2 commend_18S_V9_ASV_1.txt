@@ -97,6 +97,11 @@ Barplot
 qiime taxa barplot \
 --i-table table.qza \
 --i-taxonomy taxonomy_consensus_blast-asv.qza \
+--o-visualization bar_plots_blast95_18S-asv.qzv 
+
+qiime taxa barplot \
+--i-table table.qza \
+--i-taxonomy taxonomy_consensus_blast-asv.qza \
 --m-metadata-file metadata_18s.tsv \
 --o-visualization bar_plots_blast95_18S-asv.qzv 
 
