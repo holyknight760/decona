@@ -73,7 +73,7 @@ qiime feature-classifier classify-consensus-vsearch \
 #서열의 길이가 다양할 때는 blast 방식은 사용 불가하며, vsearch가 작동 가능!!
 
 qiime feature-classifier classify-consensus-blast \
- --i-query All_barcodes_combined.qza \
+ --i-query primer_trimed_filtered_demulti_seq.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
  --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
  --p-maxaccepts 1 \
