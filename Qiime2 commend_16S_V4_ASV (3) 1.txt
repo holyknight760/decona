@@ -1,9 +1,21 @@
 find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
 
+#qiime vsearch dereplicate-sequences를 뒤에서 사용하려면 'SampleData[Sequences]' 폼이 필요함. 
+time qiime tools import \
+--type 'SampleData[Sequences]' \
+--input-path All_barcodes_combined.fasta \
+--output-path All_barcodes_combined.qza
+
 time qiime tools import \
 --type 'FeatureData[Sequence]' \
 --input-path All_barcodes_combined.fasta \
 --output-path All_barcodes_combined.qza
+
+qiime tools import \
+--input-path sequences.fna \
+--output-path sequences.qza \
+--type 'SampleData[Sequences]'
+
 
 qiime tools import \
   --type MultiplexedSingleEndBarcodeInSequence \

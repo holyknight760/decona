@@ -95,7 +95,7 @@ qiime metadata tabulate \
 
 Barplot
 qiime taxa barplot \
---i-table table.qza \
+--i-table primer_trimed_filtered_demulti_table.qza \
 --i-taxonomy taxonomy_consensus_blast-asv.qza \
 --o-visualization bar_plots_blast95_18S-asv.qzv 
 
