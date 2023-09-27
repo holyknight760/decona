@@ -61,6 +61,17 @@ qiime feature-table tabulate-seqs \
 --o-visualization denoise-rep-seq.qzv 
 
 Taxonomy
+qiime feature-classifier classify-consensus-vsearch \
+ --i-query All_barcodes_combined.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --output-dir taxonomy
+#서열의 길이가 다양할 때는 blast 방식은 사용 불가하며, vsearch가 작동 가능!!
+
 qiime feature-classifier classify-consensus-blast \
  --i-query All_barcodes_combined.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
@@ -96,7 +107,7 @@ qiime metadata tabulate \
 Barplot
 qiime taxa barplot \
 --i-table primer_trimed_filtered_demulti_table.qza \
---i-taxonomy taxonomy_consensus_blast-asv.qza \
+--i-taxonomy /mnt/c/Wild_INU/decona/example_data/parasite_18S/result/Racon/taxonomy/classification.qza \
 --o-visualization bar_plots_blast95_18S-asv.qzv 
 
 qiime taxa barplot \
