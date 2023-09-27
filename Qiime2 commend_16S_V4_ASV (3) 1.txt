@@ -1,5 +1,10 @@
 find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
 
+time qiime tools import \
+--type 'FeatureData[Sequence]' \
+--input-path All_barcodes_combined.fasta \
+--output-path All_barcodes_combined.qza
+
 qiime tools import \
   --type MultiplexedSingleEndBarcodeInSequence \
   #--input-path /data/nanopore/Downloads/Downloads.fastq.gz \
