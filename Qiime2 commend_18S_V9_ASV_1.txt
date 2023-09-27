@@ -121,6 +121,10 @@ biom convert \
 
 Building a tree
 qiime phylogeny align-to-tree-mafft-fasttree \
+--i-sequences All_barcodes_combined.qza \
+--output-dir tree
+
+qiime phylogeny align-to-tree-mafft-fasttree \
 --i-sequences representative_sequences.qza \
 --output-dir tree
 
