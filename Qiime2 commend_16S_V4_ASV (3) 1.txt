@@ -76,7 +76,7 @@ qiime metadata tabulate \
 
 Demultiplexing
 qiime vsearch dereplicate-sequences \
---i-sequences primer_trimed_filtered.qza \
+--i-sequences All_barcodes_combined.qza \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
 --o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
 --verbose
