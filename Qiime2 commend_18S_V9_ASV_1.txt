@@ -62,9 +62,9 @@ qiime feature-table tabulate-seqs \
 
 Taxonomy
 qiime feature-classifier classify-consensus-blast \
- --i-query representative_sequences.qza \
- --i-reference-reads ~/Documents/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
- --i-reference-taxonomy ~/Documents/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
+ --i-query All_barcodes_combined.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
  --p-maxaccepts 1 \
  --p-perc-identity 0.95 \
  --p-min-consensus 0.75 \
