@@ -28,4 +28,20 @@ data$lineage <- classification(data$taxon, db = "ncbi")
 total_reads <- sum(data$read_number)
 data$corrected_reads <- data$read_number - (0.001 * total_reads)
 
+# Load necessary libraries
+library(dplyr)
+# Assume df is your dataframe with columns: taxon, barcode, and read_number
+# Calculate the total read number for each taxon
+total_reads <- df %>%
+  group_by(taxon) %>%
+  summarise(total_read_number = sum(read_number))
+# Perform the tag leakage correction
+corrected_df <- df %>%
+  left_join(total_reads, by = "taxon") %>%
+  mutate(corrected_read_number = if_else(total_read_number > 1000,
+                                         read_number - 0.001 * total_read_number,
+                                         read_number)) %>%
+  select(-total_read_number)
+
+
 
