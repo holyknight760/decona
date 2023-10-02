@@ -1,0 +1,79 @@
+dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
+
+sudo apt-get install dos2unix
+
+find /mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
+find /mnt/c/Wild_INU/decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
+
+#bcftools fail
+sudo apt-get update
+sudo apt-get install libopenblas-base
+
+conda install tensorflow=2.2.0 numpy=1.18.5
+
+#get ncbi-blast-2.14.1+-x64-linux.tar.gz
+tar zxvpf ncbi-blast-2.14.1+-x64-linux.tar.gz 
+
+find /path/to/search -name '*.pl'
+find /mnt/c/Wild_INU/decona/ -name '*.pl'
+
+holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona/example_data$ find /mnt/c/Users/MSI/Documents/GitHub/decona/ -name '*.pl'
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/cd-hit-2d-para.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/cd-hit-auxtools/cd-hit-dup-PE-out.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/cd-hit-clstr_2_blm8.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/cd-hit-div.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/cd-hit-para.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr2tree.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr2txt.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr2xml.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_cut.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_list.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_list_sort.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_merge.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_merge_noorder.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_quality_eval.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_quality_eval_by_link.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_reduce.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_renumber.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_rep.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_reps_faa_rev.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_rev.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_select.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_select_rep.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_size_histogram.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_size_stat.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_sort_by.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_sort_prot_by.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_sql_tbl.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/clstr_sql_tbl_sort.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/FET.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/make_multi_seq.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/plot_2d.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/plot_len1.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/cd-hit-div.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/clstr_select_rep.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/clstr_select_seq.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/fetch_fasta_by_ids.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/fetch_fasta_exclude_ids.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/psi-2d.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/psi-cd-hit-local-old.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/psi-cd-hit-local.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/psi-cd-hit-old.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/psi-cd-hit/psi-cd-hit.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/miRNA-seq/clstr_2_miRNA-table.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/miRNA-seq/filter-small-cluster.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/miRNA-seq/NG-Omics-miRNA-seq.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/16S-ref-db-PE-splice.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/cd-hit-otu-miseq-PE.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/clstr_2_OTU_table.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/filter-chimeric-and-small.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/filter-chimeric-by-ref.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/filter-nontop-ref.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/filter-refonly-cluster.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/greengene-ann1.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/NG-Omics-Miseq-16S.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/NG-Omics-WF.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/OTU_2_taxon_table.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/pool_samples.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/silva-ann1.pl
+/mnt/c/Users/MSI/Documents/GitHub/decona/external/cdhit/usecases/Miseq-16S/silva-qiime-format-ann1.pl

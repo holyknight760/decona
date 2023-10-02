@@ -1,0 +1,31 @@
+#demultiplex 필요없고, fasta 형태의 데이터베이스를 NCBI 형태의 데이터베이스로 변환하는데 용이
+decona -f -l 800 -m 2100 -q 10 -c 0.80 -n 25 -M -B small_database_aquarium.fasta
+#-B로 이미 하드에 만들어진 NCBI 데이터베이스를 기반으로 분석이 진행됨. 
+decona -f -l 800 -m 2100 -q 10 -c 0.80 -n 25 -M -b /mnt/c/Wild_INU/decona/example_data/BLASTdatabase/small_database_aquarium.fasta
+decona -f -l 800 -m 2100 -q 10 -c 0.80 -n 25 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+
+
+decona -f -l 800 -m 2100 -q 10 -c 0.80 -n 25 -M -b /mnt/d/parasite_18S/ncbi-refseqs_1719ea-seqs-derep-uniq.fasta
+decona -f -l 800 -m 2100 -q 10 -c 0.80 -n 25 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#Waring: When using a short fragment (<300 bases) please adjust kmer length ( -k ) accordingly
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#Blasting consensus sequences barcode17_concatenated/
+#BLAST Database error: No alias or index file found for nucleotide database [/mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta] in search path [/mnt/c/Wild_INU/decona/example_data/parasite_18S/data/barcode17_concatenated/multi-seq::]
+#Building a new DB
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
+#Building a new DB, current time: 09/25/2023 10:47:20
+#New DB name:   /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#New DB title:  /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#Sequence type: Nucleotide
+#Keep MBits: T
+#Maximum file size: 1000000000B
+#BLAST options error: File /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta does not exist
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#**-k****set custom kmer length, short reads require smaller kmer length (default 15)**
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+
+
+
+
+

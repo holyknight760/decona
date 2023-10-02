@@ -1,0 +1,16 @@
+conda install tensorflow=2.2.0 numpy=1.18.5
+위의 명령어에도 numpy 1.18.5가 설치가 되지 않고, 계속 1.24.4가 설치되.
+pip cache purge
+pip install numpy==1.18.5
+
+pip install pandas==1.0.5
+
+
+numpy 1.24.4 와 호환되는 h5py 버전
+numpy 1.24.4 는 2023년 9월 8일에 출시된 numpy의 유지보수 릴리스입니다. 이 버전은 Python 3.8-3.11 을 지원
+h5py 는 HDF5 파일을 읽고 쓰기 위한 Python 패키지, 이 패키지는 numpy와 텐서플로우와 같은 다른 패키지와 함께 사용
+numpy 1.24.4 와 호환되는 h5py 버전
+- h5py 3.6.0: 이 버전은 2023년 9월 7일에 출시되었으며, numpy 1.24.4 와 호환
+- h5py 3.5.0: 이 버전은 2023년 6월 29일에 출시되었으며, numpy 1.24.4 와 호환
+- h5py 3.4.0: 이 버전은 2023년 4월 28일에 출시되었으며, numpy 1.24.4 와 호환
+ 
