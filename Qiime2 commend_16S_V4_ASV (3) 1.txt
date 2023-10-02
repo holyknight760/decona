@@ -1,4 +1,5 @@
 find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
+find /mnt/c/Users/MSI/Downloads/parasite_18S -name *.fastq.gz -print > list.txt
 
 #qiime vsearch dereplicate-sequences를 뒤에서 사용하려면 'SampleData[Sequences]' 폼이 필요함. 
 time qiime tools import \
