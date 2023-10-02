@@ -1,0 +1,1 @@
+makeblastdb -in ncbi-refseqs_18S_v220513-derep-uniq.fasta -dbtype nucl -out ncbi-refseqs_18S_v220513-derep-uniq.fasta
