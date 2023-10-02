@@ -27,7 +27,7 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-re
 
 #**-k****set custom kmer length, short reads require smaller kmer length (default 15)**
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-##Building a new DB
+##Building a new DB_>400Mb, not working!!
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -B /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
 #when >=3ea folder make Clustering reads...
