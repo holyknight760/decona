@@ -22,10 +22,17 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/
 #Maximum file size: 1000000000B
 #BLAST options error: File /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta does not exist
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+
 #**-k****set custom kmer length, short reads require smaller kmer length (default 15)**
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
+#when >=3ea folder make Clustering reads...
+The error message you've received indicates that the `cd-hit-est` command, which is a part of the CD-HIT software package used for clustering sequences, is not found in your current environment's PATH.
+#    conda install -c bioconda cd-hit
+#    which cd-hit-est
+#    which conda
+#    export PATH="/home/holyknightt/miniconda3/envs/decona/bin/:$PATH"
 
 
 
