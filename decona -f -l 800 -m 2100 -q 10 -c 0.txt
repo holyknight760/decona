@@ -13,7 +13,7 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-re
 #BLAST Database error: No alias or index file found for nucleotide database [/mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta] in search path [/mnt/c/Wild_INU/decona/example_data/parasite_18S/data/barcode17_concatenated/multi-seq::]
 #Building a new DB
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
@@ -27,7 +27,8 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-re
 
 #**-k****set custom kmer length, short reads require smaller kmer length (default 15)**
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+##Building a new DB
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -B /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
 #when >=3ea folder make Clustering reads...
 The error message you've received indicates that the `cd-hit-est` command, which is a part of the CD-HIT software package used for clustering sequences, is not found in your current environment's PATH.
