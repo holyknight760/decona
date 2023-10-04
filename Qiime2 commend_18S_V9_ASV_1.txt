@@ -70,7 +70,7 @@ qiime feature-classifier classify-consensus-vsearch \
  --p-min-consensus 0.75 \
  --p-query-cov 0.5 \
  --output-dir taxonomy
-
+#필터 되기 전의 모든 서열은 taxonomy에서는 필요 X, 뒤에 barplot에서 필요!! 
  qiime feature-classifier classify-consensus-vsearch \
  --i-query barcode17_concatenated.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
@@ -115,6 +115,13 @@ qiime metadata tabulate \
 --o-visualization taxonomy_consensus_blast-asv.qzv
 
 Barplot
+# Generate a feature table
+qiime taxa barplot \
+--i-table barcode17_concatenated.qza \
+--i-taxonomy /mnt/c/Wild_INU/decona/example_data/parasite_18S/result/Racon/taxonomy/classification.qza \
+--o-visualization bar_plots_blast95_18S-asv.qzv
+
+
 qiime taxa barplot \
 --i-table primer_trimed_filtered_demulti_table.qza \
 --i-taxonomy /mnt/c/Wild_INU/decona/example_data/parasite_18S/result/Racon/taxonomy/classification.qza \

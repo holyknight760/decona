@@ -14,6 +14,17 @@ qiime tools import \
   --output-path barcode17_concatenated.qza \
   --input-format DNAFASTAFormat
 
+time qiime tools import \
+--type 'SampleData[Sequences]' \
+--input-path barcode17_concatenated.fasta \
+  --output-path barcode17_concatenated.qza
+
+# Import FASTQ file as a QIIME2 Artifact
+qiime tools import \
+  --type 'SampleData[SequencesWithQuality]' \
+  --input-path /mnt/c/Wild_INU/decona/example_data/parasite_18S/data/barcode17_concatenated \
+  --output-path single-end-demux.qza
+
 #fastq Save
 qiime tools import \
   --type 'SampleData[SequencesWithQuality]' \
