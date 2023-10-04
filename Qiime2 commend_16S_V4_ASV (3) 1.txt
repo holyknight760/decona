@@ -101,7 +101,7 @@ qiime metadata tabulate \
 --m-input-file primer_trimed_filtered_stats.qza \
 --o-visualization primer_trimed_filtered_stats.qzv 
 
-#추후 분석을 위해 실행
+#추후 barplot분석을 위해 실행
 Demultip을lexing
 qiime vsearch dereplicate-sequences \
 --i-sequences All_barcodes_combined.qza \
