@@ -7,6 +7,13 @@ time qiime tools import \
 --input-path All_barcodes_combined.fasta \
 --output-path All_barcodes_combined.qza
 
+#'barcode17_concatenated.fasta is not a(n) QIIME1DemuxFormat file' 라는 오류가 발생 할 때
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path barcode17_concatenated.fasta \
+  --output-path barcode17_concatenated.qza \
+  --input-format DNAFASTAFormat
+
 time qiime tools import \
 --type 'FeatureData[Sequence]' \
 --input-path All_barcodes_combined.fasta \
@@ -87,9 +94,16 @@ qiime metadata tabulate \
 --m-input-file primer_trimed_filtered_stats.qza \
 --o-visualization primer_trimed_filtered_stats.qzv 
 
-Demultiplexing
+#추후 분석을 위해 실행
+Demultip을lexing
 qiime vsearch dereplicate-sequences \
 --i-sequences All_barcodes_combined.qza \
+--o-dereplicated-table primer_trimed_filtered_demulti_table \
+--o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
+--verbose
+
+qiime vsearch dereplicate-sequences \
+--i-sequences barcode17_concatenated.qza \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
 --o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
 --verbose
