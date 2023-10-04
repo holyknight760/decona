@@ -40,5 +40,9 @@ The error message you've received indicates that the `cd-hit-est` command, which
 #-B로 이미 하드에 만들어진 NCBI 데이터베이스를 기반으로 분석이 진행됨.
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
+#https://www.readcube.com/library/6a892c3a-8653-4b22-88cb-6d624da7e92e:e7f9884f-3dda-4b66-91ff-8fc8ae5f027a
+2kb: decona -f -T 20 -l 1800 -m 2350 -g "GGATTACCCYACTATGC;max_error_rate=0.1;min_overlap=17…CTAGGGATAACAGCGCAATC;max_error_rate=0.1;min_overlap=17" -n 5 -r 0.99= -R 500 -M
+MiFish: decona -f -T 20 -l 100 -m 300 -g "GTACACACCGCCCGTC;max_error_rate=0.1;min_overlap=20…TGATCCTTCTGCAGGTTCACCTAC;max_error_rate=0.1;min_overlap=20" -n 5 -r 0.99= -R 500 -k 6 -M
+
 
 

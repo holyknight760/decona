@@ -10,14 +10,13 @@ time qiime tools import \
 #'barcode17_concatenated.fasta is not a(n) QIIME1DemuxFormat file' 라는 오류가 발생 할 때
 qiime tools import \
   --type 'FeatureData[Sequence]' \
-  --input-path barcode17_concatenated.fasta \
-  --output-path barcode17_concatenated.qza \
-  --input-format DNAFASTAFormat
+  --input-path cluster_representatives.fa \
+  --output-path cluster_representatives.qza
 
 time qiime tools import \
 --type 'SampleData[Sequences]' \
---input-path barcode17_concatenated.fasta \
-  --output-path barcode17_concatenated.qza
+--input-path cluster_representatives.fa \
+--output-path cluster_representatives.qza
 
 # Import FASTQ file as a QIIME2 Artifact
 qiime tools import \
