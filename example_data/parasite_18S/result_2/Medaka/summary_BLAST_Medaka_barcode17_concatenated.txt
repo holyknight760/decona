@@ -1,5 +1,0 @@
-BLAST_out_Medaka_clusters
-52	0		99.451	182	1	0	9.16e	90	331	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
-69	2		99.419	172	1	0	3.13e	84	313	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
-77	1		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
-	
