@@ -112,7 +112,7 @@ qiime metadata tabulate \
 --o-visualization primer_trimed_filtered_stats.qzv 
 
 #추후 barplot분석을 위해 실행
-Demultip을lexing
+Demultiplexing
 qiime vsearch dereplicate-sequences \
 --i-sequences All_barcodes_combined.qza \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
