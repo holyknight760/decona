@@ -1,0 +1,44 @@
+#qiime feature-classifier classify-consensus-vsearch를 사용할 때 필요함. 
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path All_barcodes_combined.fasta \
+  --output-path All_barcodes_combined.qza
+#qiime taxa barplot 실시 가능 파일
+
+#qiime vsearch dereplicate-sequences를 뒤에서 사용하려면 'SampleData[Sequences]' 폼이 필요함. 
+time qiime tools import \
+--type 'SampleData[Sequences]' \
+--input-path All_barcodes_combined.fasta \
+--output-path All_barcodes_combined_1.qza
+
+#추후 barplot분석을 위해 실행
+Demultiplexing
+qiime vsearch dereplicate-sequences \
+--i-sequences All_barcodes_combined_1.qza \
+--o-dereplicated-table primer_trimed_filtered_demulti_table \
+--o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
+--verbose
+
+qiime feature-classifier classify-consensus-blast \
+ --i-query primer_trimed_filtered_demulti_seq.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --output-dir taxonomy
+
+Barplot
+qiime taxa barplot \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-taxonomy /mnt/e/Nanopore/parasite_18S/taxonomy/classification.qza \
+--o-visualization bar_plots_blast95_18S-asv.qzv 
+
+qiime metadata tabulate \
+--m-input-file /mnt/e/Nanopore/parasite_18S/taxonomy/classification.qza \
+--m-input-file primer_trimed_filtered_demulti_seq.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+
+
