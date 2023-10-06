@@ -12,6 +12,7 @@ qiime tools import \
   --type 'FeatureData[Sequence]' \
   --input-path All_barcodes_combined.fasta \
   --output-path All_barcodes_combined.qza
+#qiime taxa barplot 실시
 
 #'barcode17_concatenated.fasta is not a(n) QIIME1DemuxFormat file' 라는 오류가 발생 할 때
 qiime tools import \
@@ -332,6 +333,11 @@ qiime metadata tabulate \
 --o-visualization taxonomy_consensus_blast-asv_0.8.qzv
 
 Barplot
+qiime taxa barplot \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-taxonomy /mnt/e/Nanopore/parasite_18S/parasite_18s_4,5,6,7,8,9/parasite_18s_4,5,6/result/Medaka/taxonomy/classification.qza \
+--o-visualization bar_plots_blast95_18S-asv.qzv 
+
 #18S_16S 프라이머를 사용한 결과에 18S 데이터베이스를 적용하면, 엉뚱한 결과가 도출된다.
 qiime taxa barplot \
 --i-table table-dncluster98.qza \
