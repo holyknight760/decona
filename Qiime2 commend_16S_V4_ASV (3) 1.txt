@@ -7,6 +7,11 @@ time qiime tools import \
 --input-path All_barcodes_combined.fasta \
 --output-path All_barcodes_combined_1.qza
 
+qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path All_barcodes_combined.fasta \
+  --output-path All_barcodes_combined.qza
+
 #'barcode17_concatenated.fasta is not a(n) QIIME1DemuxFormat file' 라는 오류가 발생 할 때
 qiime tools import \
   --type 'FeatureData[Sequence]' \
