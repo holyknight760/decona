@@ -7,6 +7,7 @@ time qiime tools import \
 --input-path All_barcodes_combined.fasta \
 --output-path All_barcodes_combined_1.qza
 
+#qiime feature-classifier classify-consensus-vsearch를 사용할 때 필요함. 
 qiime tools import \
   --type 'FeatureData[Sequence]' \
   --input-path All_barcodes_combined.fasta \
