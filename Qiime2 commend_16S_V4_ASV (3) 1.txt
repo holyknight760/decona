@@ -5,7 +5,7 @@ find /mnt/c/Users/MSI/Downloads/parasite_18S -name *.fastq.gz -print > list.txt
 time qiime tools import \
 --type 'SampleData[Sequences]' \
 --input-path All_barcodes_combined.fasta \
---output-path All_barcodes_combined.qza
+--output-path All_barcodes_combined_1.qza
 
 #'barcode17_concatenated.fasta is not a(n) QIIME1DemuxFormat file' 라는 오류가 발생 할 때
 qiime tools import \
@@ -114,7 +114,7 @@ qiime metadata tabulate \
 #추후 barplot분석을 위해 실행
 Demultiplexing
 qiime vsearch dereplicate-sequences \
---i-sequences All_barcodes_combined.qza \
+--i-sequences All_barcodes_combined_1.qza \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
 --o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
 --verbose
