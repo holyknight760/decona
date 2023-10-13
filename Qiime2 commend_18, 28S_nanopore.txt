@@ -29,6 +29,9 @@ qiime feature-classifier classify-consensus-blast \
  --p-query-cov 0.5 \
  --p-evalue 0.001 \
  --output-dir taxonomy
+#QIIME 2에서 `--p-query-cov` 매개변수는 지정된 퍼센트 아이덴티티와 커버리지 이상의 히트 중에서 가장 높은 정렬 점수만을 유지하는 역할을 합니다. 
+#따라서 `--p-query-cov 0.5`는 쿼리 시퀀스의 50% 이상이 데이터베이스 시퀀스와 일치할 때만 해당 히트를 유지하라는 의미입니다. 
+#이는 잘못된 분류를 방지하고 정확도를 높이는 데 도움이 됩니다. 
 
 qiime feature-classifier classify-consensus-blast \
  --i-query primer_trimed_filtered_demulti_seq.qza \
