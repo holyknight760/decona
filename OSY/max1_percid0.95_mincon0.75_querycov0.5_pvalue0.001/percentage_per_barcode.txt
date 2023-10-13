@@ -1,0 +1,16 @@
+	raw read	passed decona read		
+barcode04_concatenated/report_barcode04_concatenated	" 4,893 "	" 4,347 "	-88.84%	0.8884
+barcode05_concatenated/report_barcode05_concatenated	" 632,483 "	" 629,217 "	-99.48%	0.9948
+barcode06_concatenated/report_barcode06_concatenated	" 75,930 "	" 73,362 "	-96.62%	0.9662
+barcode07_concatenated/report_barcode07_concatenated	" 1,651 "	" 1,377 "	-83.40%	0.834
+barcode08_concatenated/report_barcode08_concatenated	" 273,047 "	" 265,406 "	-97.20%	0.972
+barcode09_concatenated/report_barcode09_concatenated	" 176,719 "	" 170,180 "	-96.30%	0.963
+barcode10_concatenated/report_barcode10_concatenated	" 166,505 "	" 160,007 "	-96.10%	0.961
+barcode11_concatenated/report_barcode11_concatenated	" 30,519 "	" 27,453 "	-89.95%	0.8995
+barcode12_concatenated/report_barcode12_concatenated	" 291,703 "	" 283,309 "	-97.12%	0.9712
+barcode13_concatenated/report_barcode13_concatenated	" 239,331 "	" 236,390 "	-98.77%	0.9877
+barcode14_concatenated/report_barcode14_concatenated	" 36,838 "	" 34,835 "	-94.56%	0.9456
+barcode15_concatenated/report_barcode15_concatenated	" 88,803 "	" 86,343 "	-97.23%	0.9723
+barcode16_concatenated/report_barcode16_concatenated	" 290,632 "	" 286,674 "	-98.64%	0.9864
+barcode17_concatenated/report_barcode17_concatenated	" 110,048 "	" 109,733 "	-99.71%	0.9971
+total	" 2,419,102 "	" 2,368,633 "		
