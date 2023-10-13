@@ -10,10 +10,12 @@ time qiime tools import \
 --type 'SampleData[Sequences]' \
 --input-path All_barcodes_combined.fasta \
 --output-path All_barcodes_combined_1.qza
-time qiime tools import \
---type 'SampleData[Sequences]' \
---input-path cluster_representatives.fa \
---output-path cluster_representatives_1.qza
+qiime tools import \
+  --type 'SampleData[Sequences]' \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path /path_to/mock_manifest.csv \
+  --output-path barcode17_concatenated_1.qza
+
 
 #추후 barplot분석을 위해 실행
 Demultiplexing
