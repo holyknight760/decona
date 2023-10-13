@@ -21,6 +21,17 @@ qiime vsearch dereplicate-sequences \
 
 qiime feature-classifier classify-consensus-blast \
  --i-query primer_trimed_filtered_demulti_seq.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs_18S_v220513-seqs-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs_18S_v220513-tax-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --output-dir taxonomy
+
+qiime feature-classifier classify-consensus-blast \
+ --i-query primer_trimed_filtered_demulti_seq.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
  --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
  --p-maxaccepts 1 \
