@@ -71,4 +71,20 @@ qiime metadata tabulate \
 --m-input-file primer_trimed_filtered_demulti_seq.qza \
 --o-visualization taxonomy_consensus_blast-asv.qzv
 
+Building a tree
+qiime phylogeny align-to-tree-mafft-fasttree \
+--i-sequences primer_trimed_filtered_demulti_seq.qza \
+--output-dir tree
+
+qiime feature-table summarize \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--o-visualization denoise-table.qzv 
+
+time qiime diversity alpha-rarefaction \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-max-depth 124 \
+--m-metadata-file metadata_18s.tsv \
+--o-visualization alpha_rarefaction-max-depth421595.qzv \
+--verbose
 
