@@ -85,6 +85,11 @@ time qiime diversity alpha-rarefaction \
 --i-phylogeny tree/rooted_tree.qza \
 --p-max-depth 553 \
 --m-metadata-file metadata_18s.tsv \
---o-visualization alpha_rarefaction-max-depth421595.qzv \
+--o-visualization alpha_rarefaction-max-depth553.qzv \
 --verbose
+
+
+
+
+
 
