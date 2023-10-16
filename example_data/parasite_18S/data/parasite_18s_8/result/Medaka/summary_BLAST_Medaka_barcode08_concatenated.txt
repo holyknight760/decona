@@ -1,0 +1,555 @@
+BLAST_out_Medaka_clusters
+100	422		99.270	548	1	2	0.0	987	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+100	682		100.000	802	0	0	0.0	1482	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+101	1355	
+101	217		99.023	307	1	1	4.19e	155	549	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1019	201		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+102	1009		99.711	691	0	2	0.0	1264	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+102	1396		100.000	218	0	0	4.87e	111	403	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+102	929		100.000	402	0	0	0.0	743	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+102	945		90.201	398	17	14	5.79e	140	499	AF124460.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Schistocephalus;	s__solidus	AF124460.1
+103	1107		98.962	289	1	2	6.97e	145	516	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+103	39		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+103	584		99.659	587	2	0	0.0	1074	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+1034	603		98.138	376	2	4	0.0	651	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+104	1225		97.454	432	10	1	0.0	736	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+104	1233		99.558	226	1	0	8.09e	114	412	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+104	34		99.692	1945	2	2	0.0	3555	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+104	959		94.690	339	14	4	2.98e	147	523	DQ642942.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Trypanorhyncha;	f__Eutetrarhynchidae;	g__Trimacracanthus;	s__aetobatidis	DQ642942.1
+1045	19		97.861	374	4	3	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1047	825		98.834	343	2	2	4.12e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+105	1106		98.958	192	2	0	2.54e	93	344	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+105	496		100.000	557	0	0	0.0	1029	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+105	948		100.000	325	0	0	2.45e	170	601	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+109	119		97.917	432	8	1	0.0	747	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+111	111		99.537	432	1	1	0.0	785	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+113	1419	
+1147	223		100.000	528	0	0	0.0	976	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+115	1292		98.958	192	2	0	2.52e	93	344	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+116	511		99.780	455	1	0	0.0	835	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+116	813		98.843	432	2	2	0.0	767	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+11605	76		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+118	1085		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+120	281		97.861	374	5	2	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+120	41		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+120	667		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+121	704		99.281	417	1	1	0.0	752	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+122	175		99.861	721	1	0	0.0	1327	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+1228	1193		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+123	330		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+123	438		97.333	375	5	4	5.13e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+123	89		99.907	1076	1	0	0.0	1982	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+124	619		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+125	1089		97.326	374	6	3	5.11e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+125	1093		98.834	343	2	2	4.08e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+127	450		99.196	373	1	1	0.0	671	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+128	125		98.148	432	6	2	0.0	752	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+128	244		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+129	478		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+129	517	
+129	578		98.611	432	5	1	0.0	763	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+130	1112		100.000	653	0	0	0.0	1206	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+130	1270		99.482	579	1	1	0.0	1051	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+131	1051		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+131	188		97.867	375	2	6	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+131	324		99.765	1278	2	1	0.0	2342	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+131	338		99.804	509	1	0	0.0	935	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+132	1143		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+132	328		98.845	433	2	3	0.0	769	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+132	423		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+133	1071		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+135	1168		99.306	432	1	1	0.0	780	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+135	138		99.580	953	4	0	0.0	1738	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+136	1370		98.691	382	1	3	0.0	675	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+136	479		99.780	455	1	0	0.0	835	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+136	885		99.413	341	2	0	6.58e	176	619	AB374225.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__nihonkaiensis	AB374225.1
+138	735		99.502	602	1	1	0.0	1094	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+138	943		99.869	762	1	0	0.0	1402	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+139	1142		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+139	296		87.591	411	33	16	3.14e	128	460	JQ609343.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Anoplocephalidae;	g__Avitellina;	s__centripunctata	JQ609343.1
+139	55		96.170	1619	49	12	0.0	2634	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+140	1140		99.595	247	1	0	1.97e	125	451	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+140	1393		99.074	324	2	1	3.03e	164	580	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+140	1472		98.133	375	3	3	0.0	651	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+141	1458		97.333	375	5	4	5.13e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+142	120		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+142	196		100.000	998	0	0	0.0	1844	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+142	552		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+142	57		99.912	1141	1	0	0.0	2102	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+143	392		99.401	501	1	1	0.0	907	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+144	989		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+145	1003		99.074	432	2	2	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+145	1131		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+145	322		98.380	432	6	1	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+145	995		100.000	296	0	0	2.69e	154	547	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+1468	763		99.730	742	0	1	0.0	1358	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+147	22		99.532	641	1	2	0.0	1166	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+150	1216		98.383	371	3	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+150	925		98.870	354	1	2	6.72e	179	628	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+152	1335		98.400	375	1	4	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1558	793		98.133	375	3	3	0.0	651	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+157	102		98.128	374	2	4	0.0	647	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+157	536		100.000	819	0	0	0.0	1513	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+157	866		98.400	375	1	4	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+157	900		99.730	742	0	1	0.0	1358	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+158	351		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+158	646		100.000	505	0	0	0.0	933	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+158	75		98.611	432	4	2	0.0	763	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+159	818		99.596	742	1	1	0.0	1352	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+1590	47		99.558	226	1	0	8.11e	114	412	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+160	658		97.326	374	6	3	5.10e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+161	812		98.834	343	2	2	4.08e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+162	226		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+162	78		100.000	554	0	0	0.0	1024	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+165	1532		98.380	432	5	2	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+1665	711		98.843	432	3	2	0.0	769	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+168	680		99.596	495	1	1	0.0	902	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+16863	33		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+169	90		99.566	691	0	3	0.0	1256	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+169	996		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+171	16		99.905	1056	1	0	0.0	1945	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+171	36		100.000	402	0	0	0.0	743	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+171	823		97.326	374	5	4	1.83e	179	630	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+17122	32		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1736	63		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+175	488		97.872	376	3	4	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+178	380		100.000	496	0	0	0.0	917	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+180	756		100.000	314	0	0	3.12e	164	580	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+180	887	
+182	1258		99.598	249	1	0	1.24e	126	455	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+182	17		99.693	976	1	1	0.0	1784	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1830	314		100.000	557	0	0	0.0	1029	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+184	258		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+184	433		98.368	429	3	2	0.0	750	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+1843	477		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1870	237		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+189	733		98.834	343	2	2	4.10e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+191	362		97.855	373	5	2	0.0	641	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+197	320		98.611	432	5	1	0.0	763	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+197	632		99.676	309	0	1	3.03e	159	564	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+200	916		98.618	434	3	3	0.0	765	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+2004	1028		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+2004	94		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+2021	894		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+203	375		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+204	878		100.000	337	0	0	5.42e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+205	1450		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+205	3		100.000	1070	0	0	0.0	1977	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+2064	11		97.326	374	7	2	5.13e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+208	1300		99.087	219	1	1	9.21e	108	392	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+211	595		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+212	1210	
+214	644		100.000	295	0	0	5.24e	154	545	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+215	633		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+216	252		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+218	25		99.641	1670	6	0	0.0	3051	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+21990	247		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+220	551		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+2229	1125		100.000	217	0	0	1.73e	110	401	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+223	176		100.000	650	0	0	0.0	1201	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+2235	921		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+22434	8		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+225	439		95.522	670	11	12	0.0	1053	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+226	1349		97.594	374	5	3	0.0	638	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+226	485		97.454	432	10	1	0.0	736	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+227	1338		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+227	424		98.396	374	2	3	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+231	1431		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+231	385		98.380	432	4	3	0.0	756	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+231	679		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+231	924		99.155	355	0	3	0.0	636	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+233	1147		97.067	375	3	5	8.51e	178	625	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+2377	290		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+239	821		100.000	337	0	0	5.45e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+243	491		98.641	368	2	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+246	986		99.573	234	1	0	3.09e	118	427	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+248	206		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+25	227		99.550	888	1	2	0.0	1615	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+25	234		97.059	374	6	4	8.51e	178	625	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+25	327		99.541	654	3	0	0.0	1192	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+25	387		97.959	245	2	2	7.69e	117	422	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL-2010	HQ228991.1
+25	458		99.890	910	1	0	0.0	1676	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+25	800		83.875	1476	210	27	0.0	1382	BMAO01036578.1	k__Metazoa;	p__Arthropoda;	c__Arachnida;	o__Araneae;	f__Nephilidae;	g__Trichonephila;	s__clavata	BMAO01036578.1
+25	922		99.592	736	1	1	0.0	1341	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+25	936		100.000	184	0	0	1.57e	92	340	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+2518	211		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+254	158		97.872	376	2	4	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+254	783		99.010	606	1	3	0.0	1081	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+256	456		99.802	506	1	0	0.0	929	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+257	68		98.148	432	3	2	0.0	749	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+258	570		99.078	434	1	3	0.0	776	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+259	901		99.787	470	1	0	0.0	863	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+26	1035		97.333	375	3	4	1.83e	179	630	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	1113		98.962	289	1	2	6.82e	145	516	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+26	1133		99.196	373	1	1	0.0	671	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	1201		97.867	375	4	3	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	1236		99.012	607	5	1	0.0	1086	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+26	1260		98.845	606	7	0	0.0	1081	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+26	1384		99.357	622	1	2	0.0	1123	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	208		97.613	377	3	4	0.0	641	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	99		100.000	1013	0	0	0.0	1871	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+260	832		97.861	374	5	2	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+262	193		100.000	820	0	0	0.0	1515	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+263	1109		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+264	670		99.306	432	2	1	0.0	780	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+27	1000		97.090	378	4	6	1.86e	179	630	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+27	1049		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+27	1061		98.884	448	1	3	0.0	797	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+27	1118		98.256	344	6	0	3.69e	171	603	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+27	1191		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+27	133		99.681	1567	3	1	0.0	2865	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+27	67		99.707	1023	1	1	0.0	1871	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+27	994		98.128	374	2	4	0.0	647	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+270	523		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+271	719		98.834	343	2	2	4.08e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+2714	730		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+272	988		100.000	356	0	0	0.0	658	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+273	809		99.196	373	1	1	0.0	671	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+275	902	
+28	1011		99.069	752	2	4	0.0	1345	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+28	1024		97.059	374	8	2	2.39e	178	627	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+28	1027		99.782	458	1	0	0.0	841	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+28	1120	
+28	115		98.105	1372	26	0	0.0	2390	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+28	1480		99.165	479	2	1	0.0	861	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+28	250		98.128	374	3	3	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+28	310		99.558	453	1	1	0.0	824	GQ423748.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	GQ423748.1
+28	416		99.798	494	1	0	0.0	907	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+28	98		99.224	773	4	1	0.0	1393	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+2806	691		100.000	337	0	0	5.38e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+282	635		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+286	1272		97.867	375	4	3	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+29	1092		97.600	375	5	3	0.0	640	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+29	1152		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+29	1154		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+29	1174		99.527	634	2	1	0.0	1153	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+29	1299	
+29	1692		98.925	279	1	2	2.79e	139	497	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+29	342		97.326	374	6	4	5.01e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+291	1781		100.000	200	0	0	4.39e	101	370	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+296	1110		98.993	298	1	1	6.19e	150	532	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+296	1295		98.958	192	2	0	2.52e	93	344	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+297	1188		99.196	373	1	1	0.0	671	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+298	129		99.927	1365	1	0	0.0	2516	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+30	1064		99.306	432	1	1	0.0	780	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+30	1186		97.059	374	7	3	2.38e	178	627	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+30	154		97.861	374	3	5	0.0	641	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+30	173		99.541	654	3	0	0.0	1192	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+30	436		99.649	570	1	1	0.0	1040	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+30	83	
+301	1016		98.819	254	1	2	1.70e	125	451	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+307	1180		98.670	376	1	3	0.0	664	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	113		99.719	1066	1	1	0.0	1951	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	1597		99.211	380	1	1	0.0	684	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	222		99.371	477	1	1	0.0	863	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	243		100.000	999	0	0	0.0	1845	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+31	334		99.157	356	1	1	0.0	640	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	435		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	539		98.396	374	2	3	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	61		95.557	1373	45	10	0.0	2183	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+31	686		99.194	372	1	1	0.0	669	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+31	892		98.718	234	1	2	3.72e	114	414	GQ423749.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	GQ423749.1
+31	984		99.579	712	1	1	0.0	1297	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+313	1302		98.400	375	2	3	0.0	656	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+313	445		98.660	373	1	4	0.0	658	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+316	543		99.825	570	1	0	0.0	1048	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+317	123		100.000	1086	0	0	0.0	2006	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+32	1137		97.993	299	3	2	6.29e	145	516	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+32	1298		99.378	482	1	1	0.0	872	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+32	1336		100.000	167	0	0	7.54e	83	309	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+32	1344		96.543	376	7	5	1.44e	175	617	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+32	495		99.080	326	1	1	1.24e	165	584	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+32	949		99.855	689	1	0	0.0	1267	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+320	418		99.452	547	1	1	0.0	992	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+3229	337		98.020	404	7	1	0.0	701	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+33	1057		99.483	773	4	0	0.0	1406	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+33	1249		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+33	1469		98.956	479	3	1	0.0	856	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+33	198		99.938	1611	1	0	0.0	2970	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+33	721		99.503	604	3	0	0.0	1099	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+33	77		99.591	1467	4	2	0.0	2675	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+33	85		99.903	1031	1	0	0.0	1899	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+3301	694	
+331	774		98.133	375	3	3	0.0	651	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+334	690		97.861	374	3	5	0.0	641	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+337	408		98.400	375	2	3	0.0	656	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+339	92		98.034	1373	26	1	0.0	2385	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+34	165		99.076	433	1	3	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+34	287		99.448	725	4	0	0.0	1317	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+34	357		99.691	971	1	1	0.0	1775	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+34	473		99.501	801	4	0	0.0	1458	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+34	604		99.784	463	1	0	0.0	850	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+34	650		100.000	823	0	0	0.0	1520	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+34	749		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+340	341		98.958	192	2	0	2.50e	93	344	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+35	1749		96.610	118	4	0	3.06e	49	196	AF124474.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Nippotaeniidea;	f__Nippotaeniidae;	g__Amurotaenia;	s__decidua	AF124474.1
+35	279		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+35	617		100.000	557	0	0	0.0	1029	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+35	651		95.768	898	11	13	0.0	1423	AB731616.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	AB731616.1
+35	91		100.000	510	0	0	0.0	942	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+350	1277		97.861	374	5	2	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+353	64		97.861	374	5	2	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+3554	1369		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+358	409		100.000	528	0	0	0.0	976	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+358	674		99.306	432	1	1	0.0	780	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+359	1528		98.378	370	3	2	0.0	647	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+36	1007		99.735	378	1	0	0.0	693	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+36	1230		99.174	242	0	2	9.84e	121	435	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+36	14		100.000	1097	0	0	0.0	2026	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+36	1435		99.404	503	1	1	0.0	911	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+36	1683	
+36	205		98.928	373	1	2	0.0	664	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+36	464		99.739	383	0	1	0.0	701	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+36	608		99.418	859	1	3	0.0	1555	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+36	637		100.000	374	0	0	0.0	691	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+36	786		99.094	331	1	1	2.05e	168	593	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+363	1111		98.148	432	7	1	0.0	752	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+363	1360		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+366	1422	
+367	480		100.000	459	0	0	0.0	848	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+368	331		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+37	104		98.396	374	1	4	0.0	652	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+37	810		97.594	374	5	4	0.0	638	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+373	95		98.611	432	5	1	0.0	763	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+375	1050		100.000	281	0	0	6.10e	146	520	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+376	907		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+38	109		97.712	437	4	5	0.0	747	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+38	1231		99.209	253	1	1	1.31e	126	455	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+38	1287		100.000	490	0	0	0.0	905	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+38	1523		99.773	440	1	0	0.0	808	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+38	355		99.815	541	1	0	0.0	994	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+38	43		98.925	372	2	1	0.0	664	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+38	662		98.383	433	4	3	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+38	842		99.452	547	1	1	0.0	992	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+38	946		99.598	249	0	1	5.38e	126	453	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+382	444		100.000	581	0	0	0.0	1074	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+384	291		100.000	528	0	0	0.0	976	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+386	1044		98.663	374	1	3	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+39	1121		98.834	343	2	2	4.10e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+39	1213		100.000	606	0	0	0.0	1120	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+39	1471		97.059	374	3	5	3.03e	177	623	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+39	1544		100.000	395	0	0	0.0	730	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+39	373		97.872	376	2	5	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+39	561		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+392	1412		98.396	374	2	3	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+392	856		100.000	740	0	0	0.0	1367	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+399	1108		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+399	541		98.928	373	1	2	0.0	664	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+40	1171		98.955	287	1	1	5.08e	144	512	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+40	241		99.898	985	1	0	0.0	1814	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+40	367		100.000	927	0	0	0.0	1712	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+40	510		100.000	474	0	0	0.0	876	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+40	7	
+40	827		99.614	777	1	1	0.0	1417	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+401	240		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+404	369		97.594	374	3	4	0.0	636	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+41	1301		98.380	432	6	1	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+41	131		99.859	708	1	0	0.0	1303	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+41	140		100.000	475	0	0	0.0	878	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+41	155		98.843	432	4	1	0.0	769	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+41	972		99.074	432	2	2	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+4184	1493		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+42	1047		99.660	294	1	0	9.06e	152	538	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+42	1151		99.307	433	1	2	0.0	782	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+42	259		97.861	374	4	3	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+42	482		100.000	923	0	0	0.0	1705	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+42	502		98.133	375	2	4	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+422	815		97.606	376	3	5	0.0	640	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+43	1489		100.000	167	0	0	7.16e	83	309	AF124460.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Schistocephalus;	s__solidus	AF124460.1
+43	159		99.476	382	2	0	0.0	695	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+43	1631		96.791	374	8	3	1.11e	176	621	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+43	277		98.161	435	3	3	0.0	754	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+43	53		99.815	1079	2	0	0.0	1982	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+43	576		98.400	375	1	4	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+43	627		99.780	455	1	0	0.0	835	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+43	784		99.614	777	1	1	0.0	1417	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+43	804		99.138	348	0	2	5.19e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+430	1090		98.380	432	6	1	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+434	678		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+44	1026		100.000	218	0	0	4.87e	111	403	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+44	1175		97.354	378	2	5	0.0	636	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+44	267		100.000	1931	0	0	0.0	3567	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+44	307		99.825	570	1	0	0.0	1048	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+44	459		100.000	754	0	0	0.0	1393	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+44	513		98.659	671	7	1	0.0	1188	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+448	1238		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+449	618		98.396	374	2	3	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+45	1518		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+45	710		98.808	671	6	1	0.0	1194	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+458	688		97.267	439	8	4	0.0	741	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+46	126		99.897	967	1	0	0.0	1781	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+46	144		99.707	1023	1	1	0.0	1871	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+46	487		99.583	719	2	1	0.0	1310	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+46	863		99.437	355	2	0	0.0	645	AB374225.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__nihonkaiensis	AB374225.1
+464	965		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+465	266		97.861	374	4	3	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+4660	72		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+469	400		98.400	375	1	4	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+47	1526		99.666	299	0	1	1.49e	153	545	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+48	358		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+48	396		98.974	975	3	6	0.0	1738	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+48	414		99.787	469	1	0	0.0	861	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+48	862		98.391	435	3	3	0.0	761	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+48	963		97.917	432	8	1	0.0	747	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+48	980		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+48	998		88.834	403	15	14	1.66e	130	468	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+483	1232		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+484	127		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+484	194		99.452	547	1	1	0.0	992	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+49	1244		99.568	695	1	1	0.0	1266	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+49	454		95.739	352	10	4	6.80e	159	562	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+49	899		98.808	671	6	1	0.0	1194	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+490	359		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+491	689		100.000	473	0	0	0.0	874	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+50	744		99.597	745	1	1	0.0	1358	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+51	597		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+51	702		99.654	866	1	1	0.0	1581	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+513	166		98.845	433	3	2	0.0	771	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+5189	807		100.000	337	0	0	5.42e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+52	164		100.000	999	0	0	0.0	1845	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+52	214		98.148	432	6	2	0.0	752	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+526	1032		100.000	281	0	0	5.86e	146	520	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+53	1464		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+530	20		99.710	690	0	2	0.0	1262	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+54	163		98.324	358	6	0	6.37e	179	628	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+54	271		97.493	359	4	4	8.59e	173	608	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+54	960		98.843	432	3	2	0.0	769	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+541	1267		100.000	198	0	0	5.64e	100	366	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+542	229		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+547	1082		97.917	432	8	1	0.0	747	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+55	1039		98.561	278	1	2	1.66e	136	488	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+55	1207		98.663	374	2	2	0.0	660	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+55	1222		100.000	610	0	0	0.0	1127	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+55	152		99.880	836	1	0	0.0	1539	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+55	274		97.867	375	3	4	0.0	643	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+55	910		96.970	462	3	9	0.0	765	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+555	1588		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+56	1074		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+56	1235		98.814	253	2	1	6.07e	125	449	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+56	968		97.326	374	7	2	5.14e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+57	0		97.999	1549	25	4	0.0	2684	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+57	141		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+57	1444		99.129	459	4	0	0.0	826	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+57	1455		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+57	183		99.735	377	1	0	0.0	691	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+57	269		98.380	432	2	2	0.0	754	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+57	462		99.883	855	1	0	0.0	1574	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+57	503		99.804	509	1	0	0.0	935	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+57	530		95.455	374	1	3	5.05e	165	582	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+57	687		100.000	337	0	0	5.38e	177	623	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+57	896		99.790	476	0	1	0.0	872	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+573	230		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+578	383		99.452	547	1	1	0.0	992	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+58	1105		98.844	346	4	0	1.75e	175	617	AB374225.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__nihonkaiensis	AB374225.1
+58	575		99.474	570	1	1	0.0	1035	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+580	9		99.711	691	0	2	0.0	1264	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+59	624		97.333	375	5	4	5.13e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+591	914		98.380	432	6	1	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+592	941		100.000	646	0	0	0.0	1194	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+60	148		100.000	583	0	0	0.0	1077	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+60	345		99.825	570	1	0	0.0	1048	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+60	524		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+60	940		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+602	641		99.306	432	2	1	0.0	780	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+609	931		98.834	343	2	2	4.02e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+615	951		96.364	275	8	1	1.99e	125	451	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+62	1005		98.380	432	6	1	0.0	758	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+62	257		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+62	311		100.000	978	0	0	0.0	1807	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+62	446		99.502	603	1	1	0.0	1096	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6266	574		99.537	432	1	1	0.0	785	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+63	256		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+64	1187		96.543	376	8	4	3.26e	175	617	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+64	671		100.000	802	0	0	0.0	1482	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+64	718		99.620	789	0	2	0.0	1437	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+65	265		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+65	289		99.832	1189	2	0	0.0	2185	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+65	74		97.333	375	5	4	5.14e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+65	979		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+658	79		100.000	651	0	0	0.0	1203	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+66	398		99.890	910	1	0	0.0	1676	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+67	1025		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+67	1416		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+674	1130		97.594	374	5	3	0.0	638	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6774	457		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+68	865		98.649	370	1	3	0.0	652	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+683	791		99.306	432	2	1	0.0	780	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+69	668		99.782	458	1	0	0.0	841	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+692	845		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+70	518		89.500	400	19	16	1.63e	135	484	AF124460.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Schistocephalus;	s__solidus	AF124460.1
+71	354		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+71	379		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+71	420		99.892	928	0	1	0.0	1707	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+71	549		98.843	432	4	1	0.0	769	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+716	550		99.537	432	1	1	0.0	785	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+72	1283		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+72	701		96.552	377	6	6	1.44e	175	617	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+723	1364		98.611	432	5	1	0.0	763	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+728	1527		89.975	399	18	15	7.53e	139	496	AF124460.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Schistocephalus;	s__solidus	AF124460.1
+73	625		100.000	823	0	0	0.0	1520	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+73	939		98.848	434	2	3	0.0	771	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+74	1041		99.545	220	1	0	1.96e	110	401	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+74	238		98.128	374	4	2	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+74	588		97.326	374	4	5	1.83e	179	630	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+75	397		99.671	304	1	0	3.69e	157	556	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+76	1250		99.558	226	1	0	8.11e	114	412	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+76	449		99.598	249	1	0	1.22e	126	455	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+77	1209		97.695	347	6	2	8.20e	169	595	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+77	1392		99.708	343	1	0	1.08e	178	628	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+774	62		98.133	375	2	4	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+775	814		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+777	598		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+788	231		99.948	1941	1	0	0.0	3579	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+79	1266		100.000	169	0	0	6.06e	84	313	AF124460.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Schistocephalus;	s__solidus	AF124460.1
+79	1684		100.000	276	0	0	3.69e	143	510	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+79	611		100.000	802	0	0	0.0	1482	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+797	221		99.541	654	3	0	0.0	1192	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+80	1115		100.000	218	0	0	4.80e	111	403	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+80	1256		100.000	198	0	0	5.66e	100	366	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+80	847		98.230	226	2	2	4.94e	108	394	GQ423749.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	GQ423749.1
+80	858		97.594	374	5	3	0.0	638	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+81	1054		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+81	1058		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+81	1318		97.872	376	3	3	0.0	645	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+81	262		99.637	1102	4	0	0.0	2013	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+81	301		99.490	392	2	0	0.0	713	AB374225.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__nihonkaiensis	AB374225.1
+81	394		99.677	929	1	1	0.0	1698	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+81	767		99.574	470	1	1	0.0	856	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+82	1127		100.000	281	0	0	5.98e	146	520	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+82	124		98.611	432	5	1	0.0	763	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+82	352		99.463	559	2	1	0.0	1014	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+82	353		99.808	522	1	0	0.0	959	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+82	708		98.128	374	3	3	0.0	649	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+83	1086		98.969	194	1	1	1.11e	93	346	HQ682066.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__dendriticus	HQ682066.1
+83	1223		99.074	432	2	2	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+85	1149		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+869	745		99.413	341	2	0	6.58e	176	619	AB374225.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__nihonkaiensis	AB374225.1
+87	30		99.815	1080	0	2	0.0	1982	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+877	699		100.000	325	0	0	2.48e	170	601	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+88	741		99.736	757	0	1	0.0	1386	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+898	864		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+90	1365		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+90	26		98.611	432	5	1	0.0	763	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+90	390		98.396	374	3	2	0.0	654	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+90	698		99.617	261	1	0	2.86e	133	477	GQ260088.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__asiatica	GQ260088.1
+9058	828		99.537	432	1	1	0.0	785	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+907	335		98.834	343	2	2	4.10e	173	610	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+91	434		98.843	432	4	1	0.0	769	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+92	848		100.000	740	0	0	0.0	1367	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+928	696		98.611	432	5	1	0.0	763	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+931	1197		100.000	247	0	0	4.21e	127	457	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+933	389		100.000	528	0	0	0.0	976	AB282658.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__histolytica	AB282658.1
+94	185		99.651	573	2	0	0.0	1048	HQ228991.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__sp.	JL	2010	HQ228991.1
+94	811		97.921	433	7	2	0.0	749	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+945	177		97.326	374	7	2	5.13e	180	632	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+95	295		98.660	373	2	2	0.0	658	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+959	1104		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+97	1183		99.099	222	2	0	6.28e	110	399	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+97	556		99.769	432	0	1	0.0	791	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+97	600		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+98	766		99.074	432	3	1	0.0	774	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+98	937		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+98	977		96.319	163	2	3	1.63e	69	265	HQ682066.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Dibothriocephalus;	s__dendriticus	HQ682066.1
+99	114		99.340	606	4	0	0.0	1098	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+990	571		98.930	374	1	2	0.0	665	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+	
