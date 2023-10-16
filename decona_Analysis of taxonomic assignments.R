@@ -10,6 +10,18 @@ if (!require(vegan)) {
   library(vegan)
 }
 
+
+# Retrieve higher taxonomic names -----------------------------------------
+specieslist <- c("Taenia saginata","Clonorchis sinensis","Acanthamoeba","Paragonimus westermani","Entamoeba histolytica","Trichuris trichiura","Sparganum","Ascaris","Giardia","Anisakis")
+classification(specieslist, db = 'ncbi'
+                 #'itis'
+               )
+
+
+# Resolve taxonomic name --------------------------------------------------
+temp <- gnr_resolve(c("Clonorchis sinensis","Paragonimus westermani","Trichuris trichiura","Sparganum"))
+head(temp)
+
 # 표 S6에서 데이터를 불러옵니다.
 # 이 부분은 실제 파일 경로와 파일 형식에 따라 변경해야 합니다.
 data <- read.csv("table_S6.csv")
