@@ -56,14 +56,14 @@ qiime feature-classifier classify-consensus-blast \
  --p-maxaccepts 1 \
  --p-perc-identity 0.95 \
  --p-min-consensus 0.75 \
- --p-query-cov 0.5 \
+ --p-query-cov 0.1 \
  --p-evalue 0.1 \
  --output-dir taxonomy
 
 Barplot
 qiime taxa barplot \
 --i-table primer_trimed_filtered_demulti_table.qza \
---i-taxonomy /mnt/e/Nanopore/parasite_18S/taxonomy/classification.qza \
+--i-taxonomy /mnt/e/Nanopore/parasite_18S/max1_percid0.95_mincon0.75_querycov0.1_pvalue0.1/taxonomy/classification.qza \
 --o-visualization bar_plots_blast95_18S-asv.qzv 
 
 qiime metadata tabulate \
