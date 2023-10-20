@@ -43,6 +43,8 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncb
 decona -f -l 100 -m 2100 -q 10 -c 1.00 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 #desktop
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/e/Nanopore/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/c/Users/holyknightt/'Geneious 2023.2 Data'/BLAST/data
+
 
 #https://www.readcube.com/library/6a892c3a-8653-4b22-88cb-6d624da7e92e:e7f9884f-3dda-4b66-91ff-8fc8ae5f027a
 2kb: decona -f -T 20 -l 1800 -m 2350 -g 1 "GGATTACCCYACTATGC;max_error_rate=0.1;min_overlap=17…CTAGGGATAACAGCGCAATC;max_error_rate=0.1;min_overlap=17" -n 5 -r 0.99= -R 500 -M
