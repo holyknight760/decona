@@ -42,7 +42,7 @@ The error message you've received indicates that the `cd-hit-est` command, which
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 decona -f -l 100 -m 2100 -q 10 -c 1.00 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 ##18S_V9_300bp
-decona -f -T 20 -l 100 -m 300 -q 10 -c 1.00 -n 5 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+decona -f -T 20 -l 100 -m 300 -q 10 -c 1.00 -n 5 -k 6 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 ##barcode08_1950bp
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 1.00 -n 5 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 

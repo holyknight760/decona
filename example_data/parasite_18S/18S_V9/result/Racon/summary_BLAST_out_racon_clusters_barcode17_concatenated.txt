@@ -1,0 +1,781 @@
+BLAST_out_clusters
+10	10888		99.338	151	1	0	1.57e	72	274	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+10	10902		98.352	182	3	0	1.98e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	11432		85.207	169	16	8	9.52e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	12724		86.628	172	15	7	2.72e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	13699		86.047	172	16	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	14386		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	14693		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	16098		85.465	172	16	8	2.10e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	17897		86.705	173	14	8	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	18727		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	19625		99.438	178	1	0	1.51e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	20850		87.135	171	14	7	2.07e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	23902		85.465	172	17	7	5.84e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	24357		86.550	171	16	6	9.58e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	25348		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	25390		97.802	182	2	1	3.28e	84	313	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	25593		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+10	27334		95.349	43	2	0	7.83e	11	69.4	JQ910878.1	k__Fungi;	p__Fungi;	c__Fungi;	o__Fungi;	f__Fungi;	g__uncultured;	s__fungus	JQ910878.1
+10	3478		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+10	43390		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	44799		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	45368		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	45580		98.837	172	2	0	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	46147		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	47293		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	47911		98.844	173	2	0	4.05e	83	309	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+10	48023		98.837	172	1	1	5.23e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	49378		99.422	173	0	1	3.11e	84	313	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+10	50356		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	50958		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	51099		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	52222		97.688	173	1	1	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	52669		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	55069		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	56258		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+10	57912		98.256	172	1	1	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+106	10646		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+1096	754		99.451	182	1	0	9.16e	90	331	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+11	10755		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+11	11562		85.549	173	17	7	1.63e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	11606		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	11677		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+11	14492		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	14991		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+11	16833		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	17384		85.965	171	16	7	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	17727		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	18119		87.135	171	15	6	2.10e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	18855		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+11	1895		98.942	189	2	0	5.72e	92	339	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+11	19491		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	22116		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	2225		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+11	2323		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+11	2461		98.942	189	1	1	2.05e	91	337	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+11	25313		86.628	172	15	7	2.66e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	26882		85.294	170	16	8	2.65e	40	167	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	27497		85.380	171	16	8	7.46e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	33973		98.276	174	2	1	1.90e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	34342		86.550	171	15	7	9.45e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	42156		98.276	174	1	1	1.91e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	44696		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	45579		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	48274		98.844	173	2	0	4.05e	83	309	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+11	49476		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	49789		97.688	173	1	3	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	52923		97.674	172	3	1	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	53034		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	5579		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+11	56495		98.266	173	1	2	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	58050		97.674	172	1	3	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	60024		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	66185		97.110	173	1	2	5.13e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+11	81662		97.037	135	2	1	3.14e	58	226	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+114	10531		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+119	20117		98.343	181	1	1	2.53e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	10496		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	11257		86.047	172	16	6	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+12	1241		99.471	189	0	1	4.40e	93	342	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+12	138		98.256	172	1	1	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	14042		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	1504		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	16574		86.550	171	16	6	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+12	18107		86.628	172	16	6	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+12	20587		86.047	172	16	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+12	21338		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+12	2236		99.471	189	1	0	1.23e	93	344	AY173014.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS6	AY173014.1
+12	42225		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	49592		98.266	173	2	1	6.72e	81	302	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+12	51771		98.851	174	1	1	4.05e	83	309	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+12	52693		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	5278		99.444	180	1	0	1.18e	88	327	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	5473		99.444	180	1	0	1.19e	88	327	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+12	58012		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	60476		97.674	172	1	3	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	63055		97.674	172	1	2	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+12	8055		98.361	183	1	1	2.01e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+1296	109		99.422	173	1	0	8.70e	85	315	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	11340		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	15649		86.628	172	15	7	2.65e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	16787		86.550	171	16	6	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	19118		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	19496		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	20273		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+13	21740		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	24362		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+13	41642		98.851	174	2	0	1.13e	83	311	AB521803.1	k__Metazoa;	p__Platyhelminthes;	c__Trematoda;	o__Plagiorchiida;	f__Troglotrematidae;	g__Troglotrematidae;	s__sp.	HS-2009	AB521803.1
+13	44400		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	46633		96.532	173	4	2	6.82e	76	285	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	49220		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	62624		97.674	172	1	3	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	63060		97.674	172	1	3	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+13	64698		97.110	173	1	4	5.13e	77	289	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+13	9786		86.471	170	15	7	3.49e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	10539		98.352	182	2	1	7.13e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+14	14100		87.209	172	15	6	5.80e	47	189	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	14921		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	17527		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	18092		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	21130		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+14	37302		96.685	181	1	1	3.24e	79	296	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+14	38833		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+14	48589		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+14	50059		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+14	51700		97.688	173	2	2	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+14	53592		97.110	173	3	2	1.45e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+14	55523		98.266	173	1	2	6.68e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+14	9581		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+142	10099		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+145	40209		98.837	172	1	1	5.16e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	10296		86.628	172	15	7	2.75e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+15	15197		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+15	17651		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+15	40002		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	45413		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	45704		98.837	172	2	0	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	47525		97.688	173	1	3	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	50777		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	52632		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	53294		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	58827		97.110	173	2	3	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+15	61536		97.674	172	1	3	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+159	79140		99.338	151	1	0	1.27e	72	274	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+16	10408		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+16	10837		86.471	170	15	7	3.47e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+16	1221		86.550	171	15	7	1.03e	44	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+16	13733		86.228	167	15	7	1.63e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+16	18888		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+16	19050		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+16	19812		98.352	182	1	1	7.04e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+16	33161		84.302	172	17	8	4.46e	38	159	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+16	36905		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+16	4475		99.448	181	1	0	3.30e	89	329	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+16	44861		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+16	48250		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+16	49313		98.256	172	2	1	2.43e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	100		98.352	182	1	1	8.69e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+17	10439		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+17	14228		98.352	182	2	1	7.09e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+17	14314		98.352	182	1	2	7.04e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+17	15324		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+17	16323		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+17	17460		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+17	42154		98.824	170	1	1	6.63e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	44116		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	4418		85.455	165	16	7	9.27e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+17	44789		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	46090		98.844	173	2	0	4.05e	83	309	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+17	48321		98.837	172	2	0	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	48950		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	50240		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	57976		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+17	9273		85.294	170	16	8	2.75e	40	167	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+172	6620		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+18	10942		86.391	169	15	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+18	1534		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+18	19601		84.795	171	18	7	9.71e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+18	2171		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+18	2181		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+18	48084		98.266	173	2	1	6.72e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+18	659		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+18	6668		97.814	183	3	1	9.29e	85	315	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+18	7604		86.127	173	16	7	3.56e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	14288		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+19	15594		86.047	172	15	8	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	17749		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	18459		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	19126		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	259		86.550	171	15	7	9.52e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+19	39853		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+19	44734		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+19	52461		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+19	54488		96.532	173	4	2	6.73e	76	285	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+19	63193		97.688	173	1	3	1.11e	78	294	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+19	6353		98.026	152	3	0	9.43e	70	265	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+19	895		99.474	190	0	1	1.24e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+193	171		100.000	189	0	0	2.64e	95	350	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+193	41710		99.422	173	1	0	8.70e	85	315	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+20	11		99.408	169	1	0	1.44e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+20	19365		98.343	181	2	1	2.55e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+20	21752		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+20	48857		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+20	50021		97.110	173	3	1	1.45e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+208	12467		87.135	171	15	6	2.09e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+21	24491		86.047	172	15	8	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+21	34363		84.795	171	15	8	1.23e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+21	42759		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+21	44875		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+21	45991		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+21	53096		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+21	6213		86.628	172	15	7	2.72e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+21	6973		87.209	172	15	6	5.80e	47	189	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+210	34027		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+22	10432		99.448	181	1	0	3.32e	89	329	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+22	11793		98.352	182	3	0	1.98e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+22	1399		99.474	190	0	1	1.24e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+22	16487		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+22	21131		86.047	172	15	8	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+22	2848		86.471	170	15	7	3.49e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+22	37428		98.851	174	1	1	4.13e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+22	40062		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+22	4103		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+23	18120		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+23	20974		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+23	42752		97.688	173	2	2	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+24	43055		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+244	610		100.000	189	0	0	2.64e	95	350	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+25	13661		99.435	177	1	0	5.44e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+25	18800		85.465	172	16	8	2.07e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+25	18874		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+25	29674		97.790	181	1	1	4.21e	83	309	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+25	44693		98.837	172	2	0	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+25	48235		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+25	53622		98.266	173	1	2	6.68e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+25	63095		97.688	173	1	3	1.11e	78	294	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+25	79524		98.667	150	2	0	2.12e	70	267	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+26	17495		86.047	172	14	8	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+26	50218		98.844	173	1	1	1.45e	82	307	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+26	5807		99.448	181	1	0	3.32e	89	329	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+26	62962		97.110	173	2	1	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+26	81415		96.296	135	3	1	1.46e	56	220	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+27	56061		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+28	12452		86.310	168	15	7	4.43e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+28	24218		87.059	170	16	5	2.07e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+28	4984		99.444	180	1	0	1.18e	88	327	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+29	10460		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+29	17040		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+30	15771		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+31	40127		99.412	170	1	0	4.02e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+31	46889		99.405	168	1	0	5.16e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+31	47812		96.532	173	4	1	6.73e	76	285	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+31	7936		87.013	154	14	6	7.75e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+311	122		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+32	49102		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+33	22158		98.343	181	1	1	2.53e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+33	45127		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+333	167		99.419	172	1	0	3.13e	84	313	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+339	17015		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+34	1675		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+34	28097		97.790	181	1	2	4.21e	83	309	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+34	37044		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+34	41261		99.419	172	1	0	3.15e	84	313	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+35	11431		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+35	17602		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+35	18795		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+35	7488		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+36	32087		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+37	6592		86.628	172	15	7	2.72e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+38	12009		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+39	47840		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+41	10093		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+42	3294		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+42	7088		86.228	167	15	7	1.57e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+42	8071		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+43	50006		98.844	173	1	1	1.45e	82	307	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+44	44272		97.688	173	2	2	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+44	8456		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+46	54256		98.256	172	1	1	2.39e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+47	54728		98.266	173	1	1	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+48	42569		97.688	173	2	1	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+49	11307		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	1003		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+5	10817		97.814	183	3	1	9.29e	85	315	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	10963		98.352	182	2	1	7.18e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	11462		85.549	173	16	8	5.84e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	11547		98.352	182	2	1	7.18e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	12391		84.971	173	17	7	2.75e	40	167	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	13601		85.549	173	15	9	5.88e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	14138		98.343	181	3	0	7.09e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	14141		87.135	171	16	5	5.84e	47	189	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	14173		98.675	151	2	0	7.29e	71	268	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+5	14245		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	14253		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	14623		85.632	174	15	8	1.63e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	14882		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	14987		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	15072		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	15442		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	15575		86.550	171	15	7	9.77e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	15880		86.628	172	14	8	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	16255		98.324	179	1	1	3.21e	84	313	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	16361		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	16445		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	17546		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	18437		86.628	172	16	6	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	18725		85.549	173	15	9	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	18865		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	19027		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	19175		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19221		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19310		86.628	172	16	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19352		86.628	172	16	6	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19451		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19784		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	19849		98.333	180	1	1	9.17e	85	315	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	20171		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	20889		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	20892		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	20995		98.343	181	2	1	2.55e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	2123		98.942	189	2	0	5.72e	92	339	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+5	2180		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+5	22745		85.380	171	16	8	7.51e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	23304		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	23610		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24208		86.550	171	17	5	2.66e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24297		85.549	173	15	9	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24299		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24332		98.286	175	1	2	5.23e	82	305	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	24367		85.965	171	16	7	4.28e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24567		86.420	162	14	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24816		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	24821		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25068		99.435	177	1	0	5.44e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	25170		97.790	181	2	1	1.18e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	25336		84.302	172	17	9	4.52e	38	159	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25374		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25792		86.747	166	14	7	1.24e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25841		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25881		86.047	172	15	8	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25925		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	25948		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	2595		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+5	26331		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	27983		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	29677		86.047	172	15	7	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	30301		86.228	167	15	7	1.59e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	30795		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	31246		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	31277		86.047	172	15	8	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	31349		85.714	168	16	7	2.06e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	32051		86.628	172	15	7	2.65e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	33212		84.302	172	16	9	1.61e	37	158	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	34738		97.253	182	1	2	5.41e	82	305	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	34848		84.393	173	15	10	4.46e	38	159	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	36358		98.817	169	1	1	2.39e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	3643		86.228	167	15	7	1.57e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	37199		85.465	172	14	8	7.36e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	38647		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	39821		97.674	172	3	1	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	39949		99.419	172	1	0	3.15e	84	313	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	40794		98.851	174	1	1	4.10e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	42639		98.276	174	2	1	1.90e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	42715		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	42911		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	44149		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	44437		97.701	174	3	1	8.82e	80	298	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	44522		97.688	173	4	0	8.88e	80	298	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	44658		98.844	173	2	0	4.10e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	44753		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	45469		97.590	166	3	1	2.35e	75	283	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	45491		98.830	171	1	1	1.86e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	45875		99.412	170	1	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	46970		99.419	172	1	0	3.13e	84	313	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	47967		98.266	173	1	2	6.82e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48035		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48157		98.256	172	3	0	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48242		98.837	172	1	1	5.16e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48297		98.830	171	1	1	1.87e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48656		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	48764		98.844	173	1	1	1.45e	82	307	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	49128		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	49288		98.837	172	2	0	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	49523		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	49779		98.844	173	2	0	4.05e	83	309	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	50396		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	50520		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	50903		97.110	173	3	2	1.47e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	51324		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	51933		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52401		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52572		98.844	173	1	1	1.45e	82	307	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+5	52595		98.266	173	1	2	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52657		98.266	173	2	1	6.72e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	52717		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52744		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52747		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	52966		97.093	172	3	2	5.20e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	54858		98.266	173	1	1	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	57954		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	58176		99.401	167	0	1	6.63e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	58236		97.688	173	1	1	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	59911		98.844	173	0	2	1.44e	82	307	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	60540		97.093	172	1	4	1.86e	76	287	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	61272		98.214	168	2	1	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	62385		97.110	173	2	2	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	62861		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	63992		97.688	173	1	2	1.11e	78	294	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	65872		97.110	173	1	3	5.13e	77	289	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	67550		97.093	172	1	3	1.84e	76	287	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	67561		96.532	173	2	3	2.39e	75	283	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	67820		97.110	173	1	4	5.13e	77	289	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+5	67839		96.532	173	2	2	2.39e	75	283	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	68312		97.093	172	1	4	1.84e	76	287	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+5	7255		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	7562		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	78909		98.675	151	2	0	5.89e	71	268	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	78972		99.333	150	1	0	4.62e	72	272	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	79044		98.026	152	1	1	2.76e	69	263	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	79451		98.000	150	3	0	9.86e	69	261	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	79548		98.000	150	3	0	9.86e	69	261	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	80128		96.053	152	2	3	9.77e	64	244	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+5	8091		97.814	183	2	2	9.35e	85	315	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	81121		97.794	136	3	0	5.31e	61	235	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+5	81210		96.324	136	3	1	4.17e	57	222	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+5	81566		97.037	135	3	1	3.17e	58	226	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+5	81967		94.815	135	3	2	1.11e	52	207	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+5	8736		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+5	9168		86.705	173	14	8	2.73e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	9649		95.349	43	2	0	8.03e	11	69.4	JQ910878.1	k__Fungi;	p__Fungi;	c__Fungi;	o__Fungi;	f__Fungi;	g__uncultured;	s__fungus	JQ910878.1
+5	9694		84.795	171	16	9	3.58e	39	163	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5	9949		84.302	172	19	7	1.26e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+51	19569		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+52	16944		86.982	169	16	5	7.36e	46	185	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+5238	63		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+53	27618		86.550	171	15	7	9.52e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+53	42172		97.110	173	4	1	1.46e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+53	5925		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+55	7109		86.228	167	15	7	1.59e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	10280		85.465	172	16	8	2.10e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	10358		98.026	152	3	0	9.43e	70	265	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+6	10424		86.628	172	15	7	2.72e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	10509		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	10740		98.889	180	2	0	5.44e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	11172		98.361	183	1	2	1.98e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	121		99.429	175	1	0	6.81e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	12298		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	12755		86.550	171	15	7	9.58e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	13988		98.352	182	1	2	7.13e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	14189		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	14251		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	14792		98.352	182	3	0	1.98e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	15004		85.965	171	17	6	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	15281		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	18442		85.549	173	16	8	5.84e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	18729		98.343	181	2	1	2.55e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	18828		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	18890		85.549	173	15	9	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	19018		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	19030		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	1925		99.448	181	1	0	3.46e	89	329	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	19363		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	19449		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	19770		97.790	181	2	1	1.18e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	20123		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	20258		86.047	172	17	6	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	20736		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	21396		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	21642		87.209	172	14	7	5.76e	47	189	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	21886		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	22182		95.238	42	2	0	2.80e	10	67.6	JQ910878.1	k__Fungi;	p__Fungi;	c__Fungi;	o__Fungi;	f__Fungi;	g__uncultured;	s__fungus	JQ910878.1
+6	22556		84.795	171	18	7	9.77e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24155		86.047	172	15	8	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24230		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24318		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24326		86.364	154	14	7	1.25e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24376		84.795	171	18	7	9.71e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24426		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24772		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	24960		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	25542		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	25915		86.550	171	16	6	9.58e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	2614		99.471	189	0	1	4.40e	93	342	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+6	26415		98.352	182	1	1	7.04e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	28648		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	29877		86.471	170	15	7	3.38e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	30112		97.802	182	1	3	1.17e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	35781		84.302	172	16	8	1.59e	37	158	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	36187		97.253	182	1	2	5.41e	82	305	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	38076		84.302	172	16	10	1.59e	37	158	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	39862		99.422	173	1	0	8.81e	85	315	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	42819		97.110	173	4	1	1.48e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	43163		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	43594		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	44099		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	44704		97.126	174	1	3	1.47e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	44768		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	45606		98.266	173	1	2	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	45754		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	46067		98.276	174	2	1	1.90e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	46238		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	4647		97.884	189	1	1	1.57e	87	324	AY173015.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS7	AY173015.1
+6	47211		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	47343		97.674	172	4	0	3.15e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	47872		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	48124		98.837	172	1	1	5.23e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	48387		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	48604		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	48727		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	49353		97.093	172	4	1	5.23e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	50136		99.415	171	1	0	1.12e	83	311	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	51315		98.844	173	1	1	1.45e	82	307	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+6	51346		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	52616		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	52855		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	52876		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	53170		97.688	173	2	1	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	53464		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	53677		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	53855		97.093	172	2	2	1.86e	76	287	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	57332		97.688	173	2	2	3.11e	79	296	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+6	57894		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	5859		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	59441		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	61329		97.110	173	2	2	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	61615		97.674	172	1	2	3.99e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	61725		96.532	173	3	2	2.40e	75	283	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	61881		97.110	173	2	1	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	62986		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	63026		97.110	173	2	3	5.16e	77	289	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	65934		95.954	173	4	1	1.12e	73	278	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+6	71		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+6	7409		97.826	184	2	2	2.60e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	7574		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	79452		98.667	150	2	0	2.12e	70	267	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+6	79923		97.351	151	2	1	4.52e	67	255	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+6	79933		98.667	150	1	1	7.56e	70	265	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+6	81242		97.794	136	2	1	1.91e	60	233	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+6	8954		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	9186		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+6	9369		98.901	182	1	1	1.55e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+62	39731		98.266	173	1	2	6.68e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+62	43931		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+63	81096		98.519	135	2	0	4.11e	62	239	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+65	52459		98.266	173	1	1	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+68	79188		99.333	150	1	0	4.56e	72	272	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+7	104		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	10868		86.628	172	16	6	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	11511		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	12496		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	13022		84.393	173	17	9	1.27e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	13135		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	13642		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	13855		86.228	167	15	7	1.64e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	14389		86.127	173	14	9	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	14857		85.465	172	16	7	2.10e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	1598		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+7	15983		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	16183		86.705	173	15	7	7.50e	46	185	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	16623		85.465	172	18	6	5.84e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	16731		86.550	171	16	6	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	17325		86.471	170	15	7	3.47e	44	180	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	17821		85.465	172	16	8	2.10e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	18715		86.747	166	14	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	18816		87.135	171	16	5	5.76e	47	189	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	18925		97.802	182	1	2	1.19e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	19063		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	19980		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	20056		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	20631		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	20642		85.965	171	16	7	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	21167		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	23537		86.747	166	14	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	23604		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	24253		98.343	181	1	2	2.53e	85	316	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	24263		96.026	151	4	1	1.21e	63	244	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+7	24430		86.667	165	14	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	24604		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	24658		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	24808		97.238	181	3	1	5.48e	82	305	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	25072		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	25253		87.135	171	15	6	2.06e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	27005		85.465	172	17	7	5.80e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	28587		86.550	171	15	7	9.58e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	29633		85.380	171	15	8	7.41e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	30018		86.628	172	15	7	2.66e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	30367		97.790	181	1	3	4.21e	83	309	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	30439		86.047	172	15	7	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	30588		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	35805		84.795	171	15	8	1.23e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	37		85.965	171	16	7	4.49e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	37226		86.628	172	15	7	2.63e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	37414		84.884	172	15	8	3.42e	39	163	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	39659		99.415	171	1	0	1.16e	83	311	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	39950		84.795	171	15	5	1.22e	38	161	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+7	40648		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	42124		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	42500		97.701	174	1	2	3.17e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	43933		98.276	174	1	2	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	44101		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	44621		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	44710		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	44715		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	44725		98.837	172	2	0	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	45051		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	45734		98.266	173	2	1	6.82e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	45790		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	45920		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	46780		97.688	173	1	3	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	46836		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	47265		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	47351		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	48126		98.266	173	1	2	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51045		97.110	173	3	1	1.45e	77	291	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51164		97.126	174	3	2	4.07e	78	292	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51171		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51478		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51608		97.688	173	2	2	3.11e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	51719		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	52676		95.954	173	4	3	1.13e	73	278	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	53212		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	53808		98.266	173	1	2	6.68e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+7	54369		98.266	173	2	1	6.72e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+7	55003		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	55994		97.688	173	2	2	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	56418		98.266	173	1	2	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	56954		98.266	173	1	1	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	57367		98.256	172	1	1	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	57587		97.688	173	2	2	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	57639		97.688	173	1	3	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	57913		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	58085		97.688	173	2	2	3.11e	79	296	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+7	58597		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	59085		98.256	172	1	2	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	60575		98.810	168	1	1	8.58e	80	298	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	62890		94.828	174	4	2	2.42e	70	267	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+7	79238		98.667	150	2	0	2.12e	70	267	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+7	79661		98.675	151	1	1	2.10e	70	267	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+7	81203		97.794	136	3	0	5.36e	61	235	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+7	81605		97.059	136	2	1	8.73e	59	228	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+7	8462		99.441	179	1	0	4.32e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	8507		98.343	181	3	0	7.13e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+7	9927		85.143	175	15	8	7.65e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+70	6612		97.351	151	4	0	1.58e	67	257	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+70	6925		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+71	4976		84.971	173	16	9	2.73e	40	167	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+71	80995		98.529	136	2	0	1.14e	62	241	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+73	9723		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+78	11461		86.127	173	15	8	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+78	48482		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+78	6032		98.352	182	1	1	7.04e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+789	5003		99.448	181	1	0	3.30e	89	329	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	10105		86.782	174	15	7	2.11e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	103		99.405	168	1	0	5.09e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	10372		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	10427		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	11659		85.549	173	15	9	5.88e	42	172	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	12350		86.047	172	15	8	4.54e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	13323		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	13928		86.047	172	16	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	13975		85.965	171	15	8	1.60e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	14105		97.802	182	4	0	9.23e	85	315	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	14114		99.342	152	1	0	4.35e	73	276	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+8	14152		86.550	171	15	7	9.70e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	14175		98.684	152	2	0	2.03e	71	270	JQ609338.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Cyclophyllidea;	f__Taeniidae;	g__Taenia;	s__saginata	JQ609338.1
+8	14212		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	15809		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	16112		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	17013		85.965	171	15	8	1.58e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	17203		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	17848		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	18485		85.465	172	16	8	2.10e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	18781		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	18839		99.432	176	1	0	1.96e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	19049		86.628	172	15	7	2.68e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	19250		98.901	182	1	1	1.52e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	19416		97.802	182	2	1	3.28e	84	313	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	20		98.256	172	1	2	2.39e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	20031		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	20783		86.047	172	15	8	4.51e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	21033		85.380	171	17	7	2.09e	41	171	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	2212		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+8	23265		98.352	182	1	1	7.09e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	23678		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	24207		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	2469		99.471	189	1	0	1.23e	93	344	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+8	25965		84.795	171	17	8	3.47e	39	163	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	26458		84.795	171	17	8	3.47e	39	163	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	29472		97.802	182	1	1	1.17e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	29643		86.550	171	15	7	9.58e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	30077		97.238	181	1	1	1.95e	81	303	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	30660		97.802	182	1	3	1.17e	83	311	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	30661		85.629	167	16	7	7.41e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	31109		86.628	172	13	7	9.52e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	3221		98.942	189	1	1	2.05e	91	337	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+8	32767		84.795	171	17	8	3.47e	39	163	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	36002		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	37357		84.302	172	16	9	1.59e	37	158	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	41346		98.266	173	1	2	6.68e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	4185		98.404	188	1	2	3.40e	89	329	GU320586.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	COHH	26	GU320586.1
+8	43058		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	43165		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	44190		98.266	173	3	0	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	44602		98.844	173	2	0	4.10e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	44784		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	45989		96.532	173	4	2	6.82e	76	285	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	46302		98.830	171	2	0	5.16e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	48056		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	48101		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	49235		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	49712		98.837	172	1	1	5.20e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	51894		97.674	172	3	1	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	52762		97.688	173	1	3	1.13e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	53172		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	53327		96.532	173	3	3	2.44e	75	283	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	53485		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	53803		98.256	172	2	1	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	555		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+8	56848		97.674	172	2	2	1.12e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	57896		98.266	173	1	1	6.68e	81	302	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+8	58138		98.266	173	1	1	6.68e	81	302	GU245692.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Ascarididae;	g__Krefftascaris;	s__sharpiloi	GU245692.1
+8	58157		98.266	173	1	2	6.68e	81	302	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+8	58219		97.688	173	1	2	1.11e	78	294	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	61525		95.954	173	4	2	1.12e	73	278	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+8	79002		98.026	152	1	1	2.76e	69	263	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+8	7991		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+8	81528		97.059	136	2	2	8.73e	59	228	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+80	37713		98.266	173	2	1	6.72e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+83	4090		86.047	172	15	8	4.46e	43	176	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+83	48175		98.844	173	1	1	1.45e	82	307	EF180059.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Toxocaridae;	g__Toxocara;	s__cati	EF180059.1
+89	6770		87.013	154	14	6	7.51e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	10450		98.361	183	2	1	2.00e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	10513		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	10562		98.907	183	1	1	4.29e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	11053		98.895	181	2	0	1.53e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	12974		87.283	173	14	7	1.62e	47	191	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	14044		98.901	182	2	0	4.26e	88	326	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	14205		98.352	182	3	0	1.98e	86	320	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	14226		86.628	172	16	6	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	14816		98.895	181	1	1	5.48e	87	322	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	18878		86.628	172	15	7	2.70e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	18982		86.550	171	15	7	9.64e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	19016		86.127	173	15	8	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	22		98.519	135	2	0	4.07e	62	239	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+9	226		85.965	171	14	9	1.59e	42	174	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	23856		84.884	172	18	7	2.70e	40	167	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	24237		97.253	182	3	2	1.52e	82	307	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	2479		98.942	189	1	1	2.05e	91	337	AY173013.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	KA/MSS2	AY173013.1
+9	24871		84.795	171	18	7	9.71e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	25069		84.795	171	18	7	9.71e	40	165	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	25265		86.047	172	16	7	1.25e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	26009		87.135	171	15	6	2.06e	46	187	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	31526		86.550	171	15	7	9.52e	45	182	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	33824		86.628	172	15	7	2.66e	45	183	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	34892		98.851	174	1	1	4.07e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	3515		86.047	172	16	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	35177		84.049	163	15	9	3.24e	34	147	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	41652		98.286	175	1	1	5.30e	82	305	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	41791		97.688	173	4	0	8.94e	80	298	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	42250		98.844	173	1	1	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	43380		98.276	174	1	2	1.88e	81	303	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	44000		98.266	173	2	1	6.77e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	44008		97.688	173	3	1	3.13e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	44740		99.415	171	1	0	1.12e	83	311	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	44792		98.844	173	2	0	4.07e	83	309	AB521803.1	k__Metazoa;	p__Platyhelminthes;	c__Trematoda;	o__Plagiorchiida;	f__Troglotrematidae;	g__Troglotrematidae;	s__sp.	HS-2009	AB521803.1
+9	45862		98.246	171	3	0	2.40e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	46149		98.837	172	2	0	1.46e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	47739		98.844	173	2	0	4.05e	83	309	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	47990		98.266	173	2	1	6.82e	81	302	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	48314		98.844	173	1	1	1.45e	82	307	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	52232		97.688	173	2	2	3.15e	79	296	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	52335		98.256	172	1	2	2.42e	80	300	JX237370.1	k__Metazoa;	p__Nematoda;	c__Chromadorea;	o__Rhabditida;	f__Anisakidae;	g__Anisakis;	s__simplex	JX237370.1
+9	7250		86.391	169	15	7	1.26e	43	178	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+9	79155		98.013	151	2	1	9.94e	69	261	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+9	79214		99.338	151	1	0	1.28e	72	274	AB749447.1	k__Eukaryota;	p__Evosea;	c__Evosea;	o__Mastigamoebida;	f__Entamoebidae;	g__Entamoeba;	s__nuttalli	AB749447.1
+9	81617		97.037	135	2	1	3.14e	58	226	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+9	81624		96.296	135	2	2	5.21e	56	219	AACB03000031.1	k__Eukaryota;	p__Fornicata;	c__Fornicata;	o__Diplomonadida;	f__Hexamitidae;	g__Giardia;	s__intestinalis	AACB03000031.1
+9	9095		98.352	182	2	1	7.18e	86	318	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+9	9256		98.901	182	1	1	1.54e	87	324	D64072.1	k__Metazoa;	p__Platyhelminthes;	c__Cestoda;	o__Diphyllobothriidea;	f__Diphyllobothriidae;	g__Spirometra;	s__erinaceieuropaei	D64072.1
+91	25339		85.380	171	16	8	7.46e	41	169	DQ992191.1	k__Eukaryota;	p__Discosea;	c__Discosea;	o__Longamoebia;	f__Acanthamoebidae;	g__Acanthamoeba;	s__sp.	EFW13	DQ992191.1
+	
