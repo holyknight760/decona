@@ -38,8 +38,9 @@ The error message you've received indicates that the `cd-hit-est` command, which
 #    export PATH="/home/holyknightt/miniconda3/envs/decona/bin/:$PATH"
 
 #-B로 이미 하드에 만들어진 NCBI 데이터베이스를 기반으로 분석이 진행됨.
-#notebook
+#notebook_7ea find
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#notebook_9ea find and 간흡충은 Paragonimus westermani와 유사
 decona -f -l 100 -m 2100 -q 10 -c 1.00 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 ##18S_V9_300bp_9ea find and 간흡충은 Paragonimus westermani와 유사
 decona -f -T 20 -l 100 -m 300 -q 10 -c 1.00 -n 5 -k 6 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
