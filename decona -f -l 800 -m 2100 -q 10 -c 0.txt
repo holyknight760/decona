@@ -56,6 +56,7 @@ decona -f -T 20 -l 1850 -m 2300 -q 10 -c 0.80 -n 5 -k 15 -M -b /mnt/d/parasite_1
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 0.99 -n 5 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 #re-cluster consensus sequences-'-p'옵션은 fastq 파일이 있는 폴더에서 실행하면, 간략한 서열 길이를 알 수 있다. 
 decona -f -p -T 20 -l 1850 -m 2300 -q 10 -c 0.80 -n 5 -r 0.99 -R 500 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#3.2175시간 소요됨. blast 결과도 볼 수 없음. 
 decona -f -T 20 -l 355 -m 2327 -q 10 -c 0.80 -n 5 -r 0.99 -R 500 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
   
