@@ -46,13 +46,13 @@ decona -f -l 100 -m 2100 -q 10 -c 1.00 -n 25 -k 14 -M -b /mnt/d/parasite_18S/ncb
 decona -f -T 20 -l 100 -m 300 -q 10 -c 1.00 -n 5 -k 6 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 #re-cluster consensus sequences
 decona -f -l 100 -m 2100 -q 10 -c 1.00 -n 25 -r 0.99 -R 500 -k 14 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-##barcode08_1950bp_1개씩 독립적으로 존재할 때, blast 결과가 없음. 
+##barcode08_1950bp_서열이 1개씩 독립적으로 존재할 때, blast 결과가 없음. 
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 1.00 -n 5 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-##barcode08_1950bp_1개씩 독립적으로 존재할 때, 클러스터 사이즈 100이 되면 100개의 서열을 하나로 묶음. 그래서 많은 서열이 없어짐. 
+##barcode08_1950bp_클러스터 사이즈 100이 되면 100개의 서열을 하나로 묶음. 그래서 많은 서열이 없어짐. 
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 0.80 -n 100 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-##barcode08_1950bp_1개씩 독립적으로 존재할 때, 클러스터 사이즈 100이 되면 5개의 서열을 하나로 묶음.  
+##barcode08_1950bp_클러스터 사이즈 100이 되면 5개의 서열을 하나로 묶음.  
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 0.80 -n 5 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
-##barcode08_1950bp_1개씩 독립적으로 존재할 때, 클러스터 identity 0.8은 0.99보다 결과가 다양하다. 
+##barcode08_1950bp_서열이 약 1개씩 독립적으로 존재할 때, 클러스터 identity 0.8은 0.99보다 결과가 다양하다. 
 decona -f -T 20 -l 1850 -m 2300 -q 10 -c 0.99 -n 5 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 #re-cluster consensus sequences-'-p'옵션은 fastq 파일이 있는 폴더에서 실행하면, 간략한 서열 길이를 알 수 있다. 
 decona -f -p
