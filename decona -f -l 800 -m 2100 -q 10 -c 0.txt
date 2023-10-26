@@ -60,6 +60,8 @@ decona -f -p
 decona -f -T 20 -l 355 -m 2327 -q 10 -c 0.80 -n 5 -r 0.99 -R 500 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 #blast 결과도 볼 수 없음. 재클러스트로 나눠지지도 않음. 
 decona -f -T 20 -l 134 -m 362 -q 10 -c 0.80 -n 5 -r 0.99 -R 500 -k 6 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#짧은 서열을 1918bp로 한정해서 실시해봄. blast 결과가 나오지 않음. total raw sequences = 306448, total filtered sequences = 66753
+decona -f -T 20 -l 1918 -m 2327 -q 10 -c 0.80 -n 5 -r 0.99 -R 500 -k 15 -M -b /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 
   
 #desktop
