@@ -12,3 +12,5 @@ FROM ubuntu:22.04
 RUN apt update
 
 # installing requirements
+RUN git clone https://github.com/Saskia-Oosterbroek/decona.git
+

@@ -1,5 +1,7 @@
 pip check
 conda list
+git clone https://github.com/Saskia-Oosterbroek/decona.git
+
 conda install tensorflow=2.2.0 numpy=1.18.5
 위의 명령어에도 numpy 1.18.5가 설치가 되지 않고, 계속 1.24.4가 설치되.
 pip cache purge
