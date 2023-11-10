@@ -75,6 +75,7 @@ RUN chmod +x /usr/bin/tini
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
 
+#docker 먼저 실행 후, 코드 실행! 
 #해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona)
 $ docker build -t decona 
 
