@@ -75,8 +75,8 @@ RUN chmod +x /usr/bin/tini
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
 
-#해당 dockerfile을 빌드하여 이미지 생성 (이름 : my-python3-image2)
-$ docker build -t my-python3-image2 
+#해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona)
+$ docker build -t decona 
 
 2. **VSCode Dev Containers 확장 프로그램 설치**: VSCode에서 Docker 컨테이너 내에서 개발을 진행하려면 Dev Containers 확장 프로그램을 설치해야 합니다². 이 확장 프로그램은 컨테이너를 전체 기능 개발 환경으로 사용할 수 있게 해줍니다.
 
