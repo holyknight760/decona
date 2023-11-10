@@ -78,6 +78,10 @@ CMD [ "/bin/bash" ]
 #docker 먼저 실행 후, 코드 실행! 
 #해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona)
 $ docker build -t decona .
+$ docker scout quickview
+ View vulnerabilities → docker scout cves local://decona:latest
+  View base image update recommendations → docker scout recommendations local://decona:latest
+  Include policy results in your quickview by supplying an organization → docker scout quickview local://decona:latest --org <organization>
 
 2. **VSCode Dev Containers 확장 프로그램 설치**: VSCode에서 Docker 컨테이너 내에서 개발을 진행하려면 Dev Containers 확장 프로그램을 설치해야 합니다². 이 확장 프로그램은 컨테이너를 전체 기능 개발 환경으로 사용할 수 있게 해줍니다.
 
