@@ -86,7 +86,7 @@ $ docker build -t decona:v1 .
 #tag 달기!
 $ docker tag decona decona:v1
 #repository 명명 변경
-$ docker tag decona holyknightt/decona_v1
+$ docker tag decona holyknightt/decona:v1
 $ docker tag holyknightt/decona_v1 decona
 #사용자 이름으로 이미지에 태그 지정: Docker Hub 사용자 이름으로 Docker 이미지에 태그를 지정해야 합니다. Docker Hub 사용자 이름이 Holyknightt인 경우 이미지에 decona:v1이 아닌 Holyknightt/decona:v1 태그를 지정해야 합니다.
 $ docker tag decona:v1 holyknightt/decona:v1
@@ -110,6 +110,13 @@ $ docker run -d -it --name decona holyknightt/decona:v1
 $ docker start decona
 $ docker attach decona
 $ ls
+
+#실행한 컨테이너의 bash 탈출
+$ exit
+
+#commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴 이때 egoing라는 레파지토리에 ubuntu-git 태그로 이미지 생성
+$ docker commit my-ubuntu egoing:ubuntu-git
+$ docker commit decona holyknightt/decona:v2
 
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
