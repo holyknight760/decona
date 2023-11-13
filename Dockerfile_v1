@@ -36,7 +36,8 @@ RUN git clone https://github.com/Saskia-Oosterbroek/decona.git
 RUN apt update && \
     apt install g++ && \
     apt install zlib1g-dev &&\
-    apt install make
+    apt install make && \
+    apt-get install dos2unix
 
 
 
