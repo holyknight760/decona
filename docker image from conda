@@ -90,17 +90,25 @@ $ docker tag decona:v1 holyknightt/decona:v1
 #Pushing the Image: After retagging, try pushing the image again with the correct tag:
 $ docker push holyknightt/decona:v1
 
+# 기본 이미지로 이전 단계에서 생성한 이미지를 사용
+FROM holyknightt/decona:v1
+#이 Dockerfile을 사용하여 이미지를 빌드하고 새로운 태그를 지정합니다.
+$ docker build -t holyknightt/decona:v2 .
 
 #Removing images
+#https://blog.naver.com/qbxlvnf11/222366356297
 $ docker rmi holyknightt/decona_v1
 # <none> tag 이미지 모두 제거
 $ docker rmi $(docker images -f "dangling=true" -q)
+#Docker image를 새로 pull 해보기 전에 기존 image를 삭제해 줍시다. -f 옵션을 넣으면 컨테이너까지 삭제합니다.
+$ docker rmi -f [이미지_id]
+$ docker rmi -f decona:v1
 
 #Pushing images to a registry
 $ docker push holyknightt/decona:v1
 
 #Pulling images from a registry
-$ docker pull decona:v1
+$ docker pull holyknightt/decona:v1
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
