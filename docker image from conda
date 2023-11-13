@@ -124,7 +124,14 @@ $ docker commit decona holyknightt/decona:v2
 
 #Bind Mount 하기, 로컬의 c:/~~~~ 디렉토리를 컨테이너 내부의 mount 폴더에 마운트시켜 실시간 동기화되는 디렉토리로 사용가능. 출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
 $ docker run -d -it -v c:\~~~~~:/mount 이미지
-$ docker run -d -it -v c:\~~~~~:/mount 이미지
+$ docker run -d -it -v /mnt/d/decona:/mount holyknightt/decona:v2
+$ docker run -d -it -v D:\:/decona:/mount holyknightt/decona:v2
+
+#Identify the Container ID or Name
+$ docker ps
+$ docker ps -a
+$ docker inspect <container_id_or_name>
+$ docker inspect 04448a11c92c
 
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
