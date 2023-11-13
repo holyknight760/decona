@@ -111,6 +111,7 @@ $ docker start decona
 $ docker attach decona
 $ ls
 
+#https://jinjinyang.tistory.com/48
 #실행한 컨테이너의 bash 탈출
 $ exit
 
