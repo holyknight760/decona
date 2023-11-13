@@ -133,6 +133,9 @@ $ docker ps -a
 $ docker inspect <container_id_or_name>
 $ docker inspect 04448a11c92c
 
+#decona.yml 파일 내부 보기
+$ cat decona.yml
+
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
 $ docker rmi holyknightt/decona:v1
