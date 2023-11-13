@@ -139,6 +139,18 @@ $ docker inspect 04448a11c92c
 
 #decona.yml 파일 내부 보기
 $ cat decona.yml
+#Here's the modified section of your decona.yml file: 예를 들어, 1.19.x 범위 내에 있는지 확인하려면 numpy=1.19.*로 지정할 수 있습니다. 이렇게 하면 Conda가 1.19 시리즈 내의 모든 버전을 설치할 수 있지만 1.20 이상으로 업그레이드할 수는 없습니다.
+dependencies:
+  - python=3.8
+  # Primary dependencies
+  - medaka=1.1.2
+  - minimap2=2.17
+  - nanofilt=2.7.1
+  - qcat=1.1.0
+  - racon=1.4.13
+  # Numpy is pinned at 1.19.x for compatibility with TensorFlow used by Medaka
+  - numpy=1.19.*
+
 
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
