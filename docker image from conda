@@ -45,6 +45,7 @@ CMD [ "conda", "run", "-n", "your-env-name", "your-command" ]
 
 #dockerfile conda install
 https://hub.docker.com/r/continuumio/miniconda3/dockerfile
+#debian에서 ubuntu로 변경 가능
 FROM debian:latest
 
 #  $ docker build . -t continuumio/miniconda3:latest -t continuumio/miniconda3:4.5.11
@@ -81,6 +82,7 @@ CMD [ "/bin/bash" ]
 $ docker build -t decona:v1 .
 #https://colevelup.tistory.com/43
 #https://ghqls0210.tistory.com/249
+#https://jinjinyang.tistory.com/48
 #tag 달기!
 $ docker tag decona decona:v1
 #repository 명명 변경
