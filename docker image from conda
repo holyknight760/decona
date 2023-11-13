@@ -80,6 +80,7 @@ CMD [ "/bin/bash" ]
 #중간에 설치오류 발생시, 다시 똑같은 코드를 쳐주기!
 $ docker build -t decona:v1 .
 #https://colevelup.tistory.com/43
+#https://ghqls0210.tistory.com/249
 #tag 달기!
 $ docker tag decona decona:v1
 #repository 명명 변경
@@ -92,12 +93,25 @@ $ docker push holyknightt/decona:v1
 
 # 기본 이미지로 이전 단계에서 생성한 이미지를 사용
 FROM holyknightt/decona:v1
+
+# curl, git, wget 설치
+RUN apt-get update && \
+    apt-get install -y curl git wget
+    
 #이 Dockerfile을 사용하여 이미지를 빌드하고 새로운 태그를 지정합니다.
 $ docker build -t holyknightt/decona:v2 .
 
+#도커 이미지에서 컨테이너 생성하기, -d, -it 는 각각 background, interactive 를 의미하는 옵션이다. 이 두 옵션을 넣지 않으면 컨테이너 start 후 후속 명령어만 실행 후 바로 exit이 되어버려 내가 원하는 개발을 할 수가 없게 된다.
+출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
+$ docker run -d -it --name decona holyknightt/decona:v1
+#컨테이너 실행 후 터미널을 현재 실행중인 컨테이너에 attach하기
+$ docker start decona
+$ docker attach decona
+$ ls
+
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
-$ docker rmi holyknightt/decona_v1
+$ docker rmi holyknightt/decona:v1
 # <none> tag 이미지 모두 제거
 $ docker rmi $(docker images -f "dangling=true" -q)
 #Docker image를 새로 pull 해보기 전에 기존 image를 삭제해 줍시다. -f 옵션을 넣으면 컨테이너까지 삭제합니다.

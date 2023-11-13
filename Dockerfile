@@ -31,3 +31,8 @@ CMD [ "/bin/bash" ]
 # installing requirements
 RUN git clone https://github.com/Saskia-Oosterbroek/decona.git
 
+# apt update
+RUN apt update
+RUN apt install g++
+
+
