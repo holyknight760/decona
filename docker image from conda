@@ -151,6 +151,8 @@ dependencies:
   # Numpy is pinned at 1.19.x for compatibility with TensorFlow used by Medaka
   - numpy=1.19.*
 
+#conda 환경에서 폴더 제거하기 (파일 있는)
+$ rm -r directory_name
 
 #Removing images
 #https://blog.naver.com/qbxlvnf11/222366356297
