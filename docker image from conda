@@ -79,7 +79,7 @@ $ docker attach decona
 $ ls
 
 #컨테이너 이름 변경하기!!
-$ docker rename decona decona_v3
+$ docker rename decona decona_v0
 
 #dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
 $ find /decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
