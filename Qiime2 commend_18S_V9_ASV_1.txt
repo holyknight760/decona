@@ -235,3 +235,12 @@ time qiime phylogeny align-to-tree-mafft-fasttree \
     --output-dir seqs_filtered_onlymj \
     --verbose
 
+#Alpha rarefaction (within samples) 분석_https://rachaellappan.github.io/VL-QIIME2-analysis/alpha-and-beta-diversity.html
+#0m5.911s
+time qiime diversity alpha-rarefaction \
+--i-table table_filtered_onlymj.qza \
+--i-phylogeny seqs_filtered_onlymj/rooted_tree.qza \
+--p-max-depth 25868 \
+--m-metadata-file metadata_16s_onlymj.tsv \
+--o-visualization alpha_rarefaction_16s_onlymj_depth25868.qzv \
+--verbose
