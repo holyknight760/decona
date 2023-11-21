@@ -244,3 +244,14 @@ time qiime diversity alpha-rarefaction \
 --m-metadata-file metadata_16s_onlymj.tsv \
 --o-visualization alpha_rarefaction_16s_onlymj_depth25868.qzv \
 --verbose
+
+Alpha and Beta Diversity
+다양성 분석에 필요한 core-diversity directory가 형성되었다!
+time qiime diversity core-metrics-phylogenetic \
+    --i-table table_filtered_onlymj.qza \
+    --i-phylogeny seqs_filtered_onlymj/rooted_tree.qza \
+    --p-sampling-depth 1000 \
+    --m-metadata-file metadata_16s_onlymj.tsv \
+    --output-dir diversity_filtered_16s_onlymj_depth1000 \
+    --verbose
+
