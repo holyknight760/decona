@@ -203,6 +203,7 @@ time qiime feature-table filter-samples \
 --o-filtered-table table_filtered_onlymj.qza \
 --verbose
 
+#Generate table stats so you can determine –p-sampling-depth
 time qiime feature-table summarize \
   --i-table table_filtered_onlymj.qza \
   --o-visualization table_filtered_onlymj.qzv \
@@ -225,4 +226,12 @@ time qiime taxa filter-seqs \
 --p-exclude Unassigned,Fungi \
 --o-filtered-sequences uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera-noUnassign-Fungi-filtered.qza \
 --verbose
+
+Phylogeny and diversity
+Building a tree
+5m42.834s
+time qiime phylogeny align-to-tree-mafft-fasttree \
+    --i-sequences seqs_filtered_onlymj.qza \
+    --output-dir seqs_filtered_onlymj \
+    --verbose
 
