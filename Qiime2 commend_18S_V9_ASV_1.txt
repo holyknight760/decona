@@ -195,4 +195,10 @@ qiime diversity alpha-group-significance \
 --m-metadata-file metadata_18s.tsv \
 --o-visualization observed_features-group-significance.qzv
 
-
+re-analyze our data
+time qiime feature-table filter-samples \
+--i-table table.qza \
+--m-metadata-file metadata-noFelis.tsv \
+--p-no-exclude-ids \
+--o-filtered-table uchime-denovo-out/uchime-denovo-outtable-nonchimer-filtered-nounassign-Arthropoda-Chordata-noFelis-deer_63ea.qza \
+--verbose
