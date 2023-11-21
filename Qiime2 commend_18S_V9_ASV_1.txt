@@ -209,6 +209,16 @@ time qiime feature-table summarize \
   --m-sample-metadata-file metadata_16s_onlymj.tsv \
   --verbose
 
+time qiime feature-table filter-seqs \
+--i-data representative_sequences.qza \
+--i-table table_filtered_onlymj.qza \
+--o-filtered-data seqs_filtered_onlymj.qza \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data seqs_filtered_onlymj.qza \
+--o-visualization seqs_filtered_onlymj.qzv
+
 time qiime taxa filter-seqs \
 --i-sequences representative_sequences.qza \
 --i-taxonomy ./taxonomy/classification.qza \
