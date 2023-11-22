@@ -1,6 +1,6 @@
 VSCode를 사용하여 Conda 환경을 Docker 이미지로 저장하는 방법은 다음과 같습니다:
 
-1. **Dockerfile 작성**: Conda 환경을 Docker 이미지로 변환하려면 먼저 Dockerfile을 작성해야 합니다. 이 Dockerfile은 Conda 환경을 생성하고 필요한 패키지를 설치하는 단계를 포함합니다¹. 예를 들어, Dockerfile은 다음과 같이 보일 수 있습니다:
+1. Dockerfile 작성: Conda 환경을 Docker 이미지로 변환하려면 먼저 Dockerfile을 작성해야 합니다. 이 Dockerfile은 Conda 환경을 생성하고 필요한 패키지를 설치하는 단계를 포함합니다¹. 예를 들어, Dockerfile은 다음과 같이 보일 수 있습니다:
 
 ```dockerfile
 FROM continuumio/anaconda3:2020.11
