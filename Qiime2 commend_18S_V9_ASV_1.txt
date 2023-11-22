@@ -195,4 +195,63 @@ qiime diversity alpha-group-significance \
 --m-metadata-file metadata_18s.tsv \
 --o-visualization observed_features-group-significance.qzv
 
+re-analyze our data
+time qiime feature-table filter-samples \
+--i-table table.qza \
+--m-metadata-file metadata_16s_onlymj.tsv \
+--p-no-exclude-ids \
+--o-filtered-table table_filtered_onlymj.qza \
+--verbose
+
+#Generate table stats so you can determine –p-sampling-depth
+time qiime feature-table summarize \
+  --i-table table_filtered_onlymj.qza \
+  --o-visualization table_filtered_onlymj.qzv \
+  --m-sample-metadata-file metadata_16s_onlymj.tsv \
+  --verbose
+
+time qiime feature-table filter-seqs \
+--i-data representative_sequences.qza \
+--i-table table_filtered_onlymj.qza \
+--o-filtered-data seqs_filtered_onlymj.qza \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data seqs_filtered_onlymj.qza \
+--o-visualization seqs_filtered_onlymj.qzv
+
+time qiime taxa filter-seqs \
+--i-sequences representative_sequences.qza \
+--i-taxonomy ./taxonomy/classification.qza \
+--p-exclude Unassigned,Fungi \
+--o-filtered-sequences uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera-noUnassign-Fungi-filtered.qza \
+--verbose
+
+Phylogeny and diversity
+Building a tree
+5m42.834s
+time qiime phylogeny align-to-tree-mafft-fasttree \
+    --i-sequences seqs_filtered_onlymj.qza \
+    --output-dir seqs_filtered_onlymj \
+    --verbose
+
+#Alpha rarefaction (within samples) 분석_https://rachaellappan.github.io/VL-QIIME2-analysis/alpha-and-beta-diversity.html
+#0m5.911s
+time qiime diversity alpha-rarefaction \
+--i-table table_filtered_onlymj.qza \
+--i-phylogeny seqs_filtered_onlymj/rooted_tree.qza \
+--p-max-depth 25868 \
+--m-metadata-file metadata_16s_onlymj.tsv \
+--o-visualization alpha_rarefaction_16s_onlymj_depth25868.qzv \
+--verbose
+
+Alpha and Beta Diversity
+다양성 분석에 필요한 core-diversity directory가 형성되었다!
+time qiime diversity core-metrics-phylogenetic \
+    --i-table table_filtered_onlymj.qza \
+    --i-phylogeny seqs_filtered_onlymj/rooted_tree.qza \
+    --p-sampling-depth 1000 \
+    --m-metadata-file metadata_16s_onlymj.tsv \
+    --output-dir diversity_filtered_16s_onlymj_depth1000 \
+    --verbose
 
