@@ -130,7 +130,7 @@ $ conda clean --all
 #실행한 컨테이너의 bash 탈출
 $ exit
 
-#commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리에 ubuntu-git 태그로 이미지 생성
+#commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리 (web)에 ubuntu-git 태그로 이미지 생성
 $ docker commit my-ubuntu egoing:ubuntu-git
 $ docker commit decona holyknightt/decona:v2
 $ docker commit circos_v1 holyknightt/circos:v2
