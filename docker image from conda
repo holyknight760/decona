@@ -77,6 +77,8 @@ $ docker build -t holyknightt/decona:v2 .
 $ docker run -d -it --name decona holyknightt/decona:v1
 $ docker run -d -it --name decona holyknightt/decona:v3
 $ docker run -d -it --name circos_v1 holyknightt/circos:v1
+$ docker run -d -it --name circos_v2 holyknightt/circos:v2
+
 (base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker run -d -it --name circos_v1 holyknightt/circos:v1
 3a349d66fca672c32889654524c5d16067534ec5d385ff8bfbbecf51100fdb53
 #만약 컨테이너를 이미 사용 중이라고 뜬다면, 왼쪽 DOCKER 어플 상에서 start 클릭하기!
@@ -180,7 +182,7 @@ $ docker push holyknightt/circos:v1
 
 #Pulling images from a registry (web)
 $ docker pull holyknightt/decona:v1
-$ docker push holyknightt/circos:v2
+$ docker pull holyknightt/circos:v2
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
