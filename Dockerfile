@@ -40,7 +40,13 @@ CMD [ "/bin/bash" ]
 #    apt-get install dos2unix && \
 #    conda update -n base -c defaults conda
 
-
+#(base) root@3a349d66fca6:/# ls
+#bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+#(base) root@3a349d66fca6:/# cd ~
+#(base) root@3a349d66fca6:~# ls
+#(base) root@3a349d66fca6:~# mkdir software
+#(base) root@3a349d66fca6:~# ls
+#software
 
 
 
