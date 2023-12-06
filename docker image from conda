@@ -58,8 +58,9 @@ $ docker tag holyknightt/decona_v1 decona
 $ docker tag circos:v1 holyknightt/circos:v1
 #사용자 이름으로 이미지에 태그 지정: Docker Hub 사용자 이름으로 Docker 이미지에 태그를 지정해야 합니다. Docker Hub 사용자 이름이 Holyknightt인 경우 이미지에 decona:v1이 아닌 Holyknightt/decona:v1 태그를 지정해야 합니다.
 $ docker tag decona:v1 holyknightt/decona:v1
-#Pushing the Image: After retagging, try pushing the image again with the correct tag:
+#Pushing the Image to web: After retagging, try pushing the image again with the correct tag:
 $ docker push holyknightt/decona:v1
+$ docker push holyknightt/circos:v2
 
 # 기본 이미지로 이전 단계에서 생성한 이미지를 사용
 FROM holyknightt/decona:v1
@@ -179,6 +180,7 @@ $ docker push holyknightt/circos:v1
 
 #Pulling images from a registry (web)
 $ docker pull holyknightt/decona:v1
+$ docker push holyknightt/circos:v2
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
