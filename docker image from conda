@@ -215,10 +215,12 @@ Failed during this command:
 
 cpan[2]> 
 
-#make, gcc가 없어서 docker 내에 설치가 필요할 때
+#make, gcc, pkg-config가 없어서 docker 내에 설치가 필요할 때, Perl 모듈을 빌드하는 데 필요한 중요한 도구! 
 > apt-get update
 > apt-get install make
 > apt-get install gcc
+> apt-get install pkg-config
+
 
 
 #컨테이너 내부에서 빠져나오기, 컨테이너 내부에서 도커 환경으로 빠져나오는 방법에는 셸에서 exit 를 입력하거나 Ctrl + D 를 동시에 입력하는 방법이다.
