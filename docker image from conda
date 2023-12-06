@@ -46,7 +46,7 @@ CMD [ "/bin/bash" ]
 #docker 먼저 실행 후, 코드 실행! 
 #해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona, circos) from  중간에 설치오류 발생시, 다시 똑같은 코드를 쳐주기!
 $ docker build -t decona:v1 .
-$ docker build -t circos:v1 .
+$ docker build -t holyknightt/circos:v1 .
 #https://colevelup.tistory.com/43
 #https://ghqls0210.tistory.com/249
 #https://jinjinyang.tistory.com/48
@@ -55,6 +55,7 @@ $ docker tag decona decona:v1
 #repository 명명 변경
 $ docker tag decona holyknightt/decona:v1
 $ docker tag holyknightt/decona_v1 decona
+$ docker tag circos:v1 holyknightt/circos:v1
 #사용자 이름으로 이미지에 태그 지정: Docker Hub 사용자 이름으로 Docker 이미지에 태그를 지정해야 합니다. Docker Hub 사용자 이름이 Holyknightt인 경우 이미지에 decona:v1이 아닌 Holyknightt/decona:v1 태그를 지정해야 합니다.
 $ docker tag decona:v1 holyknightt/decona:v1
 #Pushing the Image: After retagging, try pushing the image again with the correct tag:
@@ -143,6 +144,7 @@ $ docker rmi -f decona:v1
 
 #Pushing images to a registry
 $ docker push holyknightt/decona:v1
+$ docker push holyknightt/circos:v1
 
 #Pulling images from a registry
 $ docker pull holyknightt/decona:v1
