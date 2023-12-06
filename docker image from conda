@@ -261,6 +261,7 @@ $ exit
 
 #commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리 (web)에 ubuntu-git 태그로 이미지 생성
 #이후에 도커 이미지를 web에서 pull하고, pull된 도커 이미지에 대한 container를 따로 다시 제작해야 함. 
+#다시금 web에 도커 이미지를 올리려면 push 명령어 실행이 필요!! 
 $ docker commit my-ubuntu egoing:ubuntu-git
 $ docker commit decona holyknightt/decona:v2
 $ docker commit circos_v1 holyknightt/circos:v2
@@ -308,6 +309,7 @@ $ docker rmi -f circos:v1
 $ docker push holyknightt/decona:v1
 $ docker push holyknightt/circos:v1
 $ docker push holyknightt/circos:v2
+$ docker push holyknightt/circos:v3
 
 #Pulling images from a registry (web)
 $ docker pull holyknightt/decona:v1
