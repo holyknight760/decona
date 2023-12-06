@@ -104,6 +104,13 @@ bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  roo
 #컨테이너 이름 변경하기!!
 $ docker rename decona decona_v0
 
+#docker cp 이동할파일 이동할 위치 로 사용할 수 있다. 
+#만약, 이동할 파일에 로컬에 있는 파일을 옮기고 싶다면 로컬 파일위치 docker이름:폴더위치 정도로 하면 되고.
+#host > 도커
+#docker cp local 파일위치 docker이름:이동할 폴더 위치
+#도커 > host
+#docker cp docker이름:이동할 파일 위치 local 폴더위치
+
 #dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
 $ find /decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
 
