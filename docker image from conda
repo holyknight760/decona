@@ -78,7 +78,9 @@ $ docker run -d -it --name decona holyknightt/decona:v3
 #만약 컨테이너를 이미 사용 중이라고 뜬다면, 왼쪽 DOCKER 어플 상에서 start 클릭하기!
 #컨테이너 실행 후 터미널을 현재 실행중인 컨테이너에 attach하기
 $ docker start decona
+$ docker start holyknightt/circos:v1
 $ docker attach decona
+$ docker attach holyknightt/circos:v1
 $ ls
 (base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker start decona
 decona
