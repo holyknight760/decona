@@ -79,6 +79,7 @@ $ docker run -d -it --name decona holyknightt/decona:v1
 $ docker run -d -it --name decona holyknightt/decona:v3
 $ docker run -d -it --name circos_v1 holyknightt/circos:v1
 $ docker run -d -it --name circos_v2 holyknightt/circos:v2
+$ docker run -d -it --name circos_v3 holyknightt/circos:v3
 
 (base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker run -d -it --name circos_v1 holyknightt/circos:v1
 3a349d66fca672c32889654524c5d16067534ec5d385ff8bfbbecf51100fdb53
@@ -259,7 +260,7 @@ $ conda clean --all
 $ exit
 
 #commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리 (web)에 ubuntu-git 태그로 이미지 생성
-#이후에 이미지를 web에서 pull하고, pull된 이미지에 대한 container를 따로 다시 제작해야 함. 
+#이후에 도커 이미지를 web에서 pull하고, pull된 도커 이미지에 대한 container를 따로 다시 제작해야 함. 
 $ docker commit my-ubuntu egoing:ubuntu-git
 $ docker commit decona holyknightt/decona:v2
 $ docker commit circos_v1 holyknightt/circos:v2
