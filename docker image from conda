@@ -98,6 +98,8 @@ circos_v1
 bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 (base) root@3a349d66fca6:/#
 
+#컨테이너 내부에서 빠져나오기, 컨테이너 내부에서 도커 환경으로 빠져나오는 방법에는 셸에서 exit 를 입력하거나 Ctrl + D 를 동시에 입력하는 방법이다.
+
 #컨테이너 이름 변경하기!!
 $ docker rename decona decona_v0
 
