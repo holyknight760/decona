@@ -40,6 +40,7 @@ CMD [ "/bin/bash" ]
 #    apt-get install dos2unix && \
 #    conda update -n base -c defaults conda
 
+#http://circos.ca/documentation/tutorials/configuration/installation/
 #(base) root@3a349d66fca6:/# ls
 #bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 #(base) root@3a349d66fca6:/# mkdir software
