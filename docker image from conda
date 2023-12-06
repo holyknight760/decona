@@ -253,6 +253,10 @@ circos-0.69-9.tgz
 
 $ sudo docker cp circos_v3:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
 
+(base) holyknightt@SME189W2WDP030:~$ sudo docker cp circos_v3:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
+[sudo] password for holyknightt: 12416256aA
+Successfully copied 13.3MB to /mnt/c/users/holyknightt/Downloads
+
 #dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
 $ find /decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
 
