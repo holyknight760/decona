@@ -73,10 +73,18 @@ $ docker build -t holyknightt/decona:v2 .
 #도커 이미지에서 컨테이너 생성하기, -d, -it 는 각각 background, interactive 를 의미하는 옵션이다. 이 두 옵션을 넣지 않으면 컨테이너 start 후 후속 명령어만 실행 후 바로 exit이 되어버려 내가 원하는 개발을 할 수가 없게 된다.
 출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
 $ docker run -d -it --name decona holyknightt/decona:v1
+$ docker run -d -it --name decona holyknightt/decona:v3
+#만약 컨테이너를 이미 사용 중이라고 뜬다면, 왼쪽 DOCKER 어플 상에서 start 클릭하기!
 #컨테이너 실행 후 터미널을 현재 실행중인 컨테이너에 attach하기
 $ docker start decona
 $ docker attach decona
 $ ls
+(base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker start decona
+decona
+(base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker attach decona
+(base) root@954ac211e14d:/# ls
+bin  boot  decona  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+(base) root@954ac211e14d:/#
 
 #컨테이너 이름 변경하기!!
 $ docker rename decona decona_v0
