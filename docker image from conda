@@ -108,6 +108,14 @@ $ docker rename decona decona_v0
 #만약, 이동할 파일에 로컬에 있는 파일을 옮기고 싶다면 로컬 파일위치 docker이름:폴더위치 정도로 하면 되고.
 #host > 도커
 #docker cp local 파일위치 docker이름:이동할 폴더 위치
+$ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
+(base) holyknightt@SME189W2WDP030:/mnt/c/users/holyknightt/Downloads$ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
+[sudo] password for holyknightt: 
+Sorry, try again.
+[sudo] password for holyknightt:
+Successfully copied 29.8MB to circos_v1:/software/circos
+(base) root@3a349d66fca6:/software/circos# ls
+circos-0.69-9.tgz
 #도커 > host
 #docker cp docker이름:이동할 파일 위치 local 폴더위치
 

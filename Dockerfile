@@ -42,11 +42,16 @@ CMD [ "/bin/bash" ]
 
 #(base) root@3a349d66fca6:/# ls
 #bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
-#(base) root@3a349d66fca6:/# cd ~
-#(base) root@3a349d66fca6:~# ls
-#(base) root@3a349d66fca6:~# mkdir software
-#(base) root@3a349d66fca6:~# ls
-#software
+#(base) root@3a349d66fca6:/# mkdir software
+#(base) root@3a349d66fca6:/# ls
+#bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  software  srv  sys  tmp  usr  var
+#(base) root@3a349d66fca6:/# mkdir software/circos
+#(base) root@3a349d66fca6:/# ls
+#bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  software  srv  sys  tmp  usr  var
+#(base) root@3a349d66fca6:/# cd software/circos
+#(base) root@3a349d66fca6:/software/circos# ls
+#(base) root@3a349d66fca6:/software/circos# pwd
+#/software/circos
 
 
 
