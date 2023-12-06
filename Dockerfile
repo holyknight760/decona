@@ -29,9 +29,6 @@ RUN chmod +x /usr/bin/tini
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
 
-# installing requirements
-RUN git clone https://github.com/Saskia-Oosterbroek/decona.git
-
 # apt update
 RUN apt update && \
     apt install g++ && \
