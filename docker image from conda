@@ -44,8 +44,7 @@ ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
 
 #docker 먼저 실행 후, 코드 실행! 
-#해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona, circos)
-#중간에 설치오류 발생시, 다시 똑같은 코드를 쳐주기!
+#해당 dockerfile을 빌드하여 이미지 생성 (이름 : decona, circos) from  중간에 설치오류 발생시, 다시 똑같은 코드를 쳐주기!
 $ docker build -t decona:v1 .
 $ docker build -t circos:v1 .
 #https://colevelup.tistory.com/43
