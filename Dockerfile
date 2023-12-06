@@ -54,7 +54,10 @@ CMD [ "/bin/bash" ]
 #(base) root@3a349d66fca6:/software/circos# pwd
 #/software/circos
 #(base) root@3a349d66fca6:/software/circos# tar xvfz circos-0.69-9.tgz
-
+#(base) root@3a349d66fca6:/software/circos# ln -s circos-0.69-9 current
+#(base) root@3a349d66fca6:/software/circos# ls
+#circos-0.69-9  circos-0.69-9.tgz  current
+#(base) root@3a349d66fca6:/software/circos#
 
 
 
