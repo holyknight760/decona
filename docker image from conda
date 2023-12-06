@@ -214,6 +214,7 @@ Failed during this command:
  ABW/Math-Bezier-0.01.tar.gz                  : make NO
 
 cpan[2]> 
+
 #make가 없어서 docker 내에 설치가 필요할 때
 > apt-get update
 > apt-get install make
