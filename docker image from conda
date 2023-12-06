@@ -215,11 +215,13 @@ Failed during this command:
 
 cpan[2]> 
 
-#make, gcc, pkg-config가 없어서 docker 내에 설치가 필요할 때, Perl 모듈을 빌드하는 데 필요한 중요한 도구! 
+#make, gcc, pkg-config, gdlib가 없어서 docker 내에 설치가 필요할 때, Perl 모듈을 빌드하는 데 필요한 중요한 도구! 
 > apt-get update
 > apt-get install make
 > apt-get install gcc
 > apt-get install pkg-config
+> apt-get install libgd-dev
+
 
 
 
