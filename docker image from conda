@@ -141,12 +141,13 @@ $ docker rmi $(docker images -f "dangling=true" -q)
 #Docker image를 새로 pull 해보기 전에 기존 image를 삭제해 줍시다. -f 옵션을 넣으면 컨테이너까지 삭제합니다.
 $ docker rmi -f [이미지_id]
 $ docker rmi -f decona:v1
+$ docker rmi -f circos:v1
 
-#Pushing images to a registry
+#Pushing images to a registry (web)
 $ docker push holyknightt/decona:v1
 $ docker push holyknightt/circos:v1
 
-#Pulling images from a registry
+#Pulling images from a registry (web)
 $ docker pull holyknightt/decona:v1
 
 $ docker scout quickview
