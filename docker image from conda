@@ -133,6 +133,7 @@ $ exit
 #commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리에 ubuntu-git 태그로 이미지 생성
 $ docker commit my-ubuntu egoing:ubuntu-git
 $ docker commit decona holyknightt/decona:v2
+$ docker commit circos_v1 holyknightt/circos:v2
 
 #Bind Mount 하기, 로컬의 c:/~~~~ 디렉토리를 컨테이너 내부의 mount 폴더에 마운트시켜 실시간 동기화되는 디렉토리로 사용가능. 출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
 $ docker run -d -it -v c:\~~~~~:/mount 이미지
