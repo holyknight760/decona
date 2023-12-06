@@ -30,12 +30,12 @@ ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
 
 # apt update
-RUN apt update && \
-    apt install g++ && \
-    apt install zlib1g-dev &&\
-    apt install make && \
-    apt-get install dos2unix && \
-    conda update -n base -c defaults conda
+#RUN apt update && \
+#    apt install g++ && \
+#    apt install zlib1g-dev &&\
+#    apt install make && \
+#    apt-get install dos2unix && \
+#    conda update -n base -c defaults conda
 
 
 
