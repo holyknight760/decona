@@ -100,7 +100,120 @@ circos_v1
 (base) root@3a349d66fca6:/# ls
 bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 (base) root@3a349d66fca6:/#
+(base) root@49b32e312e43:/software/circos/current# bin/circos -modules
+ok       1.52 Carp
+missing            Clone
+missing            Config::General
+ok       3.80 Cwd
+ok      2.179 Data::Dumper
+ok       2.58 Digest::MD5
+ok       2.85 File::Basename
+ok       3.80 File::Spec::Functions
+ok     0.2311 File::Temp
+ok       1.52 FindBin
+missing            Font::TTF::Font
+missing            GD
+missing            GD::Polyline
+ok       2.52 Getopt::Long
+ok       1.46 IO::File
+missing            List::MoreUtils
+ok       1.55 List::Util
+missing            Math::Bezier
+ok   1.999818 Math::BigFloat
+missing            Math::Round
+missing            Math::VecStat
+ok    1.03_01 Memoize
+ok       1.97 POSIX
+missing            Params::Validate
+ok       2.01 Pod::Usage
+missing            Readonly
+missing            Regexp::Common
+missing            SVG
+missing            Set::IntSpan
+missing            Statistics::Basic
+ok       3.23 Storable
+ok       1.23 Sys::Hostname
+ok       2.04 Text::Balanced
+missing            Text::Format
+ok     1.9767 Time::HiRes
+(base) root@49b32e312e43:/software/circos/current# perl -MCPAN -e shell
 
+CPAN.pm requires configuration, but most of it can be done automatically.
+If you answer 'no' below, you will enter an interactive dialog for each
+configuration option instead.
+
+Would you like to configure as much as possible automatically? [yes] yes
+
+
+ALERT: 'make' is an essential tool for building perl Modules.
+Please make sure you have 'make' (or some equivalent) working.
+
+
+Autoconfiguration complete.
+
+commit: wrote '/root/.cpan/CPAN/MyConfig.pm'
+
+You can re-run configuration any time with 'o conf init' in the CPAN shell
+Terminal does not support AddHistory.
+
+To fix that, maybe try>  install Term::ReadLine::Perl
+
+
+cpan shell -- CPAN exploration and modules installation (v2.28)
+Enter 'h' for help.
+
+cpan[1]> install Math::Bezier
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/01mailrc.txt.gz
+Reading '/root/.cpan/sources/authors/01mailrc.txt.gz'
+............................................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/02packages.details.txt.gz
+Reading '/root/.cpan/sources/modules/02packages.details.txt.gz'
+  Database was generated on Wed, 06 Dec 2023 05:54:04 GMT
+  HTTP::Date not available
+..............
+  New CPAN.pm version (v2.36) available.
+  [Currently running version is v2.28]
+  You might want to try
+    install CPAN
+    reload cpan
+  to both upgrade CPAN.pm and run the new version without leaving
+  the current session.
+
+
+..............................................................DONE
+Fetching with HTTP::Tiny:
+http://www.cpan.org/modules/03modlist.data.gz
+Reading '/root/.cpan/sources/modules/03modlist.data.gz'
+DONE
+Writing /root/.cpan/Metadata
+Running install for module 'Math::Bezier'
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/A/AB/ABW/Math-Bezier-0.01.tar.gz
+Fetching with HTTP::Tiny:
+http://www.cpan.org/authors/id/A/AB/ABW/CHECKSUMS
+Checksum for /root/.cpan/sources/authors/id/A/AB/ABW/Math-Bezier-0.01.tar.gz ok
+Scanning cache /root/.cpan/build for sizes
+DONE
+'YAML' not installed, will not store persistent state
+Configuring A/AB/ABW/Math-Bezier-0.01.tar.gz with Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Math::Bezier
+Writing MYMETA.yml and MYMETA.json
+  ABW/Math-Bezier-0.01.tar.gz
+  /usr/bin/perl Makefile.PL INSTALLDIRS=site -- OK
+Running make for A/AB/ABW/Math-Bezier-0.01.tar.gz
+Can't exec "make": No such file or directory at /usr/share/perl/5.34/CPAN/Distribution.pm line 2345.
+  ABW/Math-Bezier-0.01.tar.gz
+  make -- NOT OK
+  No such file or directory
+Failed during this command:
+ ABW/Math-Bezier-0.01.tar.gz                  : make NO
+
+cpan[2]> 
 #컨테이너 내부에서 빠져나오기, 컨테이너 내부에서 도커 환경으로 빠져나오는 방법에는 셸에서 exit 를 입력하거나 Ctrl + D 를 동시에 입력하는 방법이다.
 #https://bio-info.tistory.com/137
 
