@@ -62,6 +62,51 @@ CMD [ "/bin/bash" ]
 #(base) root@92d0131c6757:/software/circos/current/bin# ./circos -modules
 #(base) root@92d0131c6757:/software/circos/current/bin# ./circos -version
 #circos | v 0.69-8 | 15 Jun 2019 | Perl 5.034000
-
+#(base) root@6972a5fd906e:/software/circos/current/bin# ./circos -version
+#circos | v 0.69-8 | 15 Jun 2019 | Perl 5.034000
+#(base) root@6972a5fd906e:/software/circos/current/bin# export PATH=~/software/circos/current/bin:$PATH.
+#(base) root@6972a5fd906e:/software/circos/current/bin# export PATH=~/software/circos/current/bin:$PATH
+#(base) root@6972a5fd906e:/software/circos/current/bin# . ~/.bashrc
+(base) root@6972a5fd906e:/software/circos/current/bin# . ~/.bash_profile
+bash: /root/.bash_profile: No such file or directory
+(base) root@6972a5fd906e:/software/circos/current/bin# echo $PATH
+/root/software/circos/current/bin:/root/software/circos/current/bin:/opt/conda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin.
+(base) root@6972a5fd906e:/software/circos/current/bin# cd ~
+(base) root@6972a5fd906e:~# echo $PATH
+/root/software/circos/current/bin:/root/software/circos/current/bin:/opt/conda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin.
+(base) root@6972a5fd906e:~# which circos
+(base) root@6972a5fd906e:~# ./which circos
+bash: ./which: No such file or directory
+(base) root@6972a5fd906e:~# pwd
+/root
+(base) root@6972a5fd906e:~# cd /
+(base) root@6972a5fd906e:/# pwd
+/
+(base) root@6972a5fd906e:/# ls
+bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  software  srv  sys  tmp  usr  var
+(base) root@6972a5fd906e:/# cd software
+(base) root@6972a5fd906e:/software# ls
+circos
+(base) root@6972a5fd906e:/software# cd circos
+(base) root@6972a5fd906e:/software/circos# ls
+circos-0.69-9  circos-0.69-9.tgz  current
+(base) root@6972a5fd906e:/software/circos# cd current
+(base) root@6972a5fd906e:/software/circos/current# ls
+CHANGES   INSTALL  README        README.tutorials  SUPPORT  bin   error  example  gddiag.png  tiles
+CITATION  LICENSE  README.tools  README.windows    TODO     data  etc    fonts    lib
+(base) root@6972a5fd906e:/software/circos/current# cd bin
+(base) root@6972a5fd906e:/software/circos/current/bin# ls
+circos  circos.exe  compile.bat  compile.make  gddiag  list.modules  test.modules
+(base) root@6972a5fd906e:/software/circos/current/bin# pwd
+/software/circos/current/bin
+(base) root@6972a5fd906e:/software/circos/current/bin# export PATH=/software/circos/current/bin:$PATH
+(base) root@6972a5fd906e:/software/circos/current/bin# cd ~
+(base) root@6972a5fd906e:~# echo $PATH
+/software/circos/current/bin:/root/software/circos/current/bin:/root/software/circos/current/bin:/opt/conda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin.
+(base) root@6972a5fd906e:~# ./which circos
+bash: ./which: No such file or directory
+(base) root@6972a5fd906e:~# which circos
+/software/circos/current/bin/circos
+(base) root@6972a5fd906e:~#
 
 
