@@ -60,5 +60,8 @@ CMD [ "/bin/bash" ]
 #(base) root@3a349d66fca6:/software/circos#
 #bin  폴더에서만 circos 실행됨. 그리고 './'를 앞에 붙여야지만 작동됨!! 
 #(base) root@92d0131c6757:/software/circos/current/bin# ./circos -modules
+#(base) root@92d0131c6757:/software/circos/current/bin# ./circos -version
+#circos | v 0.69-8 | 15 Jun 2019 | Perl 5.034000
+
 
 
