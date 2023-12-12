@@ -323,7 +323,7 @@ $ docker push holyknightt/circos:v2
 $ docker push holyknightt/circos:v3
 $ docker push holyknightt/circos:v4
 
-#Pulling images from a registry (web)
+#Pulling images from a registry (web), start 명령어 입력 전에 container를 제작해야 함. run 명령어로 제작이 가능함. 
 $ docker pull holyknightt/decona:v1
 $ docker pull holyknightt/circos:v2
 $ docker pull holyknightt/circos:v4
