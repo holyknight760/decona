@@ -80,6 +80,7 @@ $ docker run -d -it --name decona holyknightt/decona:v3
 $ docker run -d -it --name circos_v1 holyknightt/circos:v1
 $ docker run -d -it --name circos_v2 holyknightt/circos:v2
 $ docker run -d -it --name circos_v3 holyknightt/circos:v3
+$ docker run -d -it --name circos_v4 holyknightt/circos:v4
 
 (base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker run -d -it --name circos_v1 holyknightt/circos:v1
 3a349d66fca672c32889654524c5d16067534ec5d385ff8bfbbecf51100fdb53
