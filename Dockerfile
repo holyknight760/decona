@@ -58,6 +58,7 @@ CMD [ "/bin/bash" ]
 #(base) root@3a349d66fca6:/software/circos# ls
 #circos-0.69-9  circos-0.69-9.tgz  current
 #(base) root@3a349d66fca6:/software/circos#
-
+#bin  폴더에서만 circos 실행됨. 그리고 './'를 앞에 붙여야지만 작동됨!! 
+#(base) root@92d0131c6757:/software/circos/current/bin# ./circos -modules
 
 
