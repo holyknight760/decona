@@ -326,6 +326,7 @@ $ docker push holyknightt/circos:v4
 #Pulling images from a registry (web)
 $ docker pull holyknightt/decona:v1
 $ docker pull holyknightt/circos:v2
+$ docker pull holyknightt/circos:v4
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
