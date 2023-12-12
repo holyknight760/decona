@@ -62,6 +62,7 @@ $ docker tag decona:v1 holyknightt/decona:v1
 $ docker push holyknightt/decona:v1
 $ docker push holyknightt/circos:v2
 $ docker push holyknightt/circos:v3
+$ docker push holyknightt/circos:v4
 
 # 기본 이미지로 이전 단계에서 생성한 이미지를 사용
 FROM holyknightt/decona:v1
