@@ -257,7 +257,9 @@ circos-0.69-9.tgz
 #docker cp docker이름:이동할 파일 위치 local 폴더위치
 
 $ sudo docker cp circos_v3:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
-$ sudo docker cp circos_v5:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
+$ sudo docker cp circos_v5:/software/circos/current/example/etc /mnt/c/Users/MSI/Downloads
+(base) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona$ sudo docker cp circos_v5:/software/circos/current/example/etc /mnt/c/Users/MSI/Downloads
+[sudo] password for holyknightt: 스페이스 한칸 (MSI 노트북)
 
 (base) holyknightt@SME189W2WDP030:~$ sudo docker cp circos_v3:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
 [sudo] password for holyknightt: 12416256aA
