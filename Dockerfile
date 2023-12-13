@@ -118,7 +118,7 @@ CMD [ "/bin/bash" ]
 #> apt-get update
 #> apt-get install vim
 #> vi .bash_profile
-#절대경로 지정은 되지 않음, 그래서 상대경로로 파일 실행!!
+#절대경로 지정은 가능함, 그러나 도커 이미지로는 저장되지 않음, 그래서 상대경로로 파일 실행!! 따라서 각 개인 컴퓨터에 개별로 초기에 설정 필요!!
 
 #running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
