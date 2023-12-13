@@ -121,5 +121,5 @@ CMD [ "/bin/bash" ]
 
 #running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
-
-
+#(base) root@901d364a28cd:/software/circos/current/example/etc# circos -conf /software/circos/current/example/etc/circos.conf
+#위의 경로에 그림파일이 만들어짐. 중간에 uninitialized value 경고가 뜨지만, 그림이 제대로 만들어짐. 
