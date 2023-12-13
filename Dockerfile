@@ -109,4 +109,9 @@ CMD [ "/bin/bash" ]
 #/software/circos/current/bin/circos
 #(base) root@6972a5fd906e:~#
 
+#https://dohk.tistory.com/191
+#일반적으로 전역적인 파일은 /etc 디렉토리에 위치한다. 
+#> > . ~/.bashrc or > . ~/.bash_profile
+
+
 
