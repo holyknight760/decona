@@ -119,6 +119,7 @@ CMD [ "/bin/bash" ]
 #> apt-get install vim
 #> vi .bash_profile
 
+#running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
 
 
