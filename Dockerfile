@@ -118,6 +118,7 @@ CMD [ "/bin/bash" ]
 #> apt-get update
 #> apt-get install vim
 #> vi .bash_profile
+#절대경로 지정은 되지 않음, 그래서 상대경로로 파일 실행!!
 
 #running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
