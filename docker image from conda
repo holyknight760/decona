@@ -334,6 +334,7 @@ $ docker push holyknightt/circos:v4
 $ docker pull holyknightt/decona:v1
 $ docker pull holyknightt/circos:v2
 $ docker pull holyknightt/circos:v4
+$ docker pull holyknightt/circos:v5
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
