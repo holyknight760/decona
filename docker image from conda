@@ -63,6 +63,7 @@ $ docker push holyknightt/decona:v1
 $ docker push holyknightt/circos:v2
 $ docker push holyknightt/circos:v3
 $ docker push holyknightt/circos:v4
+$ docker push holyknightt/circos:v5
 
 # 기본 이미지로 이전 단계에서 생성한 이미지를 사용
 FROM holyknightt/decona:v1
@@ -279,6 +280,7 @@ $ docker commit decona holyknightt/decona:v2
 $ docker commit circos_v1 holyknightt/circos:v2
 $ docker commit circos_v2 holyknightt/circos:v3
 $ docker commit circos_v3 holyknightt/circos:v4
+$ docker commit circos_v4 holyknightt/circos:v5
 
 #Bind Mount 하기, 로컬의 c:/~~~~ 디렉토리를 컨테이너 내부의 mount 폴더에 마운트시켜 실시간 동기화되는 디렉토리로 사용가능. 출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
 $ docker run -d -it -v c:\~~~~~:/mount 이미지
