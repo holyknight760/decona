@@ -313,6 +313,9 @@ $ rm -r directory_name
 $ docker rmi holyknightt/decona:v1
 # <none> tag 이미지 모두 제거
 $ docker rmi $(docker images -f "dangling=true" -q)
+# 중지된 컨테이너 제거: `docker rm` 명령 뒤에 컨테이너 ID (92d0131c6757)를 사용하여 중지된 컨테이너를 제거할 수 있습니다.
+$ docker rm 92d0131c6757
+
 #Docker image를 새로 pull 해보기 전에 기존 image를 삭제해 줍시다. -f 옵션을 넣으면 컨테이너까지 삭제합니다.
 $ docker rmi -f [이미지_id]
 $ docker rmi -f decona:v1
