@@ -113,5 +113,9 @@ CMD [ "/bin/bash" ]
 #일반적으로 전역적인 파일은 /etc 디렉토리에 위치한다. 
 #> > . ~/.bashrc or > . ~/.bash_profile
 
+#[Linux] - 리눅스 - 셸, 환경변수, bash 셸
+#https://ts2ree.tistory.com/81
+#> vi .bash_profile
+
 
 
