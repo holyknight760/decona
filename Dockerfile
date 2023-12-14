@@ -159,6 +159,7 @@ CMD [ "/bin/bash" ]
 #    export PATH=/software/circos/current/bin:$PATH
 #    ```
 #3. 파일을 저장하려면 `Esc` 키를 눌러 명령 모드로 전환한 후, `:wq`를 입력하고 `Enter`를 누르세요.
+#:q!_vim 저장하지 않고 종료하기!!
 
 #이제 새 터미널 세션을 시작할 때마다 `PATH` 환경 변수가 자동으로 변경됩니다. 
 
