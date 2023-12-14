@@ -355,6 +355,18 @@ $ sudo docker save -o circos.tar holyknightt/circos:v5
 #- Docker load (tar file → docker image)
 # sudo docker load -i file_name.tar
 $ sudo docker load -i circos.tar
+(base) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Downloads$ sudo docker load -i circos.tar
+[sudo] password for holyknightt: 
+8ceb9643fb36: Loading layer [==================================================>]  80.37MB/80.37MB
+4d30ee999136: Loading layer [==================================================>]  79.47MB/79.47MB
+f6b51628efcb: Loading layer [==================================================>]  229.3MB/229.3MB
+a9701e15c842: Loading layer [==================================================>]  22.53kB/22.53kB                
+427e44c01b14: Loading layer [==================================================>]  22.53kB/22.53kB                
+50e171feb089: Loading layer [==================================================>]  110.5MB/110.5MB
+05669a8a9c39: Loading layer [==================================================>]  371.7MB/371.7MB
+b6064d148e5b: Loading layer [==================================================>]  6.313MB/6.313MB
+7f8e53f47bca: Loading layer [==================================================>]  88.62MB/88.62MB
+Loaded image: holyknightt/circos:v5
 
 #docker login at powershell or WSL
 (base) PS C:\Wild_INU\decona> docker login
