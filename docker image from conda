@@ -348,9 +348,11 @@ $ docker scout quickview
 
 #https://blog.naver.com/PostView.naver?blogId=qbxlvnf11&logNo=222439207002&directAccess=false
 #- Docker save (docer image → tar file)
-$ sudo docker save -o file_name.tar image_name
+# sudo docker save -o file_name.tar image_name
+$ sudo docker save -o circos.tar holyknightt/circos:v5
+
 #- Docker load (tar file → docker image)
-$ sudo docker load -i file_name.tar
+# sudo docker load -i file_name.tar
 
 #docker login at powershell or WSL
 (base) PS C:\Wild_INU\decona> docker login
