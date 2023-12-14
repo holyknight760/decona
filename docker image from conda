@@ -370,11 +370,3 @@ Password:
 4. **Docker 이미지 빌드 및 실행**: 이제 VSCode에서 `F1 > Dev Containers: Rebuild Container`를 선택하여 Docker 이미지를 빌드하고 실행할 수 있습니다⁴.
 
 이러한 단계를 통해 Conda 환경을 Docker 이미지로 저장하고 VSCode에서 해당 이미지를 사용하여 개발을 진행할 수 있습니다. 이 방법은 Conda 환경의 종속성을 관리하고 일관된 개발 환경을 유지하는 데 도움이 됩니다¹².
-
-출처: Bing과의 대화, 2023. 11. 9.
-(1) Deploying conda environments in (Docker) containers - how to do it right - Uwe’s Blog. https://uwekorn.com/2021/03/01/deploying-conda-environments-in-docker-how-to-do-it-right.html.
-(2) Developing inside a Container using Visual Studio Code Remote Development. https://code.visualstudio.com/docs/devcontainers/containers.
-(3) How can I use a local image using vscode-devcontainer. https://stackoverflow.com/questions/74217946/how-can-i-use-a-local-image-using-vscode-devcontainer.
-(4) docker - How can I use an env file to pass environment variables into a standalone .... https://stackoverflow.com/questions/58227845/how-can-i-use-an-env-file-to-pass-environment-variables-into-a-standalone-vscode.
-(5) Converting conda/pip environments into Docker Images. https://towardsdatascience.com/converting-conda-pip-environments-into-docker-images-d02aa22e872c.
-(6) undefined. https://my.com/.
