@@ -353,6 +353,7 @@ $ sudo docker save -o circos.tar holyknightt/circos:v5
 
 #- Docker load (tar file → docker image)
 # sudo docker load -i file_name.tar
+$ sudo docker load -i circos.tar
 
 #docker login at powershell or WSL
 (base) PS C:\Wild_INU\decona> docker login
