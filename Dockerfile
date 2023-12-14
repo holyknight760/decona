@@ -162,6 +162,15 @@ CMD [ "/bin/bash" ]
 #:q!_vim 저장하지 않고 종료하기!!
 
 #이제 새 터미널 세션을 시작할 때마다 `PATH` 환경 변수가 자동으로 변경됩니다. 
+#`~/.bashrc` 파일은 실행되는 것이 아니라 소스로 로드되는 것입니다. 따라서 `Permission denied` 오류가 발생하는 것은 이 파일을 실행하려고 했기 때문입니다¹. 
+
+#source ~/.bashrc 또는 . ~/.bashrc
+
+#이렇게 하면 `~/.bashrc` 파일이 소스로 로드되며, 이 파일에 정의된 환경 변수와 함수가 현재 쉘 세션에 적용됩니다.
+
+#만약 `~/.bashrc` 파일을 편집하려면, 텍스트 편집기를 사용하여 파일을 열어야 합니다. 예를 들어, Vim을 사용하려면 다음과 같이 입력하세요:
+
+#vim ~/.bashrc
 
 #running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
