@@ -327,6 +327,7 @@ $ docker rm 92d0131c6757
 $ docker rmi -f [이미지_id]
 $ docker rmi -f decona:v1
 $ docker rmi -f circos:v1
+$ docker rmi -f holyknightt/circos:v5
 
 #Pushing images to a registry (web), web에 있는 도커 이미지를 pull로 하드에 다운 받아야 start 명령어가 가능! 
 $ docker push holyknightt/decona:v1
