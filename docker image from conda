@@ -346,6 +346,12 @@ $ docker scout quickview
   View base image update recommendations → docker scout recommendations local://decona:latest
   Include policy results in your quickview by supplying an organization → docker scout quickview local://decona:latest --org <organization>
 
+#https://blog.naver.com/PostView.naver?blogId=qbxlvnf11&logNo=222439207002&directAccess=false
+#- Docker save (docer image → tar file)
+sudo docker save -o file_name.tar image_name
+#- Docker load (tar file → docker image)
+sudo docker load -i file_name.tar
+
 #docker login at powershell or WSL
 (base) PS C:\Wild_INU\decona> docker login
 Username (holyknightt): holyknightt
