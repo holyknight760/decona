@@ -136,6 +136,36 @@ CMD [ "/bin/bash" ]
 
 #이렇게 하면 Vim이 이전에 저장한 세션을 로드하고, 이전에 열려 있던 파일들이 그대로 열립니다². 이 방법을 사용하면 Vim을 재시작해도 작업이 초기화되지 않습니다. 
 
+#Vim에서 절대 경로를 저장하고 어디서든 실행할 수 있는 코드를 작성하려면, 아래의 단계를 따르세요:
+
+#1. Vim을 열고 새 파일을 생성합니다. 이를 위해 터미널에서 `vim filename.sh`를 입력하세요.
+#2. Vim 편집기가 열리면, 다음과 같이 입력하세요:
+
+#	#!/bin/bash
+#	export PATH=/software/circos/current/bin:$PATH
+
+#3. 파일을 저장하려면 `Esc` 키를 눌러 명령 모드로 전환한 후, `:wq`를 입력하고 `Enter`를 누르세요¹.
+
+#이제 `filename.sh` 스크립트 파일이 생성되었습니다. 이 파일을 어디서든 실행하려면, 파일에 실행 권한을 부여해야 합니다. 이를 위해 터미널에서 다음 명령을 입력하세요:
+
+#	chmod +x filename.sh
+
+#이제 이 스크립트는 절대 경로를 사용하여 어디서든 실행할 수 있습니다. 스크립트를 실행하려면 터미널에서 `./filename.sh`를 입력하세요.
+
+#참고로, 이 스크립트는 현재 세션에서만 `PATH` 환경 변수를 변경합니다. 이 변경사항을 영구적으로 적용하려면, 
+#스크립트의 내용을 `~/.bashrc` 또는 `~/.bash_profile` 파일에 추가해야 합니다. 이렇게 하면 새 터미널 세션을 시작할 때마다 스크립트가 자동으로 실행됩니다. 
+
+#스크립트의 내용을 `~/.bashrc` 또는 `~/.bash_profile` 파일에 추가하려면, 아래의 단계를 따르세요:
+
+#1. Vim을 열고 `~/.bashrc` 또는 `~/.bash_profile` 파일을 편집합니다. 이를 위해 터미널에서 `vim ~/.bashrc` 또는 `vim ~/.bash_profile`를 입력하세요.
+#2. Vim 편집기가 열리면, 파일의 마지막에 다음과 같이 입력하세요:
+#    ```bash
+#    export PATH=/software/circos/current/bin:$PATH
+#    ```
+#3. 파일을 저장하려면 `Esc` 키를 눌러 명령 모드로 전환한 후, `:wq`를 입력하고 `Enter`를 누르세요.
+
+#이제 새 터미널 세션을 시작할 때마다 `PATH` 환경 변수가 자동으로 변경됩니다. 
+
 #running the command
 #> circos -conf /software/circos/current/example/etc/circos.conf
 #(base) root@901d364a28cd:/software/circos/current/example/etc# circos -conf /software/circos/current/example/etc/circos.conf
