@@ -70,9 +70,16 @@ $ qiime feature-classifier classify-consensus-vsearch \
 #Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
 
 $ qiime metadata tabulate \
---m-input-file /mnt/d/parasite_18S/231117/taxonomy/classification.qza \
---m-input-file representative_sequences.qza \
+--m-input-file ./taxonomy/classification.qza \
+--m-input-file rep-seqs-dncluster98.qza \
 --o-visualization taxonomy_consensus_blast-asv.qzv
+
+$ Barplot
+qiime taxa barplot \
+--i-table table-dncluster98.qza \
+--i-taxonomy ./taxonomy/classification.qza \
+--m-metadata-file metadata_12s.txt \
+--o-visualization bar_plots_blast95_12S-asv.qzv 
 
 #for 16S
 $ qiime deblur denoise-16S \
