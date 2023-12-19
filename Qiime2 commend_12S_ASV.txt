@@ -1,0 +1,26 @@
+$ find /mnt/d/ticks/12s/Downloads -name *.fastq.gz -print > list.txt
+
+$ qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path manifest_12s.txt \
+  --output-path paired-end-demux.qza \
+  --input-format PairedEndFastqManifestPhred33V2 
+
+#Demultiplexing
+$ qiime vsearch merge-pairs \
+  --i-demultiplexed-seqs paired-end-demux.qza \
+  --o-merged-sequences demux-joined.qza
+#Saved SampleData[JoinedSequencesWithQuality] to: demux-joined.qza
+
+$ qiime demux summarize \
+  --i-data demux-joined.qza \
+  --o-visualization demux-joined.qzv
+
+$ qiime quality-filter q-score \
+  --i-demux demux-joined.qza \
+  --o-filtered-sequences demux-joined-filtered.qza \
+  --o-filter-stats demux-joined-filter-stats.qza
+
+
+
+
