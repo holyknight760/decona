@@ -65,6 +65,10 @@ $ qiime feature-classifier classify-consensus-vsearch \
  --i-query rep-seqs-dncluster98.qza \
  --i-reference-reads /mnt/d/qiime2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
  --i-reference-taxonomy /mnt/d/qiime2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
  --output-dir taxonomy
 #Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
 #Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
