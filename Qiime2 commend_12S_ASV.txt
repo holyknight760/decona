@@ -74,8 +74,8 @@ $ qiime metadata tabulate \
 --m-input-file rep-seqs-dncluster98.qza \
 --o-visualization taxonomy_consensus_blast-asv.qzv
 
-$ Barplot
-qiime taxa barplot \
+#Barplot
+$ qiime taxa barplot \
 --i-table table-dncluster98.qza \
 --i-taxonomy ./taxonomy/classification.qza \
 --m-metadata-file metadata_12s.txt \
