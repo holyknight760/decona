@@ -20,6 +20,45 @@ $ qiime quality-filter q-score \
   --i-demux demux-joined.qza \
   --o-filtered-sequences demux-joined-filtered.qza \
   --o-filter-stats demux-joined-filter-stats.qza
+#Saved SampleData[JoinedSequencesWithQuality] to: demux-joined-filtered.qza
+#Saved QualityFilterStats to: demux-joined-filter-stats.qza
+
+$ qiime vsearch dereplicate-sequences \
+--i-sequences demux-joined.qza \
+--o-dereplicated-table primer_trimed_filtered_demulti_table \
+--o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
+--verbose
+
+$ qiime feature-table summarize \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--o-visualization primer_trimed_filtered_demulti_table.qzv \
+--verbose
+
+$ qiime feature-table tabulate-seqs \
+--i-data primer_trimed_filtered_demulti_seq.qza \
+--o-visualization primer_trimed_filtered_demulti_seq.qzv 
+
+# Clustering
+$ qiime vsearch cluster-features-de-novo \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-sequences primer_trimed_filtered_demulti_seq.qza \
+--p-perc-identity 0.98 \
+--p-threads 32 \
+--o-clustered-table table-dncluster98.qza \
+--o-clustered-sequences rep-seqs-dncluster98.qza \
+--verbose
+
+
+#for 16S
+$ qiime deblur denoise-16S \
+  --i-demultiplexed-seqs demux-joined-filtered.qza \
+  --p-trim-length 250 \
+  --p-sample-stats \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-stats deblur-stats.qza
+
+
 
 
 
