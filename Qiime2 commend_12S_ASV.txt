@@ -28,6 +28,8 @@ $ qiime vsearch dereplicate-sequences \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
 --o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
 --verbose
+#Saved FeatureTable[Frequency] to: primer_trimed_filtered_demulti_table.qza
+#Saved FeatureData[Sequence] to: primer_trimed_filtered_demulti_seq.qza
 
 $ qiime feature-table summarize \
 --i-table primer_trimed_filtered_demulti_table.qza \
@@ -47,7 +49,30 @@ $ qiime vsearch cluster-features-de-novo \
 --o-clustered-table table-dncluster98.qza \
 --o-clustered-sequences rep-seqs-dncluster98.qza \
 --verbose
+#Saved FeatureTable[Frequency] to: table-dncluster98.qza
+#Saved FeatureData[Sequence] to: rep-seqs-dncluster98.qza
 
+$ qiime feature-table summarize \
+--i-table table-dncluster98.qza \
+--o-visualization table-dncluster98.qzv \
+--verbose
+
+$ qiime feature-table tabulate-seqs \
+--i-data rep-seqs-dncluster98.qza \
+--o-visualization rep-seqs-dncluster98.qzv
+
+$ qiime feature-classifier classify-consensus-vsearch \
+ --i-query rep-seqs-dncluster98.qza \
+ --i-reference-reads /mnt/d/qiime2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/d/qiime2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
+ --output-dir taxonomy
+#Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
+#Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
+
+$ qiime metadata tabulate \
+--m-input-file /mnt/d/parasite_18S/231117/taxonomy/classification.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
 
 #for 16S
 $ qiime deblur denoise-16S \
