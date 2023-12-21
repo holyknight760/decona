@@ -1,4 +1,4 @@
-find /home/qiime2/Documents/dog_230215/18s/Downloads -name *.fastq.gz -print > list.txt
+$ find /mnt/d/ticks/12s/Downloads -name *.fastq.gz -print > list.txt
 
 qiime tools import \
   --type 'SampleData[AlignedSequence]' \
