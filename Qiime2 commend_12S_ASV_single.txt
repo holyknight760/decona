@@ -13,32 +13,29 @@ $ qiime demux summarize \
  --o-visualization demux 
 
 #Cutadpt 
+#서열의 품질이 30이하일 경우에는 프라이머 방향에 상관없이 기본 옵션으로 진행해야함!!
 $ qiime cutadapt trim-single \
 --i-demultiplexed-sequences single-end-demux.qza \
 --p-front GTACACACCGCCCGTC \
 --o-trimmed-sequences primer_trimed.qza \
 --p-cores 30 
 #Saved SampleData[SequencesWithQuality] to: primer_trimed.qza
---p-no-match-read-wildcards \
---p-discard-untrimmed \
---p-match-adapter-wildcards \
-
---p-front TGATCCTTCTGCAGGTTCACCTAC \
+#--p-no-match-read-wildcards \
+#--p-discard-untrimmed \
+#--p-match-adapter-wildcards \
+#--p-front-r TGATCCTTCTGCAGGTTCACCTAC \
 
 $ qiime demux summarize \
 --i-data primer_trimed.qza \
 --o-visualization primer_trimed.qzv 
+#Saved Visualization to: primer_trimed.qzv
 
-DADA2 
-qiime dada2 denoise-paired \
+#DADA2 
+$ qiime dada2 denoise-single \
 --i-demultiplexed-seqs primer_trimed.qza \
---p-trim-left-f 0 \
---p-trunc-len-f 134 \
---p-trim-left-r 0 \
---p-trunc-len-r 126 \
---p-max-ee-f 4.0 \
---p-max-ee-r 4.0 \
---p-min-overlap 4 \
+--p-trim-left 0 \
+--p-trunc-len 150 \
+--p-max-ee 4.0 \
 --p-pooling-method independent \
 --p-chimera-method consensus \
 --p-n-threads 0 \
