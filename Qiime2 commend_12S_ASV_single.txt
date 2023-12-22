@@ -64,8 +64,8 @@ $ qiime feature-table tabulate-seqs \
 #Taxonomy
 $ qiime feature-classifier classify-consensus-vsearch \
  --i-query representative_sequences.qza \
- --i-reference-reads /mnt/d/qiime2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
- --i-reference-taxonomy /mnt/d/qiime2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
  --p-maxaccepts 1 \
  --p-perc-identity 0.95 \
  --p-min-consensus 0.75 \
