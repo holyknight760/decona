@@ -71,6 +71,8 @@ $ qiime feature-classifier classify-consensus-vsearch \
  --p-min-consensus 0.75 \
  --p-query-cov 0.5 \
  --output-dir taxonomy
+#Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
+Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
 #필터 되기 전의 모든 서열은 taxonomy에서는 필요 X, 뒤에 barplot에서 필요!! 
  qiime feature-classifier classify-consensus-vsearch \
  --i-query barcode17_concatenated.qza \
@@ -83,40 +85,8 @@ $ qiime feature-classifier classify-consensus-vsearch \
  --output-dir taxonomy
 #서열의 길이가 다양할 때는 blast 방식은 사용 불가하며, vsearch가 작동 가능!!
 
-qiime feature-classifier classify-consensus-blast \
- --i-query primer_trimed_filtered_demulti_seq.qza \
- --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs-1720ea_v2-seqs_18S_v230131-derep-uniq.qza \
- --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs-taxonomy-1720ea_v2-tax_18S_v230131-derep-uniq.qza \
- --p-maxaccepts 1 \
- --p-perc-identity 0.95 \
- --p-min-consensus 0.75 \
- --p-query-cov 0.5 \
- --p-evalue 0.001 \
- --output-dir taxonomy
-
-qiime metadata tabulate \
---m-input-file /mnt/e/Nanopore/parasite_18S/parasite_18s_4,5,6,7,8,9/parasite_18s_4,5,6/result/Medaka/taxonomy/classification.qza \
---m-input-file primer_trimed_filtered_demulti_seq.qza \
---o-visualization taxonomy_consensus_blast-asv.qzv
-
-qiime feature-classifier classify-consensus-blast \
- --i-query representative_sequences.qza \
- --i-reference-reads ~/Documents/Database/ncbi-refseqs_18S_v220513-seqs-derep-uniq.qza \
- --i-reference-taxonomy ~/Documents/Database/ncbi-refseqs_18S_v220513-tax-derep-uniq.qza \
- --p-maxaccepts 1 \
- --p-perc-identity 0.95 \
- --p-min-consensus 0.75 \
- --p-query-cov 0.5 \
- --p-evalue 0.001 \
- --o-classification taxonomy_consensus_blast-asv.qza 
-
-qiime metadata tabulate \
---m-input-file /mnt/c/Wild_INU/decona/example_data/parasite_18S/result/Racon/taxonomy/classification.qza \
---m-input-file All_barcodes_combined.qza \
---o-visualization taxonomy_consensus_blast-asv.qzv
-
-qiime metadata tabulate \
---m-input-file taxonomy_consensus_blast-asv.qza \
+$ qiime metadata tabulate \
+--m-input-file ./taxonomy/classification.qza \
 --m-input-file representative_sequences.qza \
 --o-visualization taxonomy_consensus_blast-asv.qzv
 
