@@ -62,15 +62,16 @@ $ qiime feature-table tabulate-seqs \
 #Saved Visualization to: denoise-rep-seq.qzv
 
 #Taxonomy
-$ qiime feature-classifier classify-consensus-vsearch \
+$ qiime feature-classifier classify-consensus-blast \
  --i-query representative_sequences.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
  --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
- --p-maxaccepts 1 \
+ --p-maxaccepts 10 \
  --p-perc-identity 0.95 \
  --p-min-consensus 0.75 \
  --p-query-cov 0.5 \
- --output-dir taxonomy
+ --p-evalue 0.001 \
+ --output-dir taxonomy_e0.001
 #Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
 Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
 #필터 되기 전의 모든 서열은 taxonomy에서는 필요 X, 뒤에 barplot에서 필요!! 
@@ -86,9 +87,9 @@ Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
 #서열의 길이가 다양할 때는 blast 방식은 사용 불가하며, vsearch가 작동 가능!!
 
 $ qiime metadata tabulate \
---m-input-file ./taxonomy/classification.qza \
+--m-input-file ./taxonomy_e0.001/classification.qza \
 --m-input-file representative_sequences.qza \
---o-visualization taxonomy_consensus_blast-asv.qzv
+--o-visualization taxonomy_consensus_blast-asv_e0.001.qzv
 #Saved Visualization to: taxonomy_consensus_blast-asv.qzv
 
 #Barplot
