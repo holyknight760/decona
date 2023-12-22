@@ -70,6 +70,7 @@ $ time qiime feature-classifier classify-consensus-vsearch \
  --p-perc-identity 0.95 \
  --p-min-consensus 0.75 \
  --p-query-cov 0.5 \
+ --p-top-hits-only
  --output-dir taxonomy_iden95_maxacc10_e0.001
 #Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
 Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
