@@ -3,12 +3,13 @@ $ find /mnt/d/ticks/12s/Downloads -name *.fastq.gz -print > list.txt
 $ qiime tools import \
   --type 'SampleData[SequencesWithQuality]' \
   --input-path "manifest_12s".txt \
-  --output-path single-end-demux.qza
+  --output-path single-end-demux.qza \
   --input-format SingleEndFastqManifestPhred33V2
+#Imported manifest_12s.txt as SingleEndFastqManifestPhred33V2 to single-end-demux.qza
 
-Demultiplexing
-qiime demux summarize \
- --i-data paired-end-demux.qza \
+#Demultiplexing
+$ qiime demux summarize \
+ --i-data single-end-demux.qza \
  --o-visualization demux 
 
 Cutadpt 
