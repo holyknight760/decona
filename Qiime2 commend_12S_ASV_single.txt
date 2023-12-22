@@ -42,10 +42,14 @@ $ qiime dada2 denoise-single \
 --o-table table.qza \
 --o-representative-sequences representative_sequences.qza \
 --o-denoising-stats denoising_stats.qza
+#Saved FeatureTable[Frequency] to: table.qza
+#Saved FeatureData[Sequence] to: representative_sequences.qza
+#Saved SampleData[DADA2Stats] to: denoising_stats.qza
 
-qiime feature-table summarize \
+$ qiime feature-table summarize \
 --i-table table.qza \
 --o-visualization denoise-table.qzv 
+#Saved Visualization to: denoise-table.qzv
 
 qiime metadata tabulate \
 --m-input-file denoising_stats.qza \
