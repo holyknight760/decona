@@ -62,6 +62,7 @@ $ qiime feature-table tabulate-seqs \
 #Saved Visualization to: denoise-rep-seq.qzv
 
 #Taxonomy
+#vsearch와 blast 결과가 조금씩 다르다! 그러나 가지고 있는 서열은 같다. 
 $ time qiime feature-classifier classify-consensus-vsearch \
  --i-query representative_sequences.qza \
  --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
@@ -72,6 +73,17 @@ $ time qiime feature-classifier classify-consensus-vsearch \
  --p-query-cov 0.5 \
  --p-top-hits-only
  --output-dir taxonomy_iden95_maxacc10_e0.001
+
+ $ qiime feature-classifier classify-consensus-blast \
+ --i-query primer_trimed_filtered_demulti_seq.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/ncbi-refseqs_12S-seqs-derep-uniq.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/ncbi-refseqs_12S-tax-derep-uniq.qza \
+ --p-maxaccepts 10 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --output-dir taxonomy
 #Saved FeatureData[Taxonomy] to: taxonomy/classification.qza
 Saved FeatureData[BLAST6] to: taxonomy/search_results.qza
 #필터 되기 전의 모든 서열은 taxonomy에서는 필요 X, 뒤에 barplot에서 필요!! 
@@ -95,9 +107,9 @@ $ qiime metadata tabulate \
 #Barplot
 $ qiime taxa barplot \
 --i-table table.qza \
---i-taxonomy ./taxonomy/classification.qza \
+--i-taxonomy ./taxonomy_iden95_maxacc10/classification.qza \
 --m-metadata-file metadata_12s.tsv \
---o-visualization bar_plots_blast95_12S-asv.qzv 
+--o-visualization bar_plots_vsearch_iden95_maxacc10_12S-asv.qzv 
 
 # Generate a feature table
 qiime taxa barplot \
