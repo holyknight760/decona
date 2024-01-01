@@ -17,3 +17,5 @@ $ time qiime diversity beta-group-significance \
 --o-visualization ./diversity/bray_curtis_distance-depth-significance.qzv \
 --p-pairwise \
 --verbose
+#Saved Visualization to: ./diversity/bray_curtis_distance-depth-significance.qzv
+
