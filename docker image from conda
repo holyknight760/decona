@@ -348,11 +348,11 @@ $ docker scout quickview
   Include policy results in your quickview by supplying an organization → docker scout quickview local://decona:latest --org <organization>
 
 #https://blog.naver.com/PostView.naver?blogId=qbxlvnf11&logNo=222439207002&directAccess=false
-#- Docker save (docer image → tar file)
+#도커 이미지를 압축파일로 저장하기! - Docker save (docer image → tar file)
 # sudo docker save -o file_name.tar image_name
 $ sudo docker save -o circos.tar holyknightt/circos:v5
 
-#- Docker load (tar file → docker image)
+#압축파일로 저장된 도커 이미지를 불러오기! - Docker load (tar file → docker image)
 # sudo docker load -i file_name.tar
 $ sudo docker load -i circos.tar
 (base) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Downloads$ sudo docker load -i circos.tar
