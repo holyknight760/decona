@@ -8,4 +8,12 @@ $ qiime diversity alpha-group-significance \
   --verbose
 #Saved Visualization to: ./diversity/faiths_pd_statistics.qzv
 
-
+#베타 diversity 하기(PERMANOVA test)
+#주의 meta data에서 특정 column을 정해줘야함
+$ time qiime diversity beta-group-significance \
+--i-distance-matrix ./diversity/bray_curtis_distance_matrix.qza \
+--m-metadata-file metadata_16s.tsv \
+--m-metadata-column species \
+--o-visualization ./diversity/bray_curtis_distance-depth-significance.qzv \
+--p-pairwise \
+--verbose
