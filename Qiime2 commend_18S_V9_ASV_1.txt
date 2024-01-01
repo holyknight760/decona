@@ -1,3 +1,7 @@
+#CPU 사용량 보기!
+$ top
+$ q
+
 find /home/qiime2/Documents/dog_230215/18s/Downloads -name *.fastq.gz -print > list.txt
 
 qiime tools import \
