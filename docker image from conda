@@ -353,6 +353,7 @@ $ docker scout quickview
 $ sudo docker save -o circos.tar holyknightt/circos:v5
 
 #압축파일로 저장된 도커 이미지를 불러오기! - Docker load (tar file → docker image)
+#도커 이미지를 불러온 후, start & attach로 도커 환경 불러오기!
 # sudo docker load -i file_name.tar
 $ sudo docker load -i circos.tar
 (base) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Downloads$ sudo docker load -i circos.tar
