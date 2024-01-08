@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"id":"2c36600fae09d844","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf","x":-720,"y":-480,"width":820,"height":1120,"subpath":"#page=1"}
+		{"id":"2c36600fae09d844","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf","subpath":"#page=1","x":-720,"y":-480,"width":820,"height":1120},
+		{"id":"6de3c503cd8ebf70","x":240,"y":260,"width":400,"height":301,"type":"file","file":"20240108_102430 2.jpg"},
+		{"id":"63baf2ef269cad2d","x":180,"y":-220,"width":650,"height":300,"type":"file","file":"Pasted image 20240108155109.png"}
 	],
 	"edges":[]
 }
