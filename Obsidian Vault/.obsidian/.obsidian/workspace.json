@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "b3a8e2aa1fa84c84",
+    "type": "split",
+    "children": [
+      {
+        "id": "59d2f0f83b5ed04b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fc638ff175fd2ef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "79350d48ee8b9101",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
+                "viewState": {
+                  "x": -320,
+                  "y": 64.29137121043527,
+                  "zoom": -0.5939326542257091
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee03f1e7718b6414",
+    "type": "split",
+    "children": [
+      {
+        "id": "9abc6f2d01b36561",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f092ad49f9a32932",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b501616e5dd903f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "44d4d1b777f43447",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "70411e58694420f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b4941fbf56a9494",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66592fc9279a3760",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bbd957728a56023b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "749425402557f0f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80649ea8430da515",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "79350d48ee8b9101",
+  "lastOpenFiles": [
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas"
+  ]
+}

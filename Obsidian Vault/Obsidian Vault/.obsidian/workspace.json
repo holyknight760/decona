@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "dfb90f60889f68f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "9264d3cb1227e9f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d163d79d4823aea8",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Culicidae identification specific primer.canvas",
+                "viewState": {
+                  "x": 192.5,
+                  "y": 267,
+                  "zoom": -0.7053687064237811
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3977529c03e78e73",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d479cfa16c77163",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91565279009dd1b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "112ec01724eea7b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c0f55dbbafc1595",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "b2319d5d0ef6d6c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f622a5416ee390b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c9b6381cbe45a47",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Culicidae identification specific primer.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "165ab2bd41511e28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Culicidae identification specific primer.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9718579ffa602e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d2a738a526cf396",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Culicidae identification specific primer.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "d163d79d4823aea8",
+  "lastOpenFiles": [
+    "무제 파일.canvas",
+    "Culicidae identification specific primer.canvas",
+    "GTTGT.md",
+    "무제 폴더",
+    "Pasted image 20231017105835.png",
+    "Pasted image 20231017105909.png",
+    "Pasted image 20231017105900.png"
+  ]
+}
