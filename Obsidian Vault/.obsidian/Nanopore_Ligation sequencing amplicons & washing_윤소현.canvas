@@ -1,12 +1,25 @@
 {
 	"nodes":[
 		{"id":"2c36600fae09d844","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf","subpath":"#page=1","x":-720,"y":-480,"width":820,"height":1120},
-		{"id":"63baf2ef269cad2d","type":"file","file":"Pasted image 20240108155109.png","x":180,"y":-340,"width":909,"height":420},
-		{"id":"6de3c503cd8ebf70","type":"file","file":"20240108_102430 2.jpg","x":180,"y":180,"width":650,"height":490}
+		{"id":"45968857d144536b","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_1.pdf","subpath":"#page=1","x":-710,"y":726,"width":1190,"height":1325},
+		{"id":"e5deab244f1e8f99","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_2.pdf","x":-710,"y":2051,"width":1190,"height":1325},
+		{"id":"6a415a1ac67da74f","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_3.pdf","x":-710,"y":3371,"width":1190,"height":1325},
+		{"id":"0a6f105d9fe78317","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_4.pdf","x":-710,"y":4694,"width":1190,"height":1325},
+		{"id":"0d6741cffac63d72","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_5.pdf","x":-710,"y":6020,"width":1190,"height":1325},
+		{"id":"74e0161c4dd826b5","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_6.pdf","x":-710,"y":7339,"width":1190,"height":1325},
+		{"id":"a58761bf97a0acb9","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_7.pdf","x":-710,"y":8667,"width":1190,"height":1325},
+		{"id":"2a393bf34071a6f3","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_8.pdf","x":-710,"y":9986,"width":1190,"height":1325},
+		{"id":"af468156c06cb02e","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_9.pdf","x":-710,"y":11312,"width":1190,"height":1325},
+		{"id":"7c435eaf0411443f","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_10.pdf","x":-710,"y":12635,"width":1190,"height":1325},
+		{"id":"77a087c3566203ae","type":"file","file":"Nanopore_Ligation sequencing amplicons & washing_윤소현_11.pdf","x":-710,"y":13955,"width":1190,"height":1325},
+		{"id":"63baf2ef269cad2d","type":"file","file":"Pasted image 20240108155109.png","x":600,"y":3460,"width":909,"height":420},
+		{"id":"6de3c503cd8ebf70","type":"file","file":"20240108_102430 2.jpg","x":729,"y":3956,"width":650,"height":490},
+		{"id":"a2932587376075bd","x":-880,"y":2620,"width":140,"height":67,"type":"text","text":"**20ng/ul**"}
 	],
 	"edges":[
-		{"id":"a4e3492cf0f27686","fromNode":"63baf2ef269cad2d","fromSide":"left","toNode":"2c36600fae09d844","toSide":"right"},
-		{"id":"6f83639d16e9d293","fromNode":"6de3c503cd8ebf70","fromSide":"left","toNode":"2c36600fae09d844","toSide":"right"},
-		{"id":"dada972544e23002","fromNode":"63baf2ef269cad2d","fromSide":"bottom","toNode":"6de3c503cd8ebf70","toSide":"top"}
+		{"id":"dada972544e23002","fromNode":"63baf2ef269cad2d","fromSide":"bottom","toNode":"6de3c503cd8ebf70","toSide":"top"},
+		{"id":"f4167a1372e65f03","fromNode":"63baf2ef269cad2d","fromSide":"left","toNode":"6a415a1ac67da74f","toSide":"right"},
+		{"id":"29de5b7cb003942d","fromNode":"6de3c503cd8ebf70","fromSide":"left","toNode":"6a415a1ac67da74f","toSide":"right"},
+		{"id":"c79aa7480f4f4d9d","fromNode":"a2932587376075bd","fromSide":"right","toNode":"e5deab244f1e8f99","toSide":"left"}
 	]
 }

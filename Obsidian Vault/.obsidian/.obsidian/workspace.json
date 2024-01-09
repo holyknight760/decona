@@ -15,9 +15,9 @@
               "state": {
                 "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
                 "viewState": {
-                  "x": 55,
-                  "y": 79.99999999999994,
-                  "zoom": -0.3568934569248593
+                  "x": 387,
+                  "y": 2632.2620436679636,
+                  "zoom": -0.4444444274902344
                 }
               }
             }
@@ -72,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "70411e58694420f4",
@@ -151,11 +152,22 @@
   },
   "active": "60575391fb9a84ef",
   "lastOpenFiles": [
+    "무제 파일.canvas",
+    "2024-01-09.md",
     "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_10.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_11.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_1.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_2.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_3.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_4.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_5.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_6.pdf",
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현_7.pdf",
     "Pasted image 20240108155109.png",
     "20240108_102430 2.jpg",
     "20240108_102430 1.jpg",
-    "20240108_102430.jpg",
-    "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf"
+    "20240108_102430.jpg"
   ]
 }
