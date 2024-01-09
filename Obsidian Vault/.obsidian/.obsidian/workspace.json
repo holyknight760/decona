@@ -8,30 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6fc638ff175fd2ef",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "79350d48ee8b9101",
+            "id": "60575391fb9a84ef",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
                 "viewState": {
-                  "x": -320,
-                  "y": 251.4514472309279,
-                  "zoom": -0.5939326542257091
+                  "x": 55,
+                  "y": 79.99999999999994,
+                  "zoom": -0.3568934569248593
                 }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf"
+                "file": "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas"
               }
             }
           }
@@ -158,13 +149,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "79350d48ee8b9101",
+  "active": "60575391fb9a84ef",
   "lastOpenFiles": [
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas",
     "Pasted image 20240108155109.png",
     "20240108_102430 2.jpg",
     "20240108_102430 1.jpg",
     "20240108_102430.jpg",
-    "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf",
-    "Nanopore_Ligation sequencing amplicons & washing_윤소현.canvas"
+    "Nanopore_Ligation sequencing amplicons & washing_윤소현.pdf"
   ]
 }
