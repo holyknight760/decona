@@ -244,6 +244,7 @@ $ docker rename decona decona_v0
 
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos/circos-0.69-9/example/run_ticks circos_v3:/software/circos/current/example
+$ sudo docker cp /mnt/c/Users/MSI/Downloads/circos-course circos_v5:/software/circos/current/example
 
 (base) holyknightt@SME189W2WDP030:/mnt/c/users/holyknightt/Downloads$ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
 [sudo] password for holyknightt: 12461256aA
