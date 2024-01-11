@@ -247,13 +247,13 @@ $ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos/circos-0.69-9/example
 $ sudo docker cp /mnt/c/Users/MSI/Downloads/circos-course circos_v5:/software/circos/current/example
 
 #도커 내 파일 이동
-$ mv /software/circos/current/example/circos-course /root
-$ mv /root/circos-course/session/1/etc/ticks.conf /root/circos-course/session/1/1/etc
-$ mv /root/circos-course/session/etc/image.conf /root/circos-course/session/1/1/etc
+> mv /software/circos/current/example/circos-course /root
+> mv /root/circos-course/session/1/etc/ticks.conf /root/circos-course/session/1/1/etc
+> mv /root/circos-course/session/etc/image.conf /root/circos-course/session/1/1/etc
 
 #도커 내 파일 복사
-$ cp /software/circos/current/etc/colors_fonts_patterns.conf /root/circos-course/session/1/1/etc
-$ cp /software/circos/current/etc/housekeeping.conf /root/circos-course/session/1/1/etc
+> cp /software/circos/current/etc/colors_fonts_patterns.conf /root/circos-course/session/1/1/etc
+> cp /software/circos/current/etc/housekeeping.conf /root/circos-course/session/1/1/etc
 
 #도커 내 파일 수정 (nano)
 > apt-get update && apt-get install nano
@@ -279,10 +279,10 @@ $ sudo docker cp circos_v4:/circos.png /mnt/c/users/holyknightt/Downloads
 $ sudo docker cp circos_v5:/software/circos/current/example/etc /mnt/c/Users/MSI/Downloads
 (base) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona$ sudo docker cp circos_v5:/software/circos/current/example/etc /mnt/c/Users/MSI/Downloads
 [sudo] password for holyknightt: 스페이스 한칸 (MSI 노트북)
-
 (base) holyknightt@SME189W2WDP030:~$ sudo docker cp circos_v3:/software/circos/current/example /mnt/c/users/holyknightt/Downloads
 [sudo] password for holyknightt: 12416256a
 Successfully copied 13.3MB to /mnt/c/users/holyknightt/Downloads
+$ sudo docker cp circos_v5:/root/circos-course/session/1/1/etc/circos.png /mnt/c/Users/MSI/Downloads
 
 #dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
 $ find /decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
