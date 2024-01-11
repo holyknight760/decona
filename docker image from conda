@@ -85,6 +85,7 @@ $ docker run -d -it --name circos_v2 holyknightt/circos:v2
 $ docker run -d -it --name circos_v3 holyknightt/circos:v3
 $ docker run -d -it --name circos_v4 holyknightt/circos:v4
 $ docker run -d -it --name circos_v5 holyknightt/circos:v5
+$ docker run -d -it --name circos_v6 holyknightt/circos:v6
 
 (base) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ docker run -d -it --name circos_v1 holyknightt/circos:v1
 3a349d66fca672c32889654524c5d16067534ec5d385ff8bfbbecf51100fdb53
@@ -357,7 +358,8 @@ $ docker push holyknightt/circos:v3
 $ docker push holyknightt/circos:v4
 $ docker push holyknightt/circos:v6
 
-#Pulling images from a registry (web), start 명령어 입력 전에 container를 제작해야 함. run 명령어로 제작이 가능함. 
+#Pulling images from a registry (web), start 명령어 입력 전에 container를 제작해야 함. 
+#run 명령어로 컨테이너 제작이 가능함. 
 $ docker pull holyknightt/decona:v1
 $ docker pull holyknightt/circos:v2
 $ docker pull holyknightt/circos:v4
