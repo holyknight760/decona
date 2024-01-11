@@ -59,6 +59,7 @@ $ docker tag circos:v1 holyknightt/circos:v1
 #사용자 이름으로 이미지에 태그 지정: Docker Hub 사용자 이름으로 Docker 이미지에 태그를 지정해야 합니다. Docker Hub 사용자 이름이 Holyknightt인 경우 이미지에 decona:v1이 아닌 Holyknightt/decona:v1 태그를 지정해야 합니다.
 $ docker tag decona:v1 holyknightt/decona:v1
 #Pushing the Image to web: After retagging, try pushing the image again with the correct tag:
+#push 전에 commit 명령어로 컨테이너와 이미지를 함께 저장하기!! 필수!!
 $ docker push holyknightt/decona:v1
 $ docker push holyknightt/circos:v2
 $ docker push holyknightt/circos:v3
@@ -293,17 +294,18 @@ $ conda clean --all
 
 #https://jinjinyang.tistory.com/48
 #실행한 컨테이너의 bash 탈출
-$ exit
+> exit
 
 #commit 명령어로 my-ubuntu 컨테이너를 이미지화 시킴. 이때 egoing라는 레파지토리 (web)에 ubuntu-git 태그로 이미지 생성
 #이후에 도커 이미지를 web에서 pull하고, pull된 도커 이미지에 대한 container를 따로 다시 제작해야 함. 
-#다시금 web에 도커 이미지를 올리려면 push 명령어 실행이 필요!! 
+#다시금 web에 도커 이미지를 올리려면 push 명령어 실행이 필요!! web에 컨테이너와 함께 이미지를 올려야 함.  
 $ docker commit my-ubuntu egoing:ubuntu-git
 $ docker commit decona holyknightt/decona:v2
 $ docker commit circos_v1 holyknightt/circos:v2
 $ docker commit circos_v2 holyknightt/circos:v3
 $ docker commit circos_v3 holyknightt/circos:v4
 $ docker commit circos_v4 holyknightt/circos:v5
+$ docker commit circos_v5 holyknightt/circos:v6
 
 #Bind Mount 하기, 로컬의 c:/~~~~ 디렉토리를 컨테이너 내부의 mount 폴더에 마운트시켜 실시간 동기화되는 디렉토리로 사용가능. 출처: https://thisisablog.tistory.com/41 [to Memorize:티스토리]
 $ docker run -d -it -v c:\~~~~~:/mount 이미지
@@ -353,12 +355,14 @@ $ docker push holyknightt/circos:v1
 $ docker push holyknightt/circos:v2
 $ docker push holyknightt/circos:v3
 $ docker push holyknightt/circos:v4
+$ docker push holyknightt/circos:v6
 
 #Pulling images from a registry (web), start 명령어 입력 전에 container를 제작해야 함. run 명령어로 제작이 가능함. 
 $ docker pull holyknightt/decona:v1
 $ docker pull holyknightt/circos:v2
 $ docker pull holyknightt/circos:v4
 $ docker pull holyknightt/circos:v5
+$ docker pull holyknightt/circos:v6
 
 $ docker scout quickview
  View vulnerabilities → docker scout cves local://decona:latest
