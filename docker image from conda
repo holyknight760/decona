@@ -248,11 +248,20 @@ $ sudo docker cp /mnt/c/Users/MSI/Downloads/circos-course circos_v5:/software/ci
 
 #도커 내 파일 이동
 $ mv /software/circos/current/example/circos-course /root
+$ mv /root/circos-course/session/1/etc/ticks.conf /root/circos-course/session/1/1/etc
+$ mv /root/circos-course/session/etc/image.conf /root/circos-course/session/1/1/etc
+
+#도커 내 파일 복사
+$ cp /software/circos/current/etc/colors_fonts_patterns.conf /root/circos-course/session/1/1/etc
+$ cp /software/circos/current/etc/housekeeping.conf /root/circos-course/session/1/1/etc
 
 #도커 내 파일 수정 (nano)
 > apt-get update && apt-get install nano
 > nano circos.conf
 #Make your changes in the editor. With nano, you can save changes by pressing Ctrl + O and exit the editor by pressing Ctrl + X.
+
+#도커 내 파일 보기 (cat)
+> cat circos.conf
 
 (base) holyknightt@SME189W2WDP030:/mnt/c/users/holyknightt/Downloads$ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
 [sudo] password for holyknightt: 12461256aA
