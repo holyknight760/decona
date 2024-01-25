@@ -232,6 +232,7 @@ cpan[2]>
 #gimp png 이미지 파일을 읽을 때 필요한 도구!
 > apt-get install gimp
 (base) root@f71e1d3555ad:~/circos-course/session/6/2# apt-get install gimp
+> gimp circos.png
 
 
 
