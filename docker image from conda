@@ -229,6 +229,8 @@ cpan[2]>
 > apt-get install gcc
 > apt-get install pkg-config
 > apt-get install libgd-dev
+#gimp png 이미지 파일을 읽을 때 필요한 도구!
+> apt-get install gimp
 
 
 
