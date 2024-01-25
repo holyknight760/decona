@@ -222,6 +222,10 @@ Failed during this command:
  ABW/Math-Bezier-0.01.tar.gz                  : make NO
 
 cpan[2]> 
+#설치된 tool의 리스트 나열!
+> apt list --installed
+#설치된 tool 제거!
+> apt remove package_name
 
 #make, gcc, pkg-config, gdlib가 없어서 docker 내에 설치가 필요할 때, Perl 모듈을 빌드하는 데 필요한 중요한 도구! 
 > apt-get update
