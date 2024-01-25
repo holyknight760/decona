@@ -233,7 +233,7 @@ cpan[2]>
 > apt-get install gimp
 (base) root@f71e1d3555ad:~/circos-course/session/6/2# apt-get install gimp
 > gimp circos.png
-#gimp 도구를 깔았으나, 결국엔 열리지 않음.
+#gimp 도구를 깔았으나, 결국엔 열리지 않음. 도커에 완전한 리눅스 시스템을 설치한 것이 아니기 때문에 복잡한 프로그램은 따로 코딩이 필요!!
 (base) root@f71e1d3555ad:~/circos-course/session/6/2# gimp circos.png
 Cannot open display: 
 
