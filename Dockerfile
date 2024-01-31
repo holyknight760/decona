@@ -178,6 +178,8 @@ CMD [ "/bin/bash" ]
 #위의 경로에 그림파일이 만들어짐. 중간에 uninitialized value 경고가 뜨지만, 그림이 제대로 만들어짐. 
 #(base) root@f71e1d3555ad:~/circos-course/session/6/1# cd ../2
 #(base) root@f71e1d3555ad:~/circos-course/session/6/2# cd ../1
+#(base) root@f71e1d3555ad:~/circos-course/session/6/1# which circos
+#/software/circos/current/bin/circos
 #(base) root@f71e1d3555ad:~/circos-course/session/6/1# circos
 #debuggroup summary 0.08s welcome to circos v0.69-8 15 Jun 2019 on Perl 5.034000
 #debuggroup summary 0.08s current working directory /root/circos-course/session/6/1
