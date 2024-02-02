@@ -185,5 +185,12 @@ CMD [ "/bin/bash" ]
 #debuggroup summary 0.08s current working directory /root/circos-course/session/6/1
 #debuggroup output 1.06s generating output
 #debuggroup output 1.17s created PNG image ./circos.png (330 kb)
+#(base) root@f71e1d3555ad:~/circos-course/session/1/2# cd 1/3
+#bash: cd: 1/3: No such file or directory
+#(base) root@f71e1d3555ad:~/circos-course/session/1/2# cd ..1/3
+#bash: cd: ..1/3: No such file or directory
+#(base) root@f71e1d3555ad:~/circos-course/session/1/2# cd ../3
+#(base) root@f71e1d3555ad:~/circos-course/session/1/3#
+
 
 
