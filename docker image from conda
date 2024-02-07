@@ -262,6 +262,10 @@ $ docker rename decona decona_v0
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos-0.69-9.tgz circos_v1:/software/circos
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/circos/circos-0.69-9/example/run_ticks circos_v3:/software/circos/current/example
 $ sudo docker cp /mnt/c/Users/MSI/Downloads/circos-course circos_v5:/software/circos/current/example
+$ sudo docker cp /mnt/d/circos/circos-course circos_v6:/root
+#(qiime2-2023.5) holyknightt@SME189W2WDP030:/mnt/d/ticks/ticks_240206/16s$ sudo docker cp /mnt/d/circos/circos-course circos_v6:/root
+#[sudo] password for holyknightt: 112416256a
+#Successfully copied 1.05GB to circos_v6:/root
 
 #도커 내 파일 이동
 > mv /software/circos/current/example/circos-course /root
