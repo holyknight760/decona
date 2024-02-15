@@ -269,6 +269,8 @@ $ sudo docker cp /mnt/d/circos/circos-course circos_v6:/root
 #체체파리 데이터로 circos 그리기!!
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/karyotype.and.layout.conf circos_v6:/root/circos-course/session/2/etc
 $ sudo docker cp /mnt/c/users/holyknightt/Downloads/tsetse.txt circos_v6:/software/circos/circos-0.69-9/data/karyotype
+$ sudo docker cp /mnt/c/Users/MSI/Downloads/karyotype.and.layout.conf circos_v6:/root/circos-course/session/2/etc
+$ sudo docker cp /mnt/c/Users/MSI/Downloads/tsetse.txt circos_v6:/software/circos/circos-0.69-9/data/karyotype
 
 #도커 내 파일 이동
 > mv /software/circos/current/example/circos-course /root
