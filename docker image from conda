@@ -273,6 +273,7 @@ $ sudo docker cp /mnt/c/Users/MSI/Downloads/karyotype.and.layout.conf circos_v6:
 $ sudo docker cp /mnt/c/Users/MSI/Downloads/tsetse.txt circos_v6:/software/circos/circos-0.69-9/data/karyotype
 $ sudo docker cp /mnt/c/Users/MSI/Downloads/image.conf circos_v6:/root/circos-course/session/etc
 $ sudo docker cp /mnt/c/Users/MSI/Downloads/Configuration.pm circos_v6:/software/circos/circos-0.69-9/bin/../lib/Circos
+$ sudo docker cp /mnt/c/Users/MSI/Downloads/tsetse.txt circos_v6:/root/circos-course/session/7/data
 
 #도커 내 파일 이동
 > mv /software/circos/current/example/circos-course /root
