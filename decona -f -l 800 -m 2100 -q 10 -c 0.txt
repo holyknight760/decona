@@ -26,7 +26,11 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/
 #BLAST options error: File /mnt/c/Wild_INU/decona/example_data/16s/dna-sequences.fasta does not exist
 #그래서 그냥 fasta 파일 기반으로 decona 실행!
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/c/Wild_INU/decona/example_data/16s/dna-sequences.fasta
+decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Users/MSI/Documents/GitHub/decona/example_data/16s/dna-sequences.fasta
 #이때, 실행 폴더 아래에는 subfolder는 1개만 존재해야 함. 그렇지 않으면 'mv: cannot stat '*_concatenated.fastq': No such file or directory' 메세지가 뜸. 
+#-B 옵션은 파일 경로가 있으면 작동 불가!!
+decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -B dna-sequences.fasta
+#(decona) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona/example_data/love_bug_16s_95$ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -B dna-sequences.fasta
 
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
