@@ -1,3 +1,9 @@
+#
+time qiime tools export \
+--input-path ~/Documents/Database/silva-138-99-seqs-515-806.qza \
+--output-path ~/Documents/Database/OTU-species-table
+
+
 find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
 find /data/nanopore/lovebug/basecalling/pass -name *.fastq.gz -print > list.txt
 
