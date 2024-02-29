@@ -14,6 +14,8 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -b /mnt/e/Nanopore/ncbi-re
 #Building a new DB
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/d/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
+#16s DB
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/c/Wild_INU/decona/example_data/16s/dna-sequences.fasta
 
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
