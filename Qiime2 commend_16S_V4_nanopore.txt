@@ -1,7 +1,7 @@
-#
+#qza 파일을 fasta 형태의 파일로 변환
 time qiime tools export \
---input-path ~/Documents/Database/silva-138-99-seqs-515-806.qza \
---output-path ~/Documents/Database/OTU-species-table
+--input-path /mnt/c/Wild_INU/decona/silva-138-99-seqs-515-806.qza \
+--output-path /mnt/c/Wild_INU/decona/example_data/16s
 
 
 find /data/nanopore/lovebug/Downloads -name *.fastq.gz -print > list.txt
