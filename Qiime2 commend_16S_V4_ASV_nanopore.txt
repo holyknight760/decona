@@ -1,0 +1,176 @@
+find /mnt/d/etc_240209/16s/20240209_111654/Fastq/ -name *.fastq.gz -print > list.txt
+#(qiime2-2023.5) holyknightt@SME189W2WDP030:/mnt/d/ticks_2023$ 
+$ find . -name *.fastq.gz -print > list.txt
+#./12s/Downloads/12STICK-12-1-K_S23_L001_R1_001.fastq.gz
+#...
+#/mnt/d/ticks_2023/12s/Downloads/12STICK-12-1-K_S23_L001_R1_001.fastq.gz
+
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path manifest_16s.txt \
+  --output-path paired-end-demux.qza \
+  --input-format PairedEndFastqManifestPhred33V2 
+
+Demultiplexing
+qiime demux summarize \
+ --i-data paired-end-demux.qza \
+ --o-visualization demux 
+
+Cutadpt 
+qiime cutadapt trim-paired \
+--i-demultiplexed-sequences paired-end-demux.qza \
+--p-front-f GTGCCAGCMGCCGCGGTAA \
+--p-front-r GGACTACHVGGGTWTCTAAT \
+--p-no-match-read-wildcards \
+--p-discard-untrimmed \
+--p-match-adapter-wildcards \
+--o-trimmed-sequences primer_trimed.qza \
+--p-cores 30
+
+qiime demux summarize \
+--i-data primer_trimed.qza \
+--o-visualization primer_trimed.qzv 
+
+DADA2 
+qiime dada2 denoise-paired \
+--i-demultiplexed-seqs primer_trimed.qza \
+--p-trim-left-f 0 \
+--p-trunc-len-f 131 \
+--p-trim-left-r 0 \
+--p-trunc-len-r 130 \
+--p-max-ee-f 4.0 \
+--p-max-ee-r 4.0 \
+--p-min-overlap 4 \
+--p-pooling-method independent \
+--p-chimera-method consensus \
+--p-n-threads 0 \
+--o-table table.qza \
+--o-representative-sequences representative_sequences.qza \
+--o-denoising-stats denoising_stats.qza
+
+qiime feature-table summarize \
+--i-table table.qza \
+--o-visualization denoise-table.qzv
+
+qiime metadata tabulate \
+--m-input-file denoising_stats.qza \
+--o-visualization denoise-stats.qzv
+
+qiime feature-table tabulate-seqs \
+--i-data representative_sequences.qza \
+--o-visualization denoise-rep-seq.qzv
+
+Taxonomy
+#분석 컴퓨터 database
+time qiime feature-classifier classify-consensus-blast \
+ --i-query representative_sequences.qza \
+ --i-reference-reads /mnt/d/qiime2/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /mnt/d/qiime2/Database/silva-138-99-tax-515-806.qza \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --output-dir taxonomy
+
+#학교 database
+time qiime feature-classifier classify-consensus-blast \
+ --i-query representative_sequences.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/silva-138-99-tax-515-806.qza \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --output-dir taxonomy
+
+qiime feature-classifier classify-consensus-blast \
+ --i-query representative_sequences.qza \
+ --i-reference-reads /mnt/e/QIIME2/Database/silva-138-99-seqs-515-806.qza \
+ --i-reference-taxonomy /mnt/e/QIIME2/Database/silva-138-99-tax-515-806.qza \
+ --p-maxaccepts 1 \
+ --p-perc-identity 0.95 \
+ --p-min-consensus 0.75 \
+ --p-query-cov 0.5 \
+ --p-evalue 0.001 \
+ --output-dir taxonomy_P0.001
+
+qiime metadata tabulate \
+--m-input-file ./taxonomy/classification.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+
+qiime metadata tabulate \
+--m-input-file /data/KMJ/mite_DF/16s/taxonomy_P0.001/classification.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv_P0.001.qzv
+
+
+qiime metadata tabulate \
+--m-input-file taxonomy_consensus_blast-asv.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv.qzv
+
+qiime metadata tabulate \
+--m-input-file taxonomy_consensus_blast-asv_P0.001.qza \
+--m-input-file representative_sequences.qza \
+--o-visualization taxonomy_consensus_blast-asv_P0.001.qzv
+
+Barplot
+qiime taxa barplot \
+--i-table table.qza \
+--i-taxonomy ./taxonomy/classification.qza \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization bar_plots_blast95_16S-asv.qzv
+
+qiime taxa barplot \
+--i-table table.qza \
+--i-taxonomy /data/KMJ/mite_DF/taxonomy_P0.001/classification.qza \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization bar_plots_blast95_16S-asv_P0.001.qzv 
+
+
+qiime taxa collapse \
+--i-table table.qza \
+--i-taxonomy ./taxonomy/classification.qza \
+--p-level 7 \
+--o-collapsed-table collapsed-table-specific.qza 
+
+qiime tools extract \
+--input-path collapsed-table-specific.qza \
+
+biom convert \
+-i /mnt/d/wild_INU/16s/ecad974a-1c90-48e6-b2da-a9b5d45c0bdd/data/feature-table.biom \
+-o ASV-species-table-asv-16S.tsv \
+--to-tsv 
+
+Building a tree
+qiime phylogeny align-to-tree-mafft-fasttree \
+--i-sequences representative_sequences.qza \
+--output-dir tree
+
+time qiime diversity alpha-rarefaction \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-max-depth 72986 \
+--m-metadata-file metadata_16s.tsv \
+--o-visualization alpha_rarefaction-max-depth72986.qzv \
+--verbose
+
+Alpha and Beta Diversity
+qiime diversity core-metrics-phylogenetic \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-sampling-depth 3000 \
+--m-metadata-file metadata_16s.tsv \
+--output-dir diversity
+
+qiime diversity core-metrics-phylogenetic \
+--i-table table.qza \
+--i-phylogeny tree/rooted_tree.qza \
+--p-sampling-depth 7000 \
+--m-metadata-file metadata_16s.tsv \
+--output-dir diversity
+
+qiime diversity beta-group-significance \
+--i-distance-matrix unweighted_unifrac_distance_matrix.qza \
+--m-metadata-file metadata_16s.tsv \
+--m-metadata-column location \
+--o-visualization unweighted-unifrac-depth-significance.qzv \
+--p-pairwise 
+
