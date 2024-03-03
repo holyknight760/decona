@@ -33,6 +33,13 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B dna-sequences.fasta
 decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
 #(decona) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona/example_data/love_bug_16s_95$ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -B dna-sequences.fasta
 
+#Standalone BLAST Setup for Unix_하드에 인스톨한 ncbi 도구로 ncbi용 데이터베이스 제작!
+#https://www.ncbi.nlm.nih.gov/books/NBK52640/
+$ makeblastdb -in silva-138-99-seqs.fasta -dbtype nucl -title silva-138-99-seqs -out silva-138-99-seqs
+#만들어진 데이터베이스에 fasta 서열을 blast! 
+$ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 delim=, qacc sacc evalue bitscore qcovus pident" -max_target_seqs 23
+
+
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
 #New DB name:   /mnt/c/Wild_INU/decona/example_data/parasite_18S/ncbi-refseqs_18S_v220513-derep-uniq.fasta
