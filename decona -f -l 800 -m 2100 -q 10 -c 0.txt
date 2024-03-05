@@ -41,6 +41,9 @@ $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -
 $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "10 qseqid sseqid pident length mismatch gapopen evalue bitscore stitle" -max_target_seqs 23 -out BLAST_out_All_barcodes_combined.txt
 #barcode01_concatenated_racon-11430-8,d__Bacteria;,98.631,1461,10,5,0.0,2532,d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__Rickettsiaceae; g__Rickettsia; s__uncultured_bacterium
 $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 qaccver saccver pident length mismatch gapopen evalue bitscore qcovs" -max_target_seqs 23 -out summary_BLAST_out_All_barcodes_combined.txt
+#
+$ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 qaccver saccver pident length mismatch gapopen evalue bitscore qcovs stitle" -max_target_seqs 23 -out summary_BLAST_out_All_barcodes_combined.txt
+#
 
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
