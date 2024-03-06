@@ -1,0 +1,170 @@
+n_sequences,	cluster_id,	query_id,	%_identity,	alignment_length,	mismatches,	gap_opens,	evalue,	bit_score,	subject_titles
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-26-13013.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-26-13013.fasta	83.384	987	139	22	0.0	891	N/A	FR749909.1.2952
+consensus_medaka-26-13013.fasta	82.258	744	99	24	5.16e-174	612	N/A	FR749909.1.2952
+consensus_medaka-26-13013.fasta	97.475	396	9	1	0.0	675	N/A	JN866584.1.1771
+consensus_medaka-26-13013.fasta	97.076	171	4	1	3.55e-76	287	N/A	JN866584.1.1771
+consensus_medaka-26-13013.fasta	82.949	651	90	18	1.13e-160	568	N/A	KJ184987.1.1792
+consensus_medaka-26-13013.fasta	96.875	32	1	0	3.92e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-26-13013.fasta	99.605	253	1	0	5.50e-129	462	N/A	KR911839.1.1467
+consensus_medaka-26-13013.fasta	99.605	253	1	0	5.50e-129	462	N/A	AF322442.1.1455
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	KC758869.1.1356
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	MG827266.1.1462
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	MF496165.1.1371
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	KX363668.1.1427
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	AB113214.1.1432
+consensus_medaka-26-13013.fasta	99.209	253	2	0	2.56e-127	457	N/A	FPLS01034920.1.1213
+consensus_medaka-26-13013.fasta	98.814	253	3	0	3.31e-126	453	N/A	AB113215.1.1426
+consensus_medaka-26-13013.fasta	98.819	254	2	1	1.19e-125	451	N/A	DQ652595.1.1326
+consensus_medaka-26-13013.fasta	98.814	253	3	0	1.19e-125	451	N/A	AB795335.1.1421
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	U74757.1.1428
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	MG744513.1.1227
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	JQ339355.1.1470
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	CP003338.558526.560034
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	CP001612.893136.894646
+consensus_medaka-26-13013.fasta	98.419	253	4	0	5.54e-124	446	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-33-18135.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-33-18135.fasta	83.485	987	139	21	0.0	898	N/A	FR749909.1.2952
+consensus_medaka-33-18135.fasta	82.234	743	99	25	1.85e-173	610	N/A	FR749909.1.2952
+consensus_medaka-33-18135.fasta	97.727	396	8	1	0.0	680	N/A	JN866584.1.1771
+consensus_medaka-33-18135.fasta	97.661	171	3	1	7.63e-78	292	N/A	JN866584.1.1771
+consensus_medaka-33-18135.fasta	82.827	658	92	19	3.15e-161	569	N/A	KJ184987.1.1792
+consensus_medaka-33-18135.fasta	96.875	32	1	0	3.92e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-33-18135.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+consensus_medaka-33-18135.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	KC758869.1.1356
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	MG827266.1.1462
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	MF496165.1.1371
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	KX363668.1.1427
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	AB113214.1.1432
+consensus_medaka-33-18135.fasta	99.605	253	1	0	5.50e-129	462	N/A	FPLS01034920.1.1213
+consensus_medaka-33-18135.fasta	99.213	254	1	1	2.56e-127	457	N/A	DQ652595.1.1326
+consensus_medaka-33-18135.fasta	99.209	253	2	0	2.56e-127	457	N/A	AB795335.1.1421
+consensus_medaka-33-18135.fasta	98.814	253	3	0	3.31e-126	453	N/A	AB113215.1.1426
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+consensus_medaka-33-18135.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-35-18426.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-35-18426.fasta	83.418	989	138	23	0.0	894	N/A	FR749909.1.2952
+consensus_medaka-35-18426.fasta	82.234	743	99	25	1.86e-173	610	N/A	FR749909.1.2952
+consensus_medaka-35-18426.fasta	97.229	397	9	2	0.0	671	N/A	JN866584.1.1771
+consensus_medaka-35-18426.fasta	97.076	171	4	1	3.55e-76	287	N/A	JN866584.1.1771
+consensus_medaka-35-18426.fasta	82.827	658	92	19	3.15e-161	569	N/A	KJ184987.1.1792
+consensus_medaka-35-18426.fasta	96.875	32	1	0	3.92e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-35-18426.fasta	99.605	253	1	0	5.50e-129	462	N/A	KR911839.1.1467
+consensus_medaka-35-18426.fasta	99.605	253	1	0	5.50e-129	462	N/A	AF322442.1.1455
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	KC758869.1.1356
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	MG827266.1.1462
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	MF496165.1.1371
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	KX363668.1.1427
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	AB113214.1.1432
+consensus_medaka-35-18426.fasta	99.209	253	2	0	2.56e-127	457	N/A	FPLS01034920.1.1213
+consensus_medaka-35-18426.fasta	98.819	254	2	1	1.19e-125	451	N/A	DQ652595.1.1326
+consensus_medaka-35-18426.fasta	98.814	253	3	0	1.19e-125	451	N/A	AB795335.1.1421
+consensus_medaka-35-18426.fasta	98.814	253	3	0	1.19e-125	451	N/A	HG315612.1.1527
+consensus_medaka-35-18426.fasta	98.419	253	4	0	1.54e-124	448	N/A	AB113215.1.1426
+consensus_medaka-35-18426.fasta	98.419	253	4	0	5.54e-124	446	N/A	U74757.1.1428
+consensus_medaka-35-18426.fasta	98.419	253	4	0	5.54e-124	446	N/A	MG744513.1.1227
+consensus_medaka-35-18426.fasta	98.419	253	4	0	5.54e-124	446	N/A	JQ339355.1.1470
+consensus_medaka-35-18426.fasta	98.419	253	4	0	5.54e-124	446	N/A	CP003338.558526.560034
+consensus_medaka-35-18426.fasta	98.419	253	4	0	5.54e-124	446	N/A	CP001612.893136.894646
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-369-3699.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-369-3699.fasta	83.485	987	138	22	0.0	896	N/A	FR749909.1.2952
+consensus_medaka-369-3699.fasta	82.345	742	99	24	3.97e-175	616	N/A	FR749909.1.2952
+consensus_medaka-369-3699.fasta	97.727	396	8	1	0.0	680	N/A	JN866584.1.1771
+consensus_medaka-369-3699.fasta	97.661	171	3	1	7.60e-78	292	N/A	JN866584.1.1771
+consensus_medaka-369-3699.fasta	83.131	658	91	18	4.03e-165	582	N/A	KJ184987.1.1792
+consensus_medaka-369-3699.fasta	96.875	32	1	0	3.90e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-369-3699.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+consensus_medaka-369-3699.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	KC758869.1.1356
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	MG827266.1.1462
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	MF496165.1.1371
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	KX363668.1.1427
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	AB113214.1.1432
+consensus_medaka-369-3699.fasta	99.605	253	1	0	5.47e-129	462	N/A	FPLS01034920.1.1213
+consensus_medaka-369-3699.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+consensus_medaka-369-3699.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+consensus_medaka-369-3699.fasta	98.814	253	3	0	3.29e-126	453	N/A	AB113215.1.1426
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	U74757.1.1428
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	MG744513.1.1227
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	JQ339355.1.1470
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP003338.558526.560034
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001612.893136.894646
+consensus_medaka-369-3699.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-38-14884.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-38-14884.fasta	83.097	988	140	24	0.0	874	N/A	FR749909.1.2952
+consensus_medaka-38-14884.fasta	82.392	744	98	25	1.11e-175	617	N/A	FR749909.1.2952
+consensus_medaka-38-14884.fasta	97.208	394	9	2	0.0	665	N/A	JN866584.1.1771
+consensus_medaka-38-14884.fasta	97.093	172	3	2	9.87e-77	289	N/A	JN866584.1.1771
+consensus_medaka-38-14884.fasta	83.005	659	91	19	1.88e-163	577	N/A	KJ184987.1.1792
+consensus_medaka-38-14884.fasta	96.875	32	1	0	3.92e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-38-14884.fasta	99.606	254	0	1	5.50e-129	462	N/A	KR911839.1.1467
+consensus_medaka-38-14884.fasta	99.606	254	0	1	5.50e-129	462	N/A	AF322442.1.1455
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	KC758869.1.1356
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	MG827266.1.1462
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	MF496165.1.1371
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	KX363668.1.1427
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	AB113214.1.1432
+consensus_medaka-38-14884.fasta	99.213	254	1	1	2.56e-127	457	N/A	FPLS01034920.1.1213
+consensus_medaka-38-14884.fasta	98.824	255	1	2	3.31e-126	453	N/A	DQ652595.1.1326
+consensus_medaka-38-14884.fasta	98.819	254	2	1	1.19e-125	451	N/A	AB795335.1.1421
+consensus_medaka-38-14884.fasta	98.444	257	1	3	4.28e-125	449	N/A	KT308838.1.1452
+consensus_medaka-38-14884.fasta	98.425	254	3	1	1.54e-124	448	N/A	AB113215.1.1426
+consensus_medaka-38-14884.fasta	98.425	254	3	1	5.53e-124	446	N/A	U74757.1.1428
+consensus_medaka-38-14884.fasta	98.425	254	3	1	5.53e-124	446	N/A	MG744513.1.1227
+consensus_medaka-38-14884.fasta	98.425	254	3	1	5.53e-124	446	N/A	JQ339355.1.1470
+consensus_medaka-38-14884.fasta	98.425	254	3	1	5.53e-124	446	N/A	CP003338.558526.560034
+consensus_medaka-38-14884.fasta	98.425	254	3	1	5.53e-124	446	N/A	CP001612.893136.894646
+#	BLASTN	2.12.0+
+#	Query:	consensus_medaka-66-14941.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+consensus_medaka-66-14941.fasta	83.452	985	138	22	0.0	893	N/A	FR749909.1.2952
+consensus_medaka-66-14941.fasta	82.369	743	99	24	1.10e-175	617	N/A	FR749909.1.2952
+consensus_medaka-66-14941.fasta	97.727	396	8	1	0.0	680	N/A	JN866584.1.1771
+consensus_medaka-66-14941.fasta	97.661	171	3	1	7.60e-78	292	N/A	JN866584.1.1771
+consensus_medaka-66-14941.fasta	83.131	658	91	18	4.03e-165	582	N/A	KJ184987.1.1792
+consensus_medaka-66-14941.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+consensus_medaka-66-14941.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+consensus_medaka-66-14941.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	KC758869.1.1356
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	MG827266.1.1462
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	MF496165.1.1371
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	KX363668.1.1427
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	AB113214.1.1432
+consensus_medaka-66-14941.fasta	99.605	253	1	0	5.48e-129	462	N/A	FPLS01034920.1.1213
+consensus_medaka-66-14941.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+consensus_medaka-66-14941.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+consensus_medaka-66-14941.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+consensus_medaka-66-14941.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLAST	processed	6	queries

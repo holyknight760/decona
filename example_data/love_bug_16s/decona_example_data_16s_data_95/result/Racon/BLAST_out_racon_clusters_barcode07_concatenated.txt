@@ -1,0 +1,394 @@
+n_sequences,	cluster_id,	query_id,	%_identity,	alignment_length,	mismatches,	gap_opens,	evalue,	bit_score,	subject_titles
+#	BLASTN	2.12.0+
+#	Query:	polished-100-9069.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-100-9069.fasta	83.181	987	138	24	0.0	878	N/A	FR749909.1.2952
+polished-100-9069.fasta	82.234	743	99	25	1.85e-173	610	N/A	FR749909.1.2952
+polished-100-9069.fasta	97.710	393	8	1	0.0	675	N/A	JN866584.1.1771
+polished-100-9069.fasta	97.661	171	3	1	7.61e-78	292	N/A	JN866584.1.1771
+polished-100-9069.fasta	82.979	658	91	19	6.75e-163	575	N/A	KJ184987.1.1792
+polished-100-9069.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-100-9069.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-100-9069.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	KC758869.1.1356
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	MG827266.1.1462
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	MF496165.1.1371
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	KX363668.1.1427
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	AB113214.1.1432
+polished-100-9069.fasta	99.605	253	1	0	5.48e-129	462	N/A	FPLS01034920.1.1213
+polished-100-9069.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-100-9069.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-100-9069.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-100-9069.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-120-3305.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-120-3305.fasta	83.094	976	138	24	0.0	863	N/A	FR749909.1.2952
+polished-120-3305.fasta	82.503	743	98	24	2.36e-177	623	N/A	FR749909.1.2952
+polished-120-3305.fasta	97.455	393	8	2	0.0	669	N/A	JN866584.1.1771
+polished-120-3305.fasta	97.661	171	3	1	7.55e-78	292	N/A	JN866584.1.1771
+polished-120-3305.fasta	83.131	658	91	18	4.00e-165	582	N/A	KJ184987.1.1792
+polished-120-3305.fasta	96.875	32	1	0	3.88e-06	54.7	N/A	KJ184987.1.1792
+polished-120-3305.fasta	100.000	253	0	0	1.17e-130	468	N/A	KR911839.1.1467
+polished-120-3305.fasta	100.000	253	0	0	1.17e-130	468	N/A	AF322442.1.1455
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	KC758869.1.1356
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	MG827266.1.1462
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	MF496165.1.1371
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	KX363668.1.1427
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	AB113214.1.1432
+polished-120-3305.fasta	99.605	253	1	0	5.43e-129	462	N/A	FPLS01034920.1.1213
+polished-120-3305.fasta	99.213	254	1	1	2.53e-127	457	N/A	DQ652595.1.1326
+polished-120-3305.fasta	99.209	253	2	0	2.53e-127	457	N/A	AB795335.1.1421
+polished-120-3305.fasta	98.814	253	3	0	3.27e-126	453	N/A	AB113215.1.1426
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	U74757.1.1428
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	MG744513.1.1227
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	JQ339355.1.1470
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP003338.558526.560034
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001612.893136.894646
+polished-120-3305.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-25-3811.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-25-3811.fasta	83.266	986	139	22	0.0	883	N/A	FR749909.1.2952
+polished-25-3811.fasta	81.965	743	100	26	4.00e-170	599	N/A	FR749909.1.2952
+polished-25-3811.fasta	97.222	396	9	2	0.0	669	N/A	JN866584.1.1771
+polished-25-3811.fasta	96.491	171	4	2	1.65e-74	281	N/A	JN866584.1.1771
+polished-25-3811.fasta	82.615	650	91	20	8.79e-157	555	N/A	KJ184987.1.1792
+polished-25-3811.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-25-3811.fasta	99.209	253	1	1	9.17e-127	455	N/A	KR911839.1.1467
+polished-25-3811.fasta	99.209	253	1	1	9.17e-127	455	N/A	AF322442.1.1455
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	KC758869.1.1356
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	MG827266.1.1462
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	MF496165.1.1371
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	KX363668.1.1427
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	AB113214.1.1432
+polished-25-3811.fasta	98.814	253	2	1	4.27e-125	449	N/A	FPLS01034920.1.1213
+polished-25-3811.fasta	98.425	254	2	2	5.52e-124	446	N/A	DQ652595.1.1326
+polished-25-3811.fasta	98.419	253	3	1	1.99e-123	444	N/A	AB795335.1.1421
+polished-25-3811.fasta	98.024	253	4	1	2.57e-122	440	N/A	AB113215.1.1426
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	U74757.1.1428
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	MG744513.1.1227
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	JQ339355.1.1470
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	CP003338.558526.560034
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	CP001612.893136.894646
+polished-25-3811.fasta	98.024	253	4	1	9.24e-122	438	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-26-20657.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-26-20657.fasta	82.979	987	140	25	0.0	867	N/A	FR749909.1.2952
+polished-26-20657.fasta	81.830	743	101	26	1.86e-168	593	N/A	FR749909.1.2952
+polished-26-20657.fasta	97.201	393	10	1	0.0	664	N/A	JN866584.1.1771
+polished-26-20657.fasta	97.661	171	3	1	7.60e-78	292	N/A	JN866584.1.1771
+polished-26-20657.fasta	82.523	658	93	20	6.79e-158	558	N/A	KJ184987.1.1792
+polished-26-20657.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-26-20657.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-26-20657.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	KC758869.1.1356
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	MG827266.1.1462
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	MF496165.1.1371
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	KX363668.1.1427
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	AB113214.1.1432
+polished-26-20657.fasta	99.605	253	1	0	5.48e-129	462	N/A	FPLS01034920.1.1213
+polished-26-20657.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-26-20657.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-26-20657.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-26-20657.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-28-12683.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-28-12683.fasta	82.895	988	137	27	0.0	859	N/A	FR749909.1.2952
+polished-28-12683.fasta	82.638	743	97	24	5.10e-179	628	N/A	FR749909.1.2952
+polished-28-12683.fasta	97.455	393	9	1	0.0	669	N/A	JN866584.1.1771
+polished-28-12683.fasta	97.661	171	3	1	7.60e-78	292	N/A	JN866584.1.1771
+polished-28-12683.fasta	83.283	658	90	18	8.65e-167	588	N/A	KJ184987.1.1792
+polished-28-12683.fasta	96.875	32	1	0	3.90e-06	54.7	N/A	KJ184987.1.1792
+polished-28-12683.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-28-12683.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	KC758869.1.1356
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	MG827266.1.1462
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	MF496165.1.1371
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	KX363668.1.1427
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	AB113214.1.1432
+polished-28-12683.fasta	99.605	253	1	0	5.47e-129	462	N/A	FPLS01034920.1.1213
+polished-28-12683.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-28-12683.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-28-12683.fasta	98.814	253	3	0	3.29e-126	453	N/A	AB113215.1.1426
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	U74757.1.1428
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	MG744513.1.1227
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	JQ339355.1.1470
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP003338.558526.560034
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001612.893136.894646
+polished-28-12683.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-28-2793.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-28-2793.fasta	83.147	985	140	23	0.0	876	N/A	FR749909.1.2952
+polished-28-2793.fasta	82.369	743	99	24	1.10e-175	617	N/A	FR749909.1.2952
+polished-28-2793.fasta	97.201	393	10	1	0.0	664	N/A	JN866584.1.1771
+polished-28-2793.fasta	97.661	171	3	1	7.59e-78	292	N/A	JN866584.1.1771
+polished-28-2793.fasta	83.131	658	91	18	4.02e-165	582	N/A	KJ184987.1.1792
+polished-28-2793.fasta	96.875	32	1	0	3.90e-06	54.7	N/A	KJ184987.1.1792
+polished-28-2793.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-28-2793.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	KC758869.1.1356
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	MG827266.1.1462
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	MF496165.1.1371
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	KX363668.1.1427
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	AB113214.1.1432
+polished-28-2793.fasta	99.605	253	1	0	5.47e-129	462	N/A	FPLS01034920.1.1213
+polished-28-2793.fasta	99.213	254	1	1	2.54e-127	457	N/A	DQ652595.1.1326
+polished-28-2793.fasta	99.209	253	2	0	2.54e-127	457	N/A	AB795335.1.1421
+polished-28-2793.fasta	98.814	253	3	0	3.29e-126	453	N/A	AB113215.1.1426
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	U74757.1.1428
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	MG744513.1.1227
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	JQ339355.1.1470
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP003338.558526.560034
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001612.893136.894646
+polished-28-2793.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-28-3829.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-28-3829.fasta	83.384	987	139	22	0.0	891	N/A	FR749909.1.2952
+polished-28-3829.fasta	81.941	742	99	26	5.18e-169	595	N/A	FR749909.1.2952
+polished-28-3829.fasta	97.727	396	8	1	0.0	680	N/A	JN866584.1.1771
+polished-28-3829.fasta	97.661	171	3	1	7.60e-78	292	N/A	JN866584.1.1771
+polished-28-3829.fasta	82.344	657	93	20	4.09e-155	549	N/A	KJ184987.1.1792
+polished-28-3829.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-28-3829.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-28-3829.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	KC758869.1.1356
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	MG827266.1.1462
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	MF496165.1.1371
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	KX363668.1.1427
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	AB113214.1.1432
+polished-28-3829.fasta	99.605	253	1	0	5.48e-129	462	N/A	FPLS01034920.1.1213
+polished-28-3829.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-28-3829.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-28-3829.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-28-3829.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-30-6126.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-30-6126.fasta	83.367	986	139	22	0.0	889	N/A	FR749909.1.2952
+polished-30-6126.fasta	81.696	743	102	26	8.67e-167	588	N/A	FR749909.1.2952
+polished-30-6126.fasta	96.970	396	10	2	0.0	664	N/A	JN866584.1.1771
+polished-30-6126.fasta	95.906	171	5	2	7.67e-73	276	N/A	JN866584.1.1771
+polished-30-6126.fasta	82.371	658	94	20	3.16e-156	553	N/A	KJ184987.1.1792
+polished-30-6126.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-30-6126.fasta	98.814	253	2	1	4.27e-125	449	N/A	KR911839.1.1467
+polished-30-6126.fasta	98.814	253	2	1	4.27e-125	449	N/A	AF322442.1.1455
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	KC758869.1.1356
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	MG827266.1.1462
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	MF496165.1.1371
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	KX363668.1.1427
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	AB113214.1.1432
+polished-30-6126.fasta	98.419	253	3	1	1.99e-123	444	N/A	FPLS01034920.1.1213
+polished-30-6126.fasta	98.031	254	3	2	2.57e-122	440	N/A	DQ652595.1.1326
+polished-30-6126.fasta	98.024	253	4	1	9.24e-122	438	N/A	AB795335.1.1421
+polished-30-6126.fasta	97.628	253	5	1	1.20e-120	435	N/A	AB113215.1.1426
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	U74757.1.1428
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	MG744513.1.1227
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	JQ339355.1.1470
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP003338.558526.560034
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP001612.893136.894646
+polished-30-6126.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-37-8847.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-37-8847.fasta	83.046	985	138	26	0.0	867	N/A	FR749909.1.2952
+polished-37-8847.fasta	82.369	743	99	24	1.10e-175	617	N/A	FR749909.1.2952
+polished-37-8847.fasta	96.962	395	9	2	0.0	660	N/A	JN866584.1.1771
+polished-37-8847.fasta	97.661	171	3	1	7.59e-78	292	N/A	JN866584.1.1771
+polished-37-8847.fasta	83.131	658	91	18	4.02e-165	582	N/A	KJ184987.1.1792
+polished-37-8847.fasta	96.875	32	1	0	3.90e-06	54.7	N/A	KJ184987.1.1792
+polished-37-8847.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-37-8847.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	KC758869.1.1356
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	MG827266.1.1462
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	MF496165.1.1371
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	KX363668.1.1427
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	AB113214.1.1432
+polished-37-8847.fasta	99.605	253	1	0	5.47e-129	462	N/A	FPLS01034920.1.1213
+polished-37-8847.fasta	99.213	254	1	1	2.54e-127	457	N/A	DQ652595.1.1326
+polished-37-8847.fasta	99.209	253	2	0	2.54e-127	457	N/A	AB795335.1.1421
+polished-37-8847.fasta	98.814	253	3	0	3.29e-126	453	N/A	AB113215.1.1426
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	U74757.1.1428
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	MG744513.1.1227
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	JQ339355.1.1470
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP003338.558526.560034
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001612.893136.894646
+polished-37-8847.fasta	98.814	253	3	0	1.18e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-44-7591.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-44-7591.fasta	83.063	986	140	23	0.0	870	N/A	FR749909.1.2952
+polished-44-7591.fasta	82.369	743	99	24	1.11e-175	617	N/A	FR749909.1.2952
+polished-44-7591.fasta	97.710	393	8	1	0.0	675	N/A	JN866584.1.1771
+polished-44-7591.fasta	97.661	171	3	1	7.61e-78	292	N/A	JN866584.1.1771
+polished-44-7591.fasta	83.131	658	91	18	4.03e-165	582	N/A	KJ184987.1.1792
+polished-44-7591.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-44-7591.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-44-7591.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	KC758869.1.1356
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	MG827266.1.1462
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	MF496165.1.1371
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	KX363668.1.1427
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	AB113214.1.1432
+polished-44-7591.fasta	99.605	253	1	0	5.48e-129	462	N/A	FPLS01034920.1.1213
+polished-44-7591.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-44-7591.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-44-7591.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-44-7591.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-59-8819.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-59-8819.fasta	82.979	987	140	25	0.0	867	N/A	FR749909.1.2952
+polished-59-8819.fasta	82.100	743	99	26	8.60e-172	604	N/A	FR749909.1.2952
+polished-59-8819.fasta	96.438	393	12	2	0.0	647	N/A	JN866584.1.1771
+polished-59-8819.fasta	95.906	171	5	2	7.66e-73	276	N/A	JN866584.1.1771
+polished-59-8819.fasta	82.827	658	91	20	3.14e-161	569	N/A	KJ184987.1.1792
+polished-59-8819.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-59-8819.fasta	98.814	253	2	1	4.27e-125	449	N/A	KR911839.1.1467
+polished-59-8819.fasta	98.814	253	2	1	4.27e-125	449	N/A	AF322442.1.1455
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	KC758869.1.1356
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	MG827266.1.1462
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	MF496165.1.1371
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	KX363668.1.1427
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	AB113214.1.1432
+polished-59-8819.fasta	98.419	253	3	1	1.99e-123	444	N/A	FPLS01034920.1.1213
+polished-59-8819.fasta	98.031	254	3	2	2.57e-122	440	N/A	DQ652595.1.1326
+polished-59-8819.fasta	98.024	253	4	1	9.24e-122	438	N/A	AB795335.1.1421
+polished-59-8819.fasta	97.628	253	5	1	1.19e-120	435	N/A	AB113215.1.1426
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	U74757.1.1428
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	MG744513.1.1227
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	JQ339355.1.1470
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP003338.558526.560034
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP001612.893136.894646
+polished-59-8819.fasta	97.628	253	5	1	4.30e-120	433	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-61-5506.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-61-5506.fasta	83.080	987	140	24	0.0	872	N/A	FR749909.1.2952
+polished-61-5506.fasta	82.503	743	98	24	2.38e-177	623	N/A	FR749909.1.2952
+polished-61-5506.fasta	96.947	393	10	2	0.0	658	N/A	JN866584.1.1771
+polished-61-5506.fasta	97.661	171	3	1	7.62e-78	292	N/A	JN866584.1.1771
+polished-61-5506.fasta	83.131	658	91	18	4.04e-165	582	N/A	KJ184987.1.1792
+polished-61-5506.fasta	96.875	32	1	0	3.91e-06	54.7	N/A	KJ184987.1.1792
+polished-61-5506.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-61-5506.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	KC758869.1.1356
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	MG827266.1.1462
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	MF496165.1.1371
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	KX363668.1.1427
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	AB113214.1.1432
+polished-61-5506.fasta	99.605	253	1	0	5.49e-129	462	N/A	FPLS01034920.1.1213
+polished-61-5506.fasta	99.213	254	1	1	2.55e-127	457	N/A	DQ652595.1.1326
+polished-61-5506.fasta	99.209	253	2	0	2.55e-127	457	N/A	AB795335.1.1421
+polished-61-5506.fasta	98.814	253	3	0	3.30e-126	453	N/A	AB113215.1.1426
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-61-5506.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-62-2874.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-62-2874.fasta	83.587	987	138	21	0.0	904	N/A	FR749909.1.2952
+polished-62-2874.fasta	82.503	743	98	24	2.38e-177	623	N/A	FR749909.1.2952
+polished-62-2874.fasta	97.727	396	8	1	0.0	680	N/A	JN866584.1.1771
+polished-62-2874.fasta	97.661	171	3	1	7.63e-78	292	N/A	JN866584.1.1771
+polished-62-2874.fasta	83.131	658	91	18	4.04e-165	582	N/A	KJ184987.1.1792
+polished-62-2874.fasta	96.875	32	1	0	3.92e-06	54.7	N/A	KJ184987.1.1792
+polished-62-2874.fasta	100.000	253	0	0	1.18e-130	468	N/A	KR911839.1.1467
+polished-62-2874.fasta	100.000	253	0	0	1.18e-130	468	N/A	AF322442.1.1455
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	KC758869.1.1356
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	MG827266.1.1462
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	MF496165.1.1371
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	KX363668.1.1427
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	AB113214.1.1432
+polished-62-2874.fasta	99.605	253	1	0	5.49e-129	462	N/A	FPLS01034920.1.1213
+polished-62-2874.fasta	99.213	254	1	1	2.56e-127	457	N/A	DQ652595.1.1326
+polished-62-2874.fasta	99.209	253	2	0	2.56e-127	457	N/A	AB795335.1.1421
+polished-62-2874.fasta	98.814	253	3	0	3.31e-126	453	N/A	AB113215.1.1426
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	U74757.1.1428
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	MG744513.1.1227
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	JQ339355.1.1470
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP003338.558526.560034
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001612.893136.894646
+polished-62-2874.fasta	98.814	253	3	0	1.19e-125	451	N/A	CP001227.1191449.1192956
+#	BLASTN	2.12.0+
+#	Query:	polished-71-18770.fasta
+#	Database:	/mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
+#	Fields:	query	id,	%	identity,	alignment	length,	mismatches,	gap	opens,	evalue,	bit	score,	subject	titles,	subject	ids
+#	23	hits	found
+polished-71-18770.fasta	92.602	392	27	2	5.21e-159	562	N/A	AYMY01106032.76692.78312
+polished-71-18770.fasta	84.452	566	76	11	1.46e-154	547	N/A	KY110417.1.1504
+polished-71-18770.fasta	95.738	305	13	0	6.94e-138	492	N/A	AWOK01348164.1.1523
+polished-71-18770.fasta	100.000	189	0	0	4.42e-95	350	N/A	AWOK01348164.1.1523
+polished-71-18770.fasta	89.610	385	40	0	2.49e-137	490	N/A	ALWZ042666342.46.1746
+polished-71-18770.fasta	93.137	102	7	0	4.81e-35	150	N/A	ALWZ042666342.46.1746
+polished-71-18770.fasta	100.000	257	0	0	6.99e-133	475	N/A	KX852299.103976.105597
+polished-71-18770.fasta	99.254	134	1	0	7.71e-63	243	N/A	KX852299.103976.105597
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	AP017304.146599.148088
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	MKYQ01000936.17068.18509
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	MG808038.87683.89173
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	MF766469.169304.170746
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	MF288577.103445.104928
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	LT592136.1.1584
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	KX966283.98885.100354
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	KF735063.293127.294383
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	JRRC01497063.1637.3106
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	JREP01011238.10808.12176
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	HM287852.1.1311
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	HM164065.13783.15252
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	GDZW01016180.334.2258
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	GDAX01048398.486.2474
+polished-71-18770.fasta	100.000	253	0	0	1.17e-130	468	N/A	GCHT01081999.1.1474
+#	BLAST	processed	14	queries
