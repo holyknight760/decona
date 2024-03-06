@@ -46,7 +46,7 @@ $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -
 #
 #학교 컴퓨터_ncbi database는 .nsq, .nhr, .nin으로 구성됨. 이때 만들어질 때 사용된 database 이름으로 작동됨. 예로 'silva-138-99-seqs'
 $ blastn -db /mnt/c/Wild_INU/decona/example_data/love_bug_16s/database/silva_full/silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 qaccver saccver pident length mismatch gapopen evalue bitscore qcovs stitle" -max_target_seqs 23 -out summary_BLAST_out_All_barcodes_combined.txt
-#
+#barcode01_concatenated_racon-25-2613	d__Bacteria;	99.042	1462	11	2	0.0	2568	100	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rickettsiales; f__Rickettsiaceae; g__Rickettsia; s__uncultured_bacterium
 
 #데이터베이스 fasta 파일만 자꾸 지정한 경로로 이동하게 되며, 다음과 같은 오류 메세지가 뜬다. 
 #Building a new DB, current time: 09/25/2023 10:47:20
