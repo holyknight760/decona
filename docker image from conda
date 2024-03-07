@@ -320,6 +320,7 @@ $ sudo docker cp circos_v5:/root/circos-course/session/1/1/etc/circos.png /mnt/c
 $ sudo docker cp circos_v6:/root/circos-course/session/2/1/circos.png /mnt/c/users/holyknightt/Downloads
 $ sudo docker cp circos_v6:/root/circos-course/session/2/1/circos.png /mnt/c/Users/MSI/Downloads
 $ sudo docker cp circos_v6:/root/circos-course/session/1/1/etc/etc/circos.png /mnt/c/Users/holyknightt/Downloads
+$ sudo docker cp circos_v6:/root/circos-course/session/7/1/circos.svg /mnt/c/Users/holyknightt/Downloads
 
 #dos2unix 를 사용해서 단일 파일이 아닌 폴더 안에 모든 .pl 확장자를 가진 Perl script를 한번에 수정하는 코드
 $ find /decona/external/cdhit/ -type f -name '*.pl' -print0 | xargs -0 dos2unix
