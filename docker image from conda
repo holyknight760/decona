@@ -450,6 +450,8 @@ Password:
 4. **Docker 이미지 빌드 및 실행**: 이제 VSCode에서 `F1 > Dev Containers: Rebuild Container`를 선택하여 Docker 이미지를 빌드하고 실행할 수 있습니다⁴.
 이러한 단계를 통해 Conda 환경을 Docker 이미지로 저장하고 VSCode에서 해당 이미지를 사용하여 개발을 진행할 수 있습니다. 이 방법은 Conda 환경의 종속성을 관리하고 일관된 개발 환경을 유지하는 데 도움이 됩니다¹².
 
-
+linux 암호변경!
+$ sudo passwd
+[sudo] password for holyknightt: 스페이스 한칸_학교 컴퓨터
 
 
