@@ -287,7 +287,7 @@ $ sudo docker cp /mnt/c/Users/holyknightt/Downloads/etc circos_v6:/root/circos-c
 > cp /software/circos/current/etc/colors_fonts_patterns.conf /root/circos-course/session/1/1/etc
 > cp /software/circos/current/etc/housekeeping.conf /root/circos-course/session/1/1/etc
 
-#도커 내 파일 수정 (nano)
+#도커 내 파일 수정 (nano), F9 한줄 삭제 
 > apt-get update && apt-get install nano
 > nano circos.conf
 #Make your changes in the editor. With nano, you can save changes by pressing Ctrl + O and exit the editor by pressing Ctrl + X.
