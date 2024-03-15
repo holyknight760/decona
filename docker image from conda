@@ -411,6 +411,7 @@ $ docker scout quickview
 #도커 이미지를 압축파일로 저장하기! - Docker save (docer image → tar file)
 # sudo docker save -o file_name.tar image_name
 $ sudo docker save -o circos.tar holyknightt/circos:v5
+$ sudo docker save -o circos.tar holyknightt/circos:v6
 
 #압축파일로 저장된 도커 이미지를 불러오기! - Docker load (tar file → docker image)
 #도커 이미지를 불러온 후, start & attach로 도커 환경 불러오기!
