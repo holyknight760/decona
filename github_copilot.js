@@ -1,6 +1,6 @@
 #https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot
 #https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-in-your-environment?tool=vscode
-function calculateDaysBetweenDates  (startDate, endDate) {
+function calculateDaysBetweenDates(startDate, endDate) {
   // The number of milliseconds in one day
   const ONE_DAY = 1000 * 60 * 60 * 24
 
@@ -12,7 +12,7 @@ function calculateDaysBetweenDates  (startDate, endDate) {
   const difference = Math.abs(date1 - date2)
 
   // Convert back to days and return
-  return Math.round(difference / ONE_DAY)
+  return Math.ceil(difference / ONE_DAY)
 }
 
 #JavaScript 파일에 다음 주석을 입력합니다. GitHub Copilot은 함수의 구현을 제안합니다.
