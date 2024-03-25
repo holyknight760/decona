@@ -1,0 +1,11 @@
+chr - Homo Homo 0 884 chr1
+chr - Apodemus Ap 0 93 chr2
+chr - Pangshura Pa 0 37 chr3
+chr - Hydropotes  Hy 0 26 chr4
+chr - Eurycea Eu 0 22 chr5
+chr - Mus Mus 0 23 chr6
+chr - Bos  Bos  0 22 chr7
+chr - Rattus  Ra 0 7 chr8
+chr - Axis  Ax 0 3 chr9
+chr - Mazama  Ma 0 2 chr10
+chr - Haemaphysalis Haemaphysalis 0 1119 chr11

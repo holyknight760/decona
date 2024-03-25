@@ -1,0 +1,10 @@
+Homo 0 884 Haemaphysalis 0 884
+Apodemus 0 93 Haemaphysalis 884 977
+Pangshura 0 37 Haemaphysalis 977 1014
+Hydropotes  0 26 Haemaphysalis 1014 1040
+Eurycea 0 22 Haemaphysalis 1040 1062
+Mus 0 23 Haemaphysalis 1062 1085
+Bos  0 22 Haemaphysalis 1085 1107
+Rattus  0 7 Haemaphysalis 1107 1114
+Axis  0 3 Haemaphysalis 1114 1117
+Mazama  0 2 Haemaphysalis 1117 1119
