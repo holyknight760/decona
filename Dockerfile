@@ -154,7 +154,8 @@ CMD [ "/bin/bash" ]
 #스크립트의 내용을 `~/.bashrc` 또는 `~/.bash_profile` 파일에 추가해야 합니다. 이렇게 하면 새 터미널 세션을 시작할 때마다 스크립트가 자동으로 실행됩니다. 
 
 #1. Vim을 열고 `~/.bashrc` 또는 `~/.bash_profile` 파일을 편집합니다. 이를 위해 터미널에서 `vim ~/.bashrc` 또는 `vim ~/.bash_profile`를 입력하세요.
-#2. Vim 편집기가 열리면, 파일의 마지막에 다음과 같이 입력하세요:
+#2. Vim 편집기가 열리면, 파일의 마지막에 다음과 같이 입력하세요: i를 눌러서 insert 모드 집입 후, 수정 가능! 
+#삽입 모드 종료: 텍스트 편집을 완료한 후에는 Esc 키를 눌러 삽입 모드를 종료
 #    ```bash
 #    export PATH=/software/circos/current/bin:$PATH
 #    ```
