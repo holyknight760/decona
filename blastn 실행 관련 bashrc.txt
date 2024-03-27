@@ -1,0 +1,12 @@
+E:\NCBI\blast-BLAST_VERSION+\bin
+
+export PATH=$PATH:$HOME/ncbi-blast-2.15.0+/bin
+export PATH ${PATH}:/home/holyknightt/ncbi-blast-2.15.0+/bin
+
+export BLASTDB=$HOME/blastdb
+export BLASTDB=${PATH}:/home/holyknightt/blastdb
+
+~/.bashrc
+~/.bash_profile 파일에 위의 export 명령을 추가해야 합니다1.
+
+export PATH=$PWD:$PATH
