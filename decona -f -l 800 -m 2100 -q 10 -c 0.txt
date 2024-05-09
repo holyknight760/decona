@@ -34,7 +34,10 @@ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Wild_INU/decona/
 #(decona) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona/example_data/love_bug_16s_95$ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -B dna-sequences.fasta
 #16S_silva_full_데스크탑
 #/mnt/e/Nanopore/asthma_hu_16s_full/no_sample/20240507_1603_MN42720_FAX65902_bf51e538/fastq_pass
-decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/e/Nanopore/asthma_hu_16s_full/silva-138-99-seqs.fasta
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B silva-138-99-seqs.fasta
+#BLAST Database creation error: Error: Duplicate seq_ids are found:
+#LCL|D__BACTERIA;
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M
 
 #Standalone BLAST Setup for Unix_하드에 인스톨한 ncbi 도구로 ncbi용 데이터베이스 제작!
 #https://www.ncbi.nlm.nih.gov/books/NBK52640/
