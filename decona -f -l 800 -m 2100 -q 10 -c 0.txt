@@ -36,7 +36,7 @@ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Wild_INU/decona/
 #Standalone BLAST Setup for Unix_하드에 인스톨한 ncbi 도구로 ncbi용 데이터베이스 제작!
 #https://www.ncbi.nlm.nih.gov/books/NBK52640/
 $ makeblastdb -in silva-138-99-seqs.fasta -dbtype nucl -title silva-138-99-seqs -out silva-138-99-seqs
-#만들어진 데이터베이스에 fasta 서열을 blast! 
+#만들어진 데이터베이스에 fasta 서열을 blast! for 16S silva_full
 $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 delim=, qacc sacc evalue bitscore qcovus pident" -max_target_seqs 23
 #요약이 되지 않고, 모든 결과값을 보여줌. 
 $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "10 qseqid sseqid pident length mismatch gapopen evalue bitscore stitle" -max_target_seqs 23 -out BLAST_out_All_barcodes_combined.txt
