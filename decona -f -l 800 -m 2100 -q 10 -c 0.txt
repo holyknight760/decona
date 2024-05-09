@@ -32,6 +32,8 @@ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Users/MSI/Docume
 decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B dna-sequences.fasta
 decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -b /mnt/c/Wild_INU/decona/example_data/love_bug_16s/BLASTdatabase/dna-sequences.fasta
 #(decona) holyknightt@DESKTOP-2PB6NR2:/mnt/c/Users/MSI/Documents/GitHub/decona/example_data/love_bug_16s_95$ decona -f -l 100 -m 2100 -q 10 -c 0.95 -n 25 -k 10 -M -B dna-sequences.fasta
+#16S_silva_full_데스크탑
+decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M -B /mnt/e/Nanopore/asthma_hu_16s_full/silva-138-99-seqs.fasta
 
 #Standalone BLAST Setup for Unix_하드에 인스톨한 ncbi 도구로 ncbi용 데이터베이스 제작!
 #https://www.ncbi.nlm.nih.gov/books/NBK52640/
