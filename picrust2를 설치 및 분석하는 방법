@@ -1,0 +1,294 @@
+
+From: 오신근(열대의학교실) <singeun@yuhs.ac> 
+ Sent: Friday, May 3, 2024 2:52 PM 
+ To: 최준호(열대의학교실) <HOLYKNIGHTT@yuhs.ac> 
+ Cc: 강동준(열대의학교실) <wizjustin@yuhs.ac>; 이명희(열대의학교실) <PUREGEMINI@yuhs.ac>; 김주영(열대의학교실) <JYKIM0802@yuhs.ac> 
+ Subject: RE: vi 편집기 관련 자료_최준호 
+
+  
+
+네 감사합니다. 
+
+  
+
+관련하여, 향후 분석에 활용될 수 잇는  picrust2를 설치 및 분석하는 방법에 대해서 함께 공유드립니다. 
+
+  
+
+Mamba forge 다운로드 : 
+
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh 
+
+bash Mambaforge-Linux-x86_64.sh 
+
+  
+
+mamba는 conda의 base환경 밖에서 실행 가능하므로 
+
+  
+
+혹시라도 conda 환경이 자동으로 activate 되어 있다면, 
+
+# conda 환경 끄기 
+
+conda config --set auto_activate_base false 
+
+  
+
+이후 
+
+  
+
+#mamba 경로 설정 
+
+. bashrc 파일에 들어가서 마지막 줄에 mamba() { ~/mambaforge/bin/mamba "$@" ;} 추가해 준다 
+
+  
+
+이후 
+
+mamba init 
+
+  
+
+  
+
+이후 
+
+  
+
+mamba create -n picrust2 -c bioconda -c conda-forge picrust2=2.5.1 
+
+conda activate picrust2 
+
+  
+
+# 이때부터 conda activate picrust2 또는 mamba activate picrust2 
+
+로 picrust2 열수 있음 
+
+  
+
+이후 
+
+FASTA file, biom 파일을 이용해서 (예제 파일 그대로 사용 ) 
+
+  
+
+conda activate picrust2 
+
+picrust2_pipeline.py -s sequences.fasta -i otu_for_picrust.biom -o picrust_result/ 
+
+  
+
+를통해 picrust2 결과를 산출할 수 있습니다 
+
+  
+
+결과에서 
+
+KO_metagenome_out폴더 안에 있는 pred_metagenome_unstrat.tsv.gz파일을 사용 
+
+  
+
+R에서 ggpicrust를 이용한 시각화를 하면 됩니다 
+
+  
+
+참조 : [ggpicrust2] picrust2 결과물을 시각화 하는 ggpicrust2 튜토리얼 — bioinfo_Newbie (tistory.com) 
+
+  
+
+참고로 제 개인 노트북은 램이 16GB 여서 중간에 error가 발생하였습니다 
+
+  
+
+RAM 사양이 넉넉한 컴퓨터에서만 실행이 가능한 것으로 보입니다 
+
+  
+
+참고로 input용 데이터에서 1sample에서만 존재하는 ASV 제거, 30개 이상의 ASV를 가지는 sample만 활용 등 
+
+결과 분석의 noise를 줄이기 위해서  table 결과를 filtering 해서 넣어야 하는 부분이 있는데 
+
+향후 qiime2의 결과 qza 파일을 통해 FASTA 파일과 filetered 된 biom 파일을 만드는 코드를 시도해보고 공유드리겠습니다. 
+
+  
+
+혹시 해보시고 궁금하신 부분생기시면 알려주십시오 
+
+  
+
+감사합니다 
+
+  
+
+오신근 드림 
+
+  
+
+  
+
+From: 최준호(열대의학교실) <HOLYKNIGHTT@yuhs.ac> 
+ Sent: Friday, May 3, 2024 12:04 PM 
+ To: 오신근(열대의학교실) <singeun@yuhs.ac> 
+ Cc: 김주영(열대의학교실) <JYKIM0802@yuhs.ac>; 이명희(열대의학교실) <PUREGEMINI@yuhs.ac>; 강동준(열대의학교실) <wizjustin@yuhs.ac> 
+ Subject: vi 편집기 관련 자료_최준호 
+
+  
+
+안녕하세요. 오신근 선생님. 
+
+  
+
+저는 열대의학교실 최준호라고 합니다. 
+
+  
+
+Vim 편집기 관련 자료를 제가 예전에 정리해놓은 것이 있어서 전달해 드립니다. 
+
+  
+
+현재 vim 설정하시는데 조금이라도 도움이 되시면 좋겠습니다. 
+
+  
+
+https://dohk.tistory.com/191 
+
+#일반적으로 전역적인 파일은 /etc 디렉토리에 위치한다. 
+
+#> > . ~/.bashrc or > . ~/.bash_profile 
+
+  
+
+#vi 편집기 (vim) 사용 필요!! [Linux] - 리눅스 - 셸, 환경변수, bash 셸 
+
+https://ts2ree.tistory.com/81 
+
+#> apt-get update 
+
+#> apt-get install vim 
+
+#> vi .bash_profile 
+
+#절대경로 지정은 가능함, 그러나 도커 이미지로는 저장되지 않음, 그래서 상대경로로 파일 실행!! 따라서 각 개인 컴퓨터에 개별로 초기에 설정 필요!! 
+
+#Vim에서 작업을 저장하고 재부팅 후에도 그대로 유지하려면 Vim의 세션 기능을 사용할 수 있습니다. Vim 세션은 현재 Vim 환경(열린 창, 탭, 버퍼 등)을 저장하고 나중에 다시 로드할 수 있게 해줍니다. 아래는 Vim 세션을 저장하고 복원하는 방법입니다: 
+
+  
+
+#1. Vim에서 작업 중인 파일을 저장하려면 먼저 명령 모드로 전환해야 합니다. 이를 위해 `Esc` 키를 누릅니다. 
+
+#2. 이제 콜론(`:`)을 누르세요. 이렇게 하면 창의 왼쪽 하단에 프롬프트 바가 열립니다. 
+
+#3. 콜론 뒤에 `w`를 입력하고 `Enter`를 누르세요. 이렇게 하면 Vim에서 파일의 변경 사항을 저장하지만 Vim은 종료되지 않습니다¹. 
+
+  
+
+#세션을 저장하려면 다음과 같이 하세요: 
+
+  
+
+#1. 명령 모드로 전환합니다(`Esc` 키를 누르세요). 
+
+#2. 콜론(`:`)을 누르고 `mksession session.vim`을 입력한 후 `Enter`를 누릅니다². 
+
+  
+
+#이제 Vim 세션을 저장했습니다. 컴퓨터를 재부팅 한 후에 Vim 세션을 복원하려면 다음과 같이 하세요: 
+
+  
+
+#1. 터미널을 열고 `vim -S session.vim`을 입력하세요. 
+
+  
+
+#이렇게 하면 Vim이 이전에 저장한 세션을 로드하고, 이전에 열려 있던 파일들이 그대로 열립니다. 이 방법을 사용하면 Vim을 재시작해도 작업이 초기화되지 않습니다. 
+
+  
+
+#1. Vim을 열고 새 파일을 생성합니다. 이를 위해 터미널에서 `vim filename.sh`를 입력하세요. 
+
+#2. Vim 편집기가 열리면, 다음과 같이 입력하세요: 
+
+  
+
+#        #!/bin/bash 
+
+#        export PATH=/software/circos/current/bin:$PATH 
+
+  
+
+#3. 파일을 저장하려면 `Esc` 키를 눌러 명령 모드로 전환한 후, `:wq`를 입력하고 `Enter`를 누르세요¹. 
+
+  
+
+#이제 이 스크립트는 절대 경로를 사용하여 어디서든 실행할 수 있습니다. 스크립트를 실행하려면 터미널에서 `./filename.sh`를 입력하세요. 
+
+  
+
+#참고로, 이 스크립트는 현재 세션에서만 `PATH` 환경 변수를 변경합니다. 이 변경사항을 영구적으로 적용하려면, 
+
+#스크립트의 내용을 `~/.bashrc` 또는 `~/.bash_profile` 파일에 추가해야 합니다. 이렇게 하면 새 터미널 세션을 시작할 때마다 스크립트가 자동으로 실행됩니다. 
+
+  
+
+#1. Vim을 열고 `~/.bashrc` 또는 `~/.bash_profile` 파일을 편집합니다. 이를 위해 터미널에서 `vim ~/.bashrc` 또는 `vim ~/.bash_profile`를 입력하세요. 
+
+#2. Vim 편집기가 열리면, 파일의 마지막에 다음과 같이 입력하세요: i를 눌러서 insert 모드 집입 후, 수정 가능! 
+
+#삽입 모드 종료: 텍스트 편집을 완료한 후에는 Esc 키를 눌러 삽입 모드를 종료 
+
+#    ```bash 
+
+#    export PATH=/software/circos/current/bin:$PATH 
+
+#    ``` 
+
+#3. 파일을 저장하려면 `Esc` 키를 눌러 명령 모드로 전환한 후, `:wq`를 입력하고 `Enter`를 누르세요. 
+
+#:q!_vim 저장하지 않고 종료하기!! 
+
+  
+
+#이제 새 터미널 세션을 시작할 때마다 `PATH` 환경 변수가 자동으로 변경됩니다. 
+
+#`~/.bashrc` 파일은 실행되는 것이 아니라 소스로 로드되는 것입니다. 따라서 `Permission denied` 오류가 발생하는 것은 이 파일을 실행하려고 했기 때문입니다¹. 
+
+  
+
+#source ~/.bashrc 또는 . ~/.bashrc 
+
+  
+
+#이렇게 하면 `~/.bashrc` 파일이 소스로 로드되며, 이 파일에 정의된 환경 변수와 함수가 현재 쉘 세션에 적용됩니다. 
+
+  
+
+#만약 `~/.bashrc` 파일을 편집하려면, 텍스트 편집기를 사용하여 파일을 열어야 합니다. 예를 들어, Vim을 사용하려면 다음과 같이 입력하세요: 
+
+  
+
+#vim ~/.bashrc 
+
+  
+
+제가 보기 편하게 작성된 부분이 많아서 보시고, 궁금한 점 있으시면 알려주세요. 
+
+  
+
+감사합니다. 
+
+  
+
+연세대학교 의과대학 열대의학교실 
+
+최준호 드림 
+
+  
+
+holyknightt@yuhs.ac 
+
+02-2228-1852 
+
+010-6223-0249 
