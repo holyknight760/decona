@@ -42,6 +42,16 @@ decona -f -l 100 -m 2100 -q 10 -c 0.80 -n 25 -k 10 -M
 #Standalone BLAST Setup for Unix_하드에 인스톨한 ncbi 도구로 ncbi용 데이터베이스 제작!
 #https://www.ncbi.nlm.nih.gov/books/NBK52640/
 $ makeblastdb -in silva-138-99-seqs.fasta -dbtype nucl -title silva-138-99-seqs -out silva-138-99-seqs
+$ makeblastdb -in ncbi-refseqs_18S_v240616_animal_protist.fasta -dbtype nucl -title ncbi-refseqs_18S_v240616_animal_protist -out ncbi-refseqs_18S_v240616_animal_protist
+(base) holyknightt@DESKTOP-2PB6NR2:/mnt/d/BLAST/data$ makeblastdb -in ncbi-refseqs_18S_v240616_animal_protist.fasta -dbtype nucl -title ncbi-refseqs_18S_v240616_animal_protist -out ncbi-refseqs_18S_v240616_animal_protist
+Building a new DB, current time: 06/16/2024 03:00:20
+New DB name:   /mnt/d/BLAST/data/ncbi-refseqs_18S_v240616_animal_protist
+New DB title:  ncbi-refseqs_18S_v240616_animal_protist
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 523436 sequences in 20.0483 seconds.
+(base) holyknightt@DESKTOP-2PB6NR2:/mnt/d/BLAST/data$ 
 #만들어진 데이터베이스에 fasta 서열을 blast! for 16S silva_full
 $ blastn -db silva-138-99-seqs -query All_barcodes_combined.fasta -task blastn -dust no -outfmt "7 delim=, qacc sacc evalue bitscore qcovus pident" -max_target_seqs 23
 #요약이 되지 않고, 모든 결과값을 보여줌. 
