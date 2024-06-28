@@ -1,0 +1,46 @@
+(qiime2-metagenome-2024.5) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ qiime
+assembly            demux               diversity-lib       feature-table       longitudinal        quality-control     sample-classifier   tools
+composition         dev                 emperor             fondue              metadata            quality-filter      sapienns            vsearch
+cutadapt            diversity           feature-classifier  info                moshpit             rescript            taxa
+(qiime2-metagenome-2024.5) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ qiime moshpit
+bin-contigs-metabat          collate-annotations          collate-sample-data-mags     fetch-diamond-db             filter-mags                  partition-orthologs
+build-custom-diamond-db      collate-busco-results        dereplicate-mags             fetch-eggnog-db              get-feature-lengths          partition-sample-data-mags                                                                                                                                                         gs
+build-eggnog-diamond-db      collate-feature-data-mags    eggnog-annotate              fetch-eggnog-proteins        inspect-kraken2-db           predict-genes-prodata-magsdigal                                                                                                                                                             digal
+build-kraken-db              collate-kraken2-outputs      eggnog-diamond-search        fetch-kaiju-db               kraken2-to-features
+classify-kaiju               collate-kraken2-reports      estimate-bracken             fetch-ncbi-taxonomy          kraken2-to-mag-features
+classify-kraken2             collate-orthologs            evaluate-busco               filter-derep-mags            partition-feature-data-mags
+(qiime2-metagenome-2024.5) holyknightt@SME189W2WDP030:/mnt/c/Wild_INU/decona$ qiime assembly 
+Usage: qiime assembly [OPTIONS] COMMAND [ARGS]...
+
+  Description: QIIME 2 plugin for (meta)genome assembly and quality control
+  thereof.
+
+  Plugin website: https://github.com/bokulich-lab/q2-assembly
+
+  Getting user support: Please post to the QIIME 2 forum for help with this
+  plugin: https://forum.qiime2.org
+
+Options:
+  --version              Show the version and exit.
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --show-hidden-actions  This plugin has hidden actions with names starting
+                         with '_'. These are generally called internally by
+                         pipelines. Passing this flag will display those
+                         actions.
+  --help                 Show this message and exit.
+
+Commands:
+  assemble-megahit      Assemble contigs using MEGAHIT.
+  assemble-spades       Assemble contigs using SPAdes.
+  collate-alignments    Map reads to contigs helper.
+  collate-contigs       Collate contigs
+  collate-indices       Collate indices
+  evaluate-contigs      Evaluate quality of the assembled contigs using
+                        metaQUAST.
+bin-contigs-metabat          collate-annotations          collate-sample-data-mags     fetch-diamond-db             filter-mags                  partition-orthologs
+build-custom-diamond-db      collate-busco-results        dereplicate-mags             fetch-eggnog-db              get-feature-lengths          partition-sample-data-mags
+build-eggnog-diamond-db      collate-feature-data-mags    eggnog-annotate              fetch-eggnog-proteins        inspect-kraken2-db           predict-genes-prodigal
+build-kraken-db              collate-kraken2-outputs      eggnog-diamond-search        fetch-kaiju-db               kraken2-to-features                           gs
+classify-kaiju               collate-kraken2-reports      estimate-bracken             fetch-ncbi-taxonomy          kraken2-to-mag-features                       data-mags
+classify-kraken2             collate-orthologs            evaluate-busco               filter-derep-mags            partition-feature-data-mags                  
