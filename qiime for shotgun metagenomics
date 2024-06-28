@@ -43,4 +43,5 @@ build-custom-diamond-db      collate-busco-results        dereplicate-mags      
 build-eggnog-diamond-db      collate-feature-data-mags    eggnog-annotate              fetch-eggnog-proteins        inspect-kraken2-db           predict-genes-prodigal
 build-kraken-db              collate-kraken2-outputs      eggnog-diamond-search        fetch-kaiju-db               kraken2-to-features                           gs
 classify-kaiju               collate-kraken2-reports      estimate-bracken             fetch-ncbi-taxonomy          kraken2-to-mag-features                       data-mags
-classify-kraken2             collate-orthologs            evaluate-busco               filter-derep-mags            partition-feature-data-mags                  
+classify-kraken2             collate-orthologs            evaluate-busco               filter-derep-mags            partition-feature-data-mags                 
+
