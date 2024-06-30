@@ -48,4 +48,5 @@ classify-kraken2             collate-orthologs            evaluate-busco        
 (qiime2-metagenome-2024.5) holyknightt@DESKTOP-1HB78U9:~/Database$ time qiime moshpit build-kraken-db \
 --i-seqs ncbi-refseqs_18S_v220513-seqs-derep-uniq.qza \
 --output-dir kraken_db \
+--p-threads 17 \
 --verbose
