@@ -132,6 +132,24 @@ time qiime demux summarize \
  --i-data demux-paired-end.qza \
  --o-visualization demux 
 
+#DADA2
+time qiime dada2 denoise-paired \
+--i-demultiplexed-seqs demux-joined.qza \
+--p-trim-left-f 0 \
+--p-trunc-len-f 143 \
+--p-trim-left-r 0 \
+--p-trunc-len-r 143 \
+--p-max-ee-f 4.0 \
+--p-max-ee-r 4.0 \
+--p-min-overlap 4 \
+--p-pooling-method independent \
+--p-chimera-method consensus \
+--p-n-threads 0 \
+--o-table table.qza \
+--o-representative-sequences representative_sequences.qza \
+--o-denoising-stats denoising_stats.qza
+
+
 
 time qiime moshpit classify-kraken2 \
 	--i-seqs ./moshpit/cache:workshop-reads \
