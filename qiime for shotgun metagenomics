@@ -56,6 +56,8 @@ To be able to use those, please run
 
 $ conda activate qiime2-metagenome-2024.5
 
+#NCBI database 제작
+
 #3ea seq test
 $ time qiime tools import \
   --type 'FeatureData[Sequence]' \
