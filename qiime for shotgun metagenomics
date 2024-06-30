@@ -70,6 +70,7 @@ $ time qiime tools import \
   --input-path /mnt/c/Users/MSI/Downloads/sequence.fasta \
   --output-path ncbi_refseqs_18S_animals_plants_fungi_protists_v240630_seqs_derep_uniq.qza
 
+#https://cap-lab.bio/q2-books/01-sra-data-access.html
 (qiime2-metagenome-2024.5) holyknightt@DESKTOP-2PB6NR2:/mnt/d/qiime2/Database$ time qiime moshpit build-kraken-db \
 --i-seqs ncbi_refseqs_18S_animals_plants_fungi_protists_v240630_seqs_derep_uniq.qza \
 --output-dir kraken_db \
