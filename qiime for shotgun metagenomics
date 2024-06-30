@@ -64,6 +64,51 @@ $ time qiime tools import \
   --input-path /mnt/c/Users/MSI/Downloads/3ea_sequence.fasta \
   --output-path 3ea_sequence.qza
 
+
+
+
+#분석노트북
+#(qiime2-metagenome-2024.5) holyknightt@DESKTOP-2PB6NR2:/mnt/d/qiime2/Database$
+#<your working directory>
+#├── moshpit
+#│   ├── cache
+#│   ├── results
+
+$ mkdir -p moshpit/results
+
+$ qiime tools cache-create \
+  --cache ./moshpit/cache
+
+$ qiime tools import \
+  --type 'FeatureData[Sequence]' \
+  --input-path /mnt/c/Users/MSI/Downloads/3ea_sequence.fasta \
+  --output-path 3ea_sequence.qza
+
+time qiime moshpit build-kraken-db \
+--i-seqs ncbi_refseqs_18S_animals_plants_fungi_protists_v240630_seqs_derep_uniq.qza \
+--o-kraken2-database ./moshpit/cache:kraken_18S_animals_plants_fungi_protists_v240630 \
+--o-bracken-database ./moshpit/cache:bracken_18S_animals_plants_fungi_protists_v240630 \
+--p-threads 12 \
+--verbose
+
+qiime moshpit classify-kraken2 \
+	--i-seqs ./moshpit/cache:workshop-reads \
+	--i-kraken2-db ./moshpit/cache:kracken_18S_animals_plants_fungi_protists_v240630 \
+	--p-threads 40 \
+	--p-confidence 0.6 \
+	--p-minimum-base-quality 20 \
+	--o-hits ./moshpit/cache:workshop_kraken_db_hits \
+	--o-reports ./moshpit/cache:workshop_kraken_db_reports \
+	--p-report-minimizer-data \
+	--use-cache ./moshpit/cache \
+	--parallel-config slurm_config.toml \
+    	--verbose \
+    	--p-memory-mapping False ##this was taking too much time for me
+
+
+
+
+
 #ncbi_refseqs_18S_animals_plants_fungi_protists_v240630_seqs_derep_uniq
 $ time qiime tools import \
   --type 'FeatureData[Sequence]' \
