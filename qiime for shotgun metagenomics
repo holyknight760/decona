@@ -128,6 +128,10 @@ time qiime tools import \
   --input-format CasavaOneEightSingleLanePerSampleDirFmt \
   --output-path demux-paired-end.qza
 
+time qiime demux summarize \
+ --i-data demux-paired-end.qza \
+ --o-visualization demux 
+
 
 time qiime moshpit classify-kraken2 \
 	--i-seqs ./moshpit/cache:workshop-reads \
