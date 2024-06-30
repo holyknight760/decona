@@ -56,7 +56,7 @@ To be able to use those, please run
 
 $ conda activate qiime2-metagenome-2024.5
 
-#NCBI database 제작
+#NCBI database 제작 -> qiime으로 불러오기
 
 #3ea seq test
 $ time qiime tools import \
