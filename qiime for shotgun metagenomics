@@ -134,7 +134,7 @@ time qiime demux summarize \
 
 #DADA2
 time qiime dada2 denoise-paired \
---i-demultiplexed-seqs demux-joined.qza \
+--i-demultiplexed-seqs demux-paired-end.qza \
 --p-trim-left-f 0 \
 --p-trunc-len-f 143 \
 --p-trim-left-r 0 \
