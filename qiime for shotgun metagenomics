@@ -122,3 +122,18 @@ $ time qiime tools import \
 --p-threads 12 \
 --verbose
 
+time qiime moshpit classify-kraken2 \
+	--i-seqs ./moshpit/cache:workshop-reads \
+	--i-kraken2-db ./moshpit/cache:kracken_18S_animals_plants_fungi_protists_v240630 \
+	--p-threads 40 \
+	--p-confidence 0.6 \
+	--p-minimum-base-quality 20 \
+	--o-hits ./moshpit/cache:workshop_kraken_db_hits \
+	--o-reports ./moshpit/cache:workshop_kraken_db_reports \
+	--p-report-minimizer-data \
+	--use-cache ./moshpit/cache \
+	--parallel-config slurm_config.toml \
+    	--verbose \
+    	--p-memory-mapping False ##this was taking too much time for me
+
+
