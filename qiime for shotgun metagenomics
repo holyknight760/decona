@@ -149,17 +149,17 @@ time qiime dada2 denoise-paired \
 --o-representative-sequences representative_sequences.qza \
 --o-denoising-stats denoising_stats.qza
 
-qiime feature-table summarize \
---i-table table.qza \
---o-visualization denoise-table.qzv 
+#vserach 방식을 사용. 
+time qiime quality-filter q-score \
+--i-demux demux-paired-end.qza \
+--p-min-quality 20 \
+--o-filtered-sequences primer_trimed_filtered.qza \
+--o-filter-stats primer_trimed_filtered_stats \
+--verbose
 
-qiime metadata tabulate \
---m-input-file denoising_stats.qza \
---o-visualization denoise-stats.qzv 
-
-qiime feature-table tabulate-seqs \
---i-data representative_sequences.qza \
---o-visualization denoise-rep-seq.qzv 
+qiime demux summarize \
+--i-data primer_trimed_filtered.qza \
+--o-visualization primer_trimed_filtered.qzv
 
 
 time qiime moshpit classify-kraken2 \
