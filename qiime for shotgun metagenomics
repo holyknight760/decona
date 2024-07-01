@@ -243,6 +243,10 @@ qiime feature-table tabulate-seqs \
 --i-data uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
 --output-dir chimera-denovo_clustering
 
+qiime vsearch merge-pairs \
+--i-demultiplexed-seqs demux.qza \
+--o-merged-sequences demux-joined.qza \
+--o-unmerged-sequences demux-unjoined.qza
 
 
 time qiime moshpit classify-kraken2 \
