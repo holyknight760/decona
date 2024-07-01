@@ -152,13 +152,13 @@ time qiime dada2 denoise-paired \
 
 
 time qiime moshpit classify-kraken2 \
-	--i-seqs ./moshpit/cache:workshop-reads \
-	--i-kraken2-db ./moshpit/cache:kracken_18S_animals_plants_fungi_protists_v240630 \
+	--i-seqs representative_sequences.qza \
+	--i-kraken2-db /mnt/e/QIIME2/Database/kracken_db/kraken2_database.qza \
 	--p-threads 40 \
 	--p-confidence 0.6 \
 	--p-minimum-base-quality 20 \
-	--o-hits ./moshpit/cache:workshop_kraken_db_hits \
-	--o-reports ./moshpit/cache:workshop_kraken_db_reports \
+	--o-hits kraken_db_hits \
+	--o-reports kraken_db_reports \
 	--p-report-minimizer-data \
 	--use-cache ./moshpit/cache \
 	--parallel-config slurm_config.toml \
