@@ -149,7 +149,7 @@ time qiime dada2 denoise-paired \
 --o-representative-sequences representative_sequences.qza \
 --o-denoising-stats denoising_stats.qza
 
-#vserach 방식을 사용. 
+#vserach 방식을 사용. for,rev 서열이 하나로 합쳐짐. 
 time qiime quality-filter q-score \
 --i-demux demux-paired-end.qza \
 --p-min-quality 20 \
