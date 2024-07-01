@@ -163,13 +163,14 @@ time qiime quality-filter q-score \
 time qiime demux summarize \
 --i-data primer_trimed_filtered.qza \
 --o-visualization primer_trimed_filtered.qzv
+#7m27.723s
 
 time qiime metadata tabulate \
 --m-input-file primer_trimed_filtered_stats.qza \
 --o-visualization primer_trimed_filtered_stats.qzv 
 
 Demultiplexing
-qiime vsearch dereplicate-sequences \
+time qiime vsearch dereplicate-sequences \
 --i-sequences primer_trimed_filtered.qza \
 --o-dereplicated-table primer_trimed_filtered_demulti_table \
 --o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
