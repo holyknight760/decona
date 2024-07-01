@@ -156,12 +156,15 @@ time qiime quality-filter q-score \
 --o-filtered-sequences primer_trimed_filtered.qza \
 --o-filter-stats primer_trimed_filtered_stats \
 --verbose
+#Saved SampleData[SequencesWithQuality] to: primer_trimed_filtered.qza
+#Saved QualityFilterStats to: primer_trimed_filtered_stats.qza
+#real    223m36.072s
 
-qiime demux summarize \
+time qiime demux summarize \
 --i-data primer_trimed_filtered.qza \
 --o-visualization primer_trimed_filtered.qzv
 
-qiime metadata tabulate \
+time qiime metadata tabulate \
 --m-input-file primer_trimed_filtered_stats.qza \
 --o-visualization primer_trimed_filtered_stats.qzv 
 
