@@ -161,6 +161,89 @@ qiime demux summarize \
 --i-data primer_trimed_filtered.qza \
 --o-visualization primer_trimed_filtered.qzv
 
+qiime metadata tabulate \
+--m-input-file primer_trimed_filtered_stats.qza \
+--o-visualization primer_trimed_filtered_stats.qzv 
+
+Demultiplexing
+qiime vsearch dereplicate-sequences \
+--i-sequences primer_trimed_filtered.qza \
+--o-dereplicated-table primer_trimed_filtered_demulti_table \
+--o-dereplicated-sequences primer_trimed_filtered_demulti_seq \
+--verbose
+
+qiime feature-table summarize \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--o-visualization primer_trimed_filtered_demulti_table.qzv \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data primer_trimed_filtered_demulti_seq.qza \
+--o-visualization primer_trimed_filtered_demulti_seq.qzv 
+
+Clustering
+qiime vsearch cluster-features-de-novo \
+--i-table primer_trimed_filtered_demulti_table.qza \
+--i-sequences primer_trimed_filtered_demulti_seq.qza \
+--p-perc-identity 0.98 \
+--p-threads 32 \
+--o-clustered-table table-dncluster98.qza \
+--o-clustered-sequences rep-seqs-dncluster98.qza \
+--verbose
+
+qiime feature-table summarize \
+--i-table table-dncluster98.qza \
+--o-visualization table-dncluster98.qzv \
+--verbose
+
+qiime feature-table tabulate-seqs \
+--i-data rep-seqs-dncluster98.qza \
+--o-visualization rep-seqs-dncluster98.qzv
+
+Chimera filtering
+qiime vsearch uchime-denovo \
+--i-table table-dncluster98.qza \
+--i-sequences rep-seqs-dncluster98.qza \
+--output-dir uchime-denovo-out \
+--verbose
+
+qiime metadata tabulate \
+--m-input-file uchime-denovo-out/stats.qza \
+--o-visualization uchime-denovo-out/stats.qvz \
+--verbose
+
+#Exclude chimeras but retain “borderline chimeras”
+#https://docs.qiime2.org/2020.11/tutorials/chimera/
+0m6.214s
+time qiime feature-table filter-features \
+  --i-table table-dncluster98.qza \
+  --m-metadata-file uchime-denovo-out/chimeras.qza \
+  --p-exclude-ids \
+  --o-filtered-table uchime-denovo-out/table-nonchimer.qza \
+  --verbose
+Saved FeatureTable[Frequency] to: uchime-denovo-out/table-nonchimer.qza
+
+0m6.693s
+time qiime feature-table filter-seqs \
+  --i-data rep-seqs-dncluster98.qza \
+  --m-metadata-file uchime-denovo-out/chimeras.qza \
+  --p-exclude-ids \
+  --o-filtered-data uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+  --verbose
+Saved FeatureData[Sequence] to: uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza
+
+0m5.554s
+time qiime feature-table summarize \
+  --i-table uchime-denovo-out/table-nonchimer.qza \
+  --o-visualization table-nonchimer.qzv \
+  --verbose
+Saved Visualization to: table-nonchimer_and_borderlinechimera.qzv
+
+qiime feature-table tabulate-seqs \
+--i-data uchime-denovo-out/rep-seqs-nonchimera_and_borderlinechimera.qza \
+--output-dir chimera-denovo_clustering
+
+
 
 time qiime moshpit classify-kraken2 \
 	--i-seqs representative_sequences.qza \
