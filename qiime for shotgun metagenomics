@@ -149,6 +149,17 @@ time qiime dada2 denoise-paired \
 --o-representative-sequences representative_sequences.qza \
 --o-denoising-stats denoising_stats.qza
 
+qiime feature-table summarize \
+--i-table table.qza \
+--o-visualization denoise-table.qzv 
+
+qiime metadata tabulate \
+--m-input-file denoising_stats.qza \
+--o-visualization denoise-stats.qzv 
+
+qiime feature-table tabulate-seqs \
+--i-data representative_sequences.qza \
+--o-visualization denoise-rep-seq.qzv 
 
 
 time qiime moshpit classify-kraken2 \
