@@ -132,7 +132,7 @@ time qiime demux summarize \
  --i-data demux-paired-end.qza \
  --o-visualization demux 
 
-#DADA2-Error: QIIME 2 has no plugin/command named 'dada2'.in qiime2-metagenome-2024.5
+#DADA2-Error: QIIME 2 has no plugin/command named 'dada2'.in qiime2-metagenome-2024.5 대신에 qiime2-amplicon-2024.5 버전에서 작업은 가능.
 time qiime dada2 denoise-paired \
 --i-demultiplexed-seqs demux-paired-end.qza \
 --p-trim-left-f 0 \
