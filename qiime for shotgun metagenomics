@@ -68,6 +68,7 @@ $ time qiime tools import \
 
 
 #분석노트북
+#qiime2에서 분석 중에 연속으로 ctrl+c를 2번 누르면 ^C, Aborted! 뜨면서 분석이 멈춤. 
 #(qiime2-metagenome-2024.5) holyknightt@DESKTOP-2PB6NR2:/mnt/d/qiime2/Database$
 #<your working directory>
 #├── moshpit
@@ -153,6 +154,7 @@ time qiime vsearch merge-pairs \
 --i-demultiplexed-seqs demux-paired-end.qza \
 --o-merged-sequences demux-joined.qza \
 --o-unmerged-sequences demux-unjoined.qza
+#real    112m41.718s
 
 #vserach 방식을 사용. for,rev 서열이 하나로 합쳐짐? 아니면 for만 수행됨. 따라서 이전에 merge-pairs를 수행해야 함. 
 time qiime quality-filter q-score \
