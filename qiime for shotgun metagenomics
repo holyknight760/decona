@@ -156,7 +156,7 @@ time qiime vsearch merge-pairs \
 
 #vserach 방식을 사용. for,rev 서열이 하나로 합쳐짐? 아니면 for만 수행됨. 따라서 이전에 merge-pairs를 수행해야 함. 
 time qiime quality-filter q-score \
---i-demux demux-paired-end.qza \
+--i-demux demux-joined.qza \
 --p-min-quality 20 \
 --o-filtered-sequences primer_trimed_filtered.qza \
 --o-filter-stats primer_trimed_filtered_stats \
